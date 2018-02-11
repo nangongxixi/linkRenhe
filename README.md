@@ -7,4 +7,4 @@
 启用自定义开发： http://wx.joygov.com/LinkRenheWX.php
 
 ![image](https://github.com/nangongxixi/linkRenhe/blob/master/Public/Home/img/ewm.jpg)
-扫一扫码，关注我
+           <br />扫一扫码，关注我
