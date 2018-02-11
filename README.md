@@ -6,5 +6,5 @@
 
 启用自定义开发： http://wx.joygov.com/LinkRenheWX.php
 
-![image](http://github.com/nangongxixi/linkRenhe/public/home/img/ewm.jpg)
+![image](https://github.com/nangongxixi/linkRenhe/blob/master/Public/Home/img/ewm.jpg)
 扫一扫码，关注我
