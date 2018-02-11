@@ -1,0 +1,1165 @@
+[ 2017-01-18T19:03:42+08:00 ] 124.161.23.61 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:03:42+08:00 ] 223.85.132.24 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:03:46+08:00 ] 124.161.23.61 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 76 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:03:53+08:00 ] 124.161.23.61 /index.php/Home/news/newslist/id/31/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:03:57+08:00 ] 124.161.23.61 /index.php/Home/news/newsSearResult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:00+08:00 ] 124.161.23.61 /index.php/Home/news/newsSearList/keyword/%E9%82%A3%E9%87%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:04+08:00 ] 124.161.23.61 /index.php/Home/news/newslist/id/31/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:05+08:00 ] 124.161.23.61 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:06+08:00 ] 124.161.23.61 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:10+08:00 ] 124.161.23.61 /index.php/Home/news/newslist/id/2/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:14+08:00 ] 124.161.23.61 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:14+08:00 ] 124.161.23.61 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:04:18+08:00 ] 124.161.23.61 /index.php/Home/news/newslist/id/1/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:05:09+08:00 ] 124.161.23.61 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:05:10+08:00 ] 124.161.23.61 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:05:13+08:00 ] 124.161.23.61 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 76 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:05:14+08:00 ] 124.161.23.61 /index.php/Home/online/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\b215912f43202e70460ee01739cb35ca54cfd4ea.file.index.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:05:14+08:00 ] 124.161.23.61 /index.php/Home/Online/OnlineInfoAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:05:20+08:00 ] 124.161.23.61 /index.php/Home/online/onlineAgainst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:14:51+08:00 ] 182.150.59.18 /index.php/Home/news/newslist/id/1/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T19:37:13+08:00 ] 182.150.59.18 /index.php/Home/news/newslist/id/1/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:30:59+08:00 ] 182.131.11.233 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 76 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:09+08:00 ] 182.131.11.233 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 76 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:11+08:00 ] 182.131.11.233 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-01-18T23:31:11+08:00 ] 182.131.11.233 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:15+08:00 ] 182.131.11.233 /index.php/Home/news/newslist/id/1/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:22+08:00 ] 182.131.11.233 /index.php/Home/news/shownews?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 76 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 77 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 78 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:24+08:00 ] 112.65.193.13 /index.php/Home/news/newslist/id/1/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:28+08:00 ] 182.131.11.233 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:30+08:00 ] 182.131.11.233 /index.php/Home/news/shownews/dl/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:31+08:00 ] 182.131.11.233 /index.php/Home/news/showNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 76 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 77 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 78 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 79 行.
+NOTIC: [8] Undefined index: id E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:33+08:00 ] 124.161.23.61 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:34+08:00 ] 124.161.23.61 /index.php/Home/news/newslist/id/2/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:37+08:00 ] 182.131.11.233 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:37+08:00 ] 182.131.11.233 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:38+08:00 ] 180.153.206.21 /index.php/Home/news/shownews?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 76 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 77 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 78 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 79 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:38+08:00 ] 182.131.11.233 /index.php/Home/news/newslist/id/1/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:40+08:00 ] 61.151.218.119 /index.php/Home/news/shownews/dl/1/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:41+08:00 ] 124.161.23.61 /index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 3 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 113 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 114 行.
+NOTIC: [8] Undefined offset: 4 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 115 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:41+08:00 ] 124.161.23.61 /index.php/Home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:44+08:00 ] 180.163.2.116 /index.php/Home/news/newslist/id/2/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:47+08:00 ] 182.131.11.233 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 76 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:50+08:00 ] 182.131.11.233 /index.php/Home/myinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:51+08:00 ] 182.131.11.233 /index.php/Home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:31:54+08:00 ] 182.131.11.233 /index.php/Home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:02+08:00 ] 124.161.23.61 /index.php/Home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:03+08:00 ] 182.131.11.233 /index.php/Home/complaints/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:03+08:00 ] 180.153.214.192 /index.php/Home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:04+08:00 ] 182.131.11.233 /index.php/Home/Complaints/ComplaintsAction/id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:06+08:00 ] 182.131.11.233 /index.php/Home/Complaints/ComplaintsAction/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:06+08:00 ] 182.131.11.233 /index.php/Home/Complaints/ComplaintsAction/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:07+08:00 ] 182.131.11.233 /index.php/Home/Complaints/ComplaintsAction/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:08+08:00 ] 182.131.11.233 /index.php/Home/Complaints/ComplaintsAction/id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-18T23:32:09+08:00 ] 182.131.11.233 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 76 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

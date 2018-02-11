@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="renderer" content="webkit"/>
+        <title>{$smarty.const.PROJECT_NAME}</title>
+        <link rel="stylesheet" type="text/css" href="{$smarty.const.ADMIN_CSS_URL}base.css">
+        <link rel="stylesheet" type="text/css" href="{$smarty.const.LIB_URL}colorbox/colorbox.css">
+        <link rel="stylesheet" type="text/css" href="{$smarty.const.LIB_URL}layer/skin/layer.css">
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}js/jquery.min.js"></script>       
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}colorbox/jquery.colorbox-min.js"></script>        
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}laydate/laydate.js"></script>
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}layer/layer.js"></script>
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}laypage/laypage.js"></script>
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}laypage/pagelist.js"></script><!--分页-->
+        <link rel="stylesheet" type="text/css" href="{$smarty.const.ADMIN_CSS_URL}upload.css">
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}js/common.js"></script>        
+        <script type="text/javascript" src="{$smarty.const.LIB_URL}js/jquery.form.js"></script>        
+    </head>
+    <body>
+        <div id="body">
+            <div id="header">
+                <div id="logo">{$smarty.const.PROJECT_NAME}</div>
+                <div id="user">欢迎您，管理员【 {$smarty.session.user.name} 】&emsp;【 <a class="rayu_confirm" href="../Manager/logout"> 退出 </a> 】</div>
+            </div>
+            <div id="content">
+                <div class="leftcontent">
+                    <div id="today">{date("Y年m月d日",strtotime($smarty.const.NOW))}</div>
+                    {include file="../Common/menu.phtml"}
+                </div>
+                <div id="main">
+                    <div id="m_title">
+                        <div id="crumb">{$MenuData.codeConfig.menu.{strtolower($smarty.const.CONTROLLER_NAME)}.name}</div>
+                    </div>
+                    {block name="main"}{/block}                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

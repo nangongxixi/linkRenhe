@@ -1,0 +1,130 @@
+{extends "../Common/default.phtml"}
+{block name="main"}
+<div class="info_bar">
+    <div class="list_title">{$MenuData.codeConfig.menu.{strtolower($smarty.const.CONTROLLER_NAME)}.sub.{strtolower($smarty.const.ACTION_NAME)}.name}</div>
+    <div class="clr"></div>
+</div>
+<form method="post" enctype="multipart/form-data">
+    <div class="info">
+        <table>            
+            <tr>
+                <th class="must">分类</th>
+                <td>          
+                    <select name="data[category]" style="width:155px;">
+                        <option value="">——请选择——</option>
+                        {foreach $MenuData.codeConfig.product_category as $v}
+                        <option value="{$v.value}" {if $data.category == $v.value}selected="selected"{/if}>{$v.name}</option>
+                        {/foreach}
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <th class="must">标题</th>
+                <td>
+                    <input type="text" class="text" size="50" value="{$data.title}" maxlength="20" placeholder="限制20个字符" name='data[title]' />
+                    <span class="errors">{$Errors.title}</span>
+                </td>
+            </tr>
+            <tr>
+                <th class="must">发布时间</th>
+                <td>
+                    <input type="text" class="text laydate-icon" id="start" name="data[public_date]" value="{$data.public_date}" />
+                </td>
+            </tr>
+            <tr>
+                <th class="must">缩略图</th>
+                <td>
+                    <input type="hidden" name="data[thum_img]" id="suoluet">
+                    <div class="jia">
+                        <div class="btn" style="background-color: #ccc">
+                            <div class="add_upload"></div>
+                            <input id="fileupload" type="file" name="thumImg">
+                        </div>        
+                        <div class="files">
+                            {if $smarty.get.id }<span class="delimg" rel="{$data.thum_img}"></span>{/if}
+                        </div>
+                        <div id="showimg">
+                            {if $smarty.get.id }<img src="/public/upload/{$data.thum_img}">{/if}
+                        </div>
+                    </div>
+                    <div class="tip_upload">
+                        <div>
+                            <div>===上传建议===</div>
+                            <div> &nbsp;【高度】596px</div>
+                            <div> &nbsp;【宽度】431px</div>
+                            <div> &nbsp;【大小】500kb以下</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <!--
+            <tr>
+                <th class="must">图集</th>
+                <td>
+                    <div class="uploads" data-width="960px"   data-maxsize="1mb" data-group="gal" data-show="data[showImgs]" data-field="data[images][]" data-deleted="data[delete_id][]" data-maxcnt="10" data-path=" " data-url="/project/upload_img">
+                        {foreach $data.showImgs as $key=>$item}
+                        <img rel="{$item.file}" data-idimg="{$item.img_id}"{if $data.delete_id&&in_array($item['img_id'], $data.delete_id)} data-flagdel="1"{/if} src="/common/image/cover_pre.png" />
+                             {/foreach}
+                             {foreach $data.images as $path}
+                             <img rel="<{$path}>" src="/common/image/cover_pre.png" />
+                        {/foreach}
+
+                    </div>
+                </td>
+            </tr>-->
+           
+            <tr>
+                <th class="must">简介</th>
+                <td>
+                    <textarea name="data[summary]" class="textarea">{$data.summary}</textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <th class="must">内容</th>
+                <td>
+                    <textarea name="data[content]" class="textarea" >{$data.content}</textarea>                   
+                </td>
+            </tr>
+            <tr class="option">
+                <th></th>
+                <td>
+                    <input type="image" src="/public/Admin/img/btn_save.png" value="保存" name="complete" />
+                    <a href="index"><img src="/public/Admin/img/btn_return.png" /></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+<script type="text/javascript" src="{$smarty.const.LIB_URL}ckeditor/ckeditor.js"></script>
+{literal}
+<script>
+    $('.show_img').colorbox({maxHeight: '90%', maxWidth: '90%'});
+    !function () {
+        var start = {
+            elem: '#start',
+            format: 'YYYY-MM-DD',
+            max: '2099-06-16 23:59:59',
+//            istime: true,
+            istoday: false,
+            choose: function (datas) {
+                end.min = datas;
+                end.start = datas;
+            }
+        };
+        laydate(start);
+        toolbar = [
+            ['Bold', 'Italic', 'SpecialChar', 'Underline', 'Strike', 'Subscript', 'Superscript'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent'],
+            ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', 'Maximize'],
+            '/',
+            ['Styles', 'Format', 'Font', 'FontSize'],
+            ['TextColor', 'BGColor'],
+        ];
+        CKEDITOR.replace('data[summary]', {toolbar: toolbar});
+        CKEDITOR.replace('data[content]', {toolbar: 'Basic'});
+    }();
+</script>
+{/literal}
+{/block}

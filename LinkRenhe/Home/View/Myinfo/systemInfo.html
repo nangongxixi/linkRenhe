@@ -1,0 +1,44 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">系统消息</div>
+        </div>       
+        <div class="clear"></div>
+        <div class="news_lanm_content_line"></div>
+        <div class="myjob_box"> 
+            <div class="news_lanm_content_title middle_center" id="title"></div> 
+            <div class="clear"></div>           
+            <div class="news_content_text" id="content"></div>
+        </div>        
+        <div class="clear"></div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../myinfo/wdInfoxqAction",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                $("#title").html(data.title);
+                $("#content").html(data.content);
+            }
+        });
+
+        //更新未读状态
+        var id = "{$smarty.get.id}";
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/updatareadAction/" + 'id/' + id,
+        });
+
+    });
+</script>
+
+{/block}
+
+

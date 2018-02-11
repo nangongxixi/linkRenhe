@@ -1,0 +1,120 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<script type="text/javascript" src="{$smarty.const.JS_URL}jquery.js"></script>
+<script type="text/javascript" src="{$smarty.const.JS_URL}rating_simple.js"></script>
+<link href="{$smarty.const.CSS_URL}rating_simple.css" rel="stylesheet" type="text/css">
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center ">发表评价</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="huised">       
+            <div class="tscl_content_box kuan baise_aera evalua_border" >                       
+                <div class="details_content_text" >                    
+                    <textarea name="content" class="evalua_text_box " id="textarea" placeholder="请在此填写您对本次处理结果的评价…"></textarea>
+                </div>
+            </div> 
+            <div class="clear"></div>
+            <div class="mycollection_line"></div>
+            <div class="clear"></div>
+            <div class="baise_aera" style="padding-bottom: 8%; height:0.5%">        
+                <div class="star_tit ">服务打分</div>
+                <div class="star_st ">
+                    <input name="my_input" value="5" id="rating_simple1" type="text" style="display: none" class="">                 
+                </div>
+            </div>
+            <div class="clear"></div>            
+            <div class="phone_next_box ">
+                <div class="iphone_next_text">发表评价</div>                
+            </div>            
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+    </div>      
+</div>
+
+<SCRIPT type="text/javascript">
+
+    $(function () {
+        $("#rating_simple1").webwidget_rating_simple({
+            rating_star_length: '5',
+            rating_initial_value: '5',
+            rating_function_name: '', //this is function name for click
+            directory: '{$smarty.const.IMG_URL}'
+        });
+    });
+
+    $('.iphone_next_text').click(function () {
+        var userid = "{$smarty.session.user.userid}";
+        var content = $("#textarea").val();
+        var id = "{$smarty.get.id}";
+        var score = $("#rating_simple1").val();
+
+        if (content.length < 1) {
+            layer.open({
+                content: '评价信息不能为空',
+                time: 1
+            });
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "../../../Complaints/ComplaintsevaluationAction",
+                data: {
+                    "userid": userid,
+                    "content": content,
+                    "id": id,
+                    "score": score
+                },
+                success: function (msg) {
+                    //alert(msg);
+                    var data = JSON.parse(msg);
+                    if (data.result == 1) {
+                        layer.open({
+                            content: '<div style="text-align:left">评价成功，你还可以在投诉处理中查看投诉详情</div>',
+                            time: 2,
+                            success:function(){
+                               location.href = "../../../Complaints/index"; 
+                            }
+                        });
+                       
+                    }
+                }
+            });
+        }
+
+
+
+    });
+
+    /* function textdown(e) {
+     textevent = e;
+     if (textevent.keyCode == 8) {
+     return;
+     }
+     if (document.getElementById('textarea').value.length >= 20) {
+     alert("最多输入20个字");
+     if (!document.all) {
+     textevent.preventDefault();
+     } else {
+     textevent.returnValue = false;
+     }
+     }
+     }
+     function textup() {
+     var s = document.getElementById('textarea').value;
+     //判断ID为text的文本区域字数是否超过100个 
+     if (s.length > 20) {
+     document.getElementById('textarea').value = s.substring(0, 20);
+     }
+     }
+     */
+</SCRIPT> 
+
+
+
+{/block}

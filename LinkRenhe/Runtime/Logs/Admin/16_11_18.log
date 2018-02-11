@@ -1,0 +1,399 @@
+[ 2016-11-18T09:16:48+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where 1=1  order by log_id desc 0, 7
+
+[ 2016-11-18T09:17:43+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by log_id desc 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by log_id desc 0, 7
+
+[ 2016-11-18T09:18:06+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product order by log_id desc 0, 7
+
+[ 2016-11-18T09:18:22+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product order by id desc 0, 7
+
+[ 2016-11-18T09:18:45+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product order by id desc limit0, 7
+
+[ 2016-11-18T09:18:52+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 33 "&lt;div class=&quot;list_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T09:23:12+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 33 "&lt;div class=&quot;list_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T09:24:09+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 76 "$('.show_img').colorbox({maxHeight:'90%',maxWidth:'90%'});"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-11-18T09:49:46+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:50:30+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:54:05+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:54:13+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:54:42+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:55:32+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:55:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: Invalid compiled template for 'Product/index.html'
+
+[ 2016-11-18T09:58:52+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T09:59:48+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:17:55+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:21:22+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:21:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:24:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:24:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:25:14+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:25:50+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:25:51+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:26:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:26:56+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:26:57+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:29:43+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:29:44+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:30:10+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:35:23+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:35:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:42:53+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE (   ) LIMIT 1  
+
+[ 2016-11-18T10:43:47+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE (   ) LIMIT 1  
+
+[ 2016-11-18T10:44:02+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE (   ) LIMIT 1  
+
+[ 2016-11-18T10:45:32+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 and  order by id desc limit 0, 7
+
+[ 2016-11-18T10:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:45:48+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:46:30+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:47:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:47:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:48:29+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:48:30+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:50:26+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:50:27+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:50:53+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T10:50:54+08:00 ] 127.0.0.1 /index.php/Admin/Product/&
+ERR: 非法操作:&
+
+[ 2016-11-18T11:52:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=24&y=5
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'title like '%你小%' order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 title like '%你小%' order by id desc limit 0, 7
+
+[ 2016-11-18T11:59:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 and  order by id desc limit 0, 7
+
+[ 2016-11-18T11:59:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 and  order by id desc limit 0, 7
+
+[ 2016-11-18T12:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=30&y=11
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title like '%子%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( and title like '%子%' ) LIMIT 1  
+
+[ 2016-11-18T13:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=30&y=11
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title like '%子%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( and title like '%子%' ) LIMIT 1  
+
+[ 2016-11-18T13:03:28+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=30&y=11
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title like '%子%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( and title like '%子%' ) LIMIT 1  
+
+[ 2016-11-18T13:03:42+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=19&y=10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title like '%你小%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( and title like '%你小%' ) LIMIT 1  
+
+[ 2016-11-18T13:04:47+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 and  order by id desc limit 0, 7
+
+[ 2016-11-18T13:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 and  order by id desc limit 0, 7
+
+[ 2016-11-18T13:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=15&y=8
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'title like '%你小%' order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 title like '%你小%' order by id desc limit 0, 7
+
+[ 2016-11-18T13:13:07+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0 and  order by id desc limit 0, 7
+
+[ 2016-11-18T13:14:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by id desc limit 0, 7
+
+[ 2016-11-18T13:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by id desc limit 0, 7
+
+[ 2016-11-18T13:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by id desc limit 0, 7
+
+[ 2016-11-18T13:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by id desc limit 0, 7
+
+[ 2016-11-18T13:15:43+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=14&y=14
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where deleted=0 title like '%你小%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( where deleted=0 title like '%你小%' ) LIMIT 1  
+
+[ 2016-11-18T13:16:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by id desc limit 0, 7
+
+[ 2016-11-18T13:17:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=24&y=14
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deleted=0  order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where title like '%你小%' deleted=0  order by id desc limit 0, 7
+
+[ 2016-11-18T13:17:57+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and deleted=0  order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  and deleted=0  order by id desc limit 0, 7
+
+[ 2016-11-18T13:18:42+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=29&y=5
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( title like '%你小%'and  ) LIMIT 1  
+
+[ 2016-11-18T13:19:55+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=29&y=5
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( title like '%你小%'and  ) ORDER BY id desc LIMIT 1  
+
+[ 2016-11-18T13:34:56+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E8%A3%A4%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=21&y=8
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( title like '%裤子%'and  ) LIMIT 1  
+
+[ 2016-11-18T13:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E8%A3%A4%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=21&y=8
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like '%裤子%' and deleted=0 order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product title like '%裤子%' and deleted=0 order by id desc limit 0, 7
+
+[ 2016-11-18T13:39:19+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where  order by id desc limit 0, 7
+
+[ 2016-11-18T13:40:28+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E8%A3%A4%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=35&y=7
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( title like '%裤子%' and  ) LIMIT 1  
+
+[ 2016-11-18T13:42:03+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E8%A3%A4%E5%AD%90&sh%5Bstart_time%5D=&sh%5Bend_time%5D=&sh%5Bcategory%5D=&sh%5Bpublic_date%5D=&x=35&y=7
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deleted=0  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE ( title like '%裤子%' deleted=0  ) LIMIT 1  
+
+[ 2016-11-18T13:42:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where   order by id desc limit 0, 7
+
+[ 2016-11-18T13:43:53+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where   order by id desc limit 0, 7
+
+[ 2016-11-18T13:43:57+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc limit 0, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where   order by id desc limit 0, 7
+
+[ 2016-11-18T14:15:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?title=%E4%BD%A0%E5%B0%8F&start_time=2016-11-10+00%3A00%3A00&end_time=2016-11-15+00%3A00%3A00&sh%5Bcategory%5D=3&public_date=2016-11-15&x=29&y=9
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 19 "&lt;option value=&quot;{$v.value}&quot; {if}{/if}&gt;{$v.name}&lt;/option&gt;" missing if condition
+
+[ 2016-11-18T14:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/index?
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 19 "&lt;option value=&quot;{$v.value}&quot; {if}{/if}&gt;{$v.name}&lt;/option&gt;" missing if condition
+
+[ 2016-11-18T14:41:40+08:00 ] 127.0.0.1 /index.php/Admin/Product/del?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0090s ]
+SQL: UPDATE `tb_product` SET `deleted`='1' WHERE `id` = 1 [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T14:42:11+08:00 ] 127.0.0.1 /index.php/Admin/Product/del?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0100s ]
+SQL: UPDATE `tb_product` SET `deleted`='1' WHERE `id` = 3 [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-18T14:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Product/del?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0080s ]
+SQL: UPDATE `tb_product` SET `deleted`='1' WHERE `id` = 2 [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T14:59:22+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 3 "&lt;div class=&quot;info_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 3 "&lt;div class=&quot;info_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 3 "&lt;div class=&quot;info_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 3 "&lt;div class=&quot;info_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:01:37+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 22 "&lt;{error_tip errors=$errors name=&quot;category&quot; tag=&quot;span&quot;}&gt;" unknown tag "error_tip"
+
+[ 2016-11-18T15:02:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 81 "&lt;{error_tip errors=$errors name=&quot;video_url&quot; tag=&quot;span&quot;}&gt;" unknown tag "error_tip"
+
+[ 2016-11-18T15:02:19+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 110 "$('.show_img').colorbox({maxHeight: '90%', maxWidth: '90%'});"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2016-11-18T15:22:51+08:00 ] 127.0.0.1 /index.php/Admin/Product/input?id=1
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 46 "&lt;/div&gt;"  - Unexpected "
+                    <", expected one of: "|" , "}" , "->"
+
+[ 2016-11-18T15:34:47+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{CONTROLLER_NAME}{$MenuData.codeConfig.menu.CONTROLLER_NAME.name}&lt;/div&gt;" unknown tag "CONTROLLER_NAME"
+
+[ 2016-11-18T15:38:13+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{}{$MenuData.codeConfig.menu.[$smarty.const.CONTROLLER_NAME].name}&lt;/div&gt;"  - Unexpected "[", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:38:46+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{CONTROLLER_NAME}{$MenuData.codeConfig.menu.{$smarty.const.CONTROLLER_NAME}.name}&lt;/div&gt;" unknown tag "CONTROLLER_NAME"
+
+[ 2016-11-18T15:39:54+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{$smarty.const.CONTROLLER_NAME}{$MenuData.codeConfig.menu.[product].name}&lt;/div&gt;"  - Unexpected "[", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:40:09+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{$smarty.const.CONTROLLER_NAME}{$MenuData.codeConfig.menu.['product'].name}&lt;/div&gt;"  - Unexpected "[", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T15:45:44+08:00 ] 127.0.0.1 /index.php/Admin/news/index
+ERR: 无法加载控制器:News
+
+[ 2016-11-18T15:47:04+08:00 ] 127.0.0.1 /index.php/Admin/product/input
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{$smarty.const.CONTROLLER_NAME}{$MenuData.codeConfig.menu.({$smarty.const.CONTROLLER_NAME}).name}&lt;/div&gt;"  - Unexpected "(", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-18T17:41:16+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{$MenuData.codeConfig.menu.{strtolower($smarty.contst.CONTROLLER_NAME)}.name}&lt;/div&gt;" $smarty.contst is invalid
+
+[ 2016-11-18T17:41:57+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{$MenuData.codeConfig.menu.{strtolower($smarty.contst.CONTROLLER_NAME)}.name}&lt;/div&gt;" $smarty.contst is invalid
+
+[ 2016-11-18T17:42:10+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;{$MenuData.codeConfig.menu.{$smarty.contst.CONTROLLER_NAME}.name}&lt;/div&gt;" $smarty.contst is invalid
+

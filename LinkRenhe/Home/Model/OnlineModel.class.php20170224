@@ -1,0 +1,37 @@
+<?php
+
+namespace Home\Model;
+
+use Think\Model;
+
+class OnlineModel extends Model {
+    
+    //投诉须知
+    function OnlineInfoAction() {        
+        $url="api/wx/Tidings/WXAgreementComModel/";
+        //echo $url.'<br>';exit;
+        $getRequest = new \Component\getRequest();
+        $newsSearList = $getRequest->getData($url);        
+        //show_bug($newsSearList);exit;
+        echo $newsSearList;
+    }
+
+    //提交投诉
+    function OnlineAction() {        
+        $data = explode(",", I("post.picurls"));
+        for ($i = 0; $i <= count($data); $i++) {
+            $datanew .= substr(strstr($data[$i], 'd/'), 1, 14);
+        }
+        $_POST['picurls'] = ltrim($datanew, "/");
+        foreach ($_POST as $key => $value) {
+            $_POST[$key] = urlencode($value);
+        }
+        $_POST['userid']=(int)I("post.userid");
+        $_POST['type']=(int)I("post.type");        
+        $data = urldecode(json_encode($_POST));
+        $url = "api/wx/Complain/Add";       
+        $getRequest = new \Component\postRequest();
+        $rstCategory = $getRequest->getDataJiang($url, $data);
+        echo $rstCategory;       
+    }
+}

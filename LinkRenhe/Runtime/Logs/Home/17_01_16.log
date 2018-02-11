@@ -1,0 +1,1936 @@
+[ 2017-01-16T08:57:02+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T08:57:03+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T08:57:04+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T08:57:04+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T08:57:05+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T08:57:05+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T08:57:05+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T08:57:06+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\defaultJamp.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:00:12+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:14+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:14+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:15+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:15+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:15+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:15+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:16+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:16+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:17+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:17+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:17+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:18+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:18+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:18+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:18+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:18+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:19+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:19+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:19+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:20+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:21+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:21+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:21+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:21+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:22+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:22+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:22+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:23+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:24+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:29+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:00:30+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:03:23+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\WWW\LinkRenhe\LinkRenhe\Home\View\Common\default.html E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_template.php 第 447 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+
+[ 2017-01-16T09:04:09+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\Index\index.html"  on line 81 "&lt;div class=&quot;tscl_content_date&quot;&gt;{if strlen($datainfocom.title)&gt;12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}&lt;br&gt;{$datainfocom.operationtime}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:05:43+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\Index\index.html"  on line 81 "&lt;div class=&quot;tscl_content_date&quot;&gt;{if strlen($datainfocom.title)&gt;12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}&lt;br&gt;{$datainfocom.operationtime}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:05:45+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\Index\index.html"  on line 81 "&lt;div class=&quot;tscl_content_date&quot;&gt;{if strlen($datainfocom.title)&gt;12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}&lt;br&gt;{$datainfocom.operationtime}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:05:46+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\Index\index.html"  on line 81 "&lt;div class=&quot;tscl_content_date&quot;&gt;{if strlen($datainfocom.title)&gt;12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}&lt;br&gt;{$datainfocom.operationtime}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:05:47+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\Index\index.html"  on line 81 "&lt;div class=&quot;tscl_content_date&quot;&gt;{if strlen($datainfocom.title)&gt;12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}&lt;br&gt;{$datainfocom.operationtime}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:05:48+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\Index\index.html"  on line 81 "&lt;div class=&quot;tscl_content_date&quot;&gt;{if strlen($datainfocom.title)&gt;12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}&lt;br&gt;{$datainfocom.operationtime}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:06:55+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:07:26+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:07:35+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:07:49+08:00 ] ::1 /index.php/home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./LinkRenhe/Home/View\News\index.html"  on line 65 "&lt;div class=&quot;tscl_title news_title&quot;&gt;{if strlen($vv.title)&gt;16}{mb_substr($vv.title,0,16,'utf-8')}…{else}{$vv.title}{/if}&lt;/div&gt;" unknown function "mb_substr"
+
+[ 2017-01-16T09:10:25+08:00 ] ::1 /index.php/home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 82 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 171 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 171 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:10:26+08:00 ] ::1 /index.php/home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:10:38+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T09:10:41+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:10:50+08:00 ] ::1 /index.php/home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 82 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 171 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 171 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:10:50+08:00 ] ::1 /index.php/home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:11:03+08:00 ] ::1 /index.php/home/myinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 75 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 78 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:11:04+08:00 ] ::1 /index.php/home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-01-16T09:11:06+08:00 ] ::1 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\727cd4395fd78fd4f9e5f61ea2088085db1011d4.file.about.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\727cd4395fd78fd4f9e5f61ea2088085db1011d4.file.about.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:11:10+08:00 ] ::1 /index.php/home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:07+08:00 ] 182.150.59.18 /index.php/home/myinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 75 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 78 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:08+08:00 ] 182.150.59.18 /index.php/home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:12+08:00 ] 182.150.59.18 /index.php/home/myinfo/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:15+08:00 ] 182.150.59.18 /index.php/home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:17+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:19+08:00 ] 182.150.59.18 /index.php/home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 82 行.
+NOTIC: [8] Undefined offset: 1 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 171 行.
+NOTIC: [8] Undefined offset: 2 E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\8bcdedb6e9bd9a0cbbe5e75681be3d67f63b1509.file.index.html.php 第 171 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:19+08:00 ] 182.150.59.18 /index.php/home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:21+08:00 ] 182.150.59.18 /index.php/home/news/shownews/dl/31/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\1b3a10d57acf0c8cd346d539667df3d4fd60c55a.file.shownews.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:21+08:00 ] 182.150.59.18 /index.php/home/news/showNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./LinkRenhe/Runtime/Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./LinkRenhe/Runtime/Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php): No such file or directory E:\Apache24\htdocs\FrameWork\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 76 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 77 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 78 行.
+NOTIC: [8] Undefined index: dl E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 79 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 122 行.
+NOTIC: [8] Undefined index: id E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\a979e3847324124fa86829b878180670845017b9.file.showNews.html.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:24+08:00 ] 182.150.59.18 /index.php/home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:28+08:00 ] 182.150.59.18 /index.php/home/news/newslist/id/31/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:12:31+08:00 ] 182.150.59.18 /index.php/home/news/newsNameList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:21:10+08:00 ] 182.150.59.18 /index.php/home/myinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 75 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\02226ad7dc5e3a0e95a6d42b54ce286afdccd7f8.file.index.html.php 第 78 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:21:11+08:00 ] 182.150.59.18 /index.php/home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:21:14+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:36+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:37+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:37+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:37+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:38+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:39+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-01-16T09:47:39+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:39+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:40+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:40+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:41+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:41+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:42+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:42+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:43+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:43+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:47:44+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-01-16T09:47:45+08:00 ] 182.150.59.18 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:49:58+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:50:00+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:50:00+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:50:00+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:50:00+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:54:55+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T09:57:05+08:00 ] 182.150.59.18 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T09:57:33+08:00 ] 182.150.59.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T10:00:35+08:00 ] 182.150.59.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T14:28:07+08:00 ] 180.153.214.182 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\Apache24\htdocs\LinkRenhe\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 107 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\48d48da4bb6a07165f67242178aca7c3e37abdcc.file.index.html.php 第 132 行.
+NOTIC: [8] Undefined index: user E:\Apache24\htdocs\LinkRenhe\Runtime\Cache\469185dbdd9f9844d132a81bb8f4895cb344f030.file.bottom.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

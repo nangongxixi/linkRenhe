@@ -1,0 +1,267 @@
+{extends "../Common/defaultJamp.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">注册</div>
+        </div>       
+        <div class="clear"></div>
+        <div class="news_lanm_content_line"></div>
+        <div class="login_box" >
+            <div class="login_box_img"><img src="{$smarty.const.IMG_URL}login.png"></div>
+            <div class="login_box_text myjob_box">
+                <div id="login_dengl">                        
+                    <ul>
+                        <li>
+                            <div class="myinfo_lanm kuan">                
+                                <div class="phone_title left"><img src="{$smarty.const.IMG_URL}re.png"></div>           
+                                <div class="login_kuang left">                                   
+                                    <input type="hidden" value="{$smarty.session.user.registphone}" id="phoneyz" class="phone_input phone"/>                                    
+                                    <input type="text" value="" placeholder="请输入姓名" name="consumersname" id="consumersname" class="phone_input consumersname del0"/>
+                                </div>                              
+                                <div class="yanz0" style="display: none" id="del0"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="only_line"></div>        
+                            <div class="clear"></div>
+                            <div class="myinfo_lanm kuan" style="margin-bottom:5px">                
+                                <div class="phone_title left"><img src="{$smarty.const.IMG_URL}sf.png" width="28" style="margin-top:12px"></div>           
+                                <div class="login_kuang left">
+                                    <input type="text" value="" placeholder="请输入身份证号码" name="idcard" maxlength="18" id="idcard" onblur="isInteger(this.value)" class="phone_input idcard del1"/>
+                                </div>                                
+                                <div class="yanz1" style="display: none" id="del1"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="only_line"></div>        
+                            <div class="clear"></div>
+                            <div class="myinfo_lanm kuan">
+                                <div class="left"><img src="{$smarty.const.IMG_URL}lock.png" class="phone_title_paddtop login_ico"></div>
+                                <div class="phone_del right">
+                                    <img src="{$smarty.const.IMG_URL}by.png" class="phone_title_paddtop login_ico">
+                                    <img src="{$smarty.const.IMG_URL}zy.png" style="display:none" class="phone_title_paddtop login_ico">
+                                </div>
+                                <div class="regist_pwd left">
+                                    <input type="password" value="" placeholder="请输入8-12位密码" name="text" maxlength="12" id="pwd" class="phone_input password del2"/>                                    
+                                </div>                               
+                                <div class="yanz2" style="display: none" id="del2"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="only_line"></div>        
+                            <div class="clear"></div>
+                        </li>                           
+                    </ul>
+                </div>
+                <div class="phone_next_box login_submit_bgcolor">
+                    <div id="submit" class="tousReview_submit middle_center tijiao"/>提交</div>        
+                </div>
+                <div class="middle_center regist_text">
+                    <span style="position: relative;top:2px"><input type="checkbox" name="isagree" id="isagree" checked="checked"/></span>&nbsp;我已阅读并接受<a href="../login/agreement"><span class="zcxy">《注册协议》</span></a>
+                    <br> <br> <br>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+{literal}
+<script type="text/javascript">
+    
+    //删除输入
+    $(".yanz0").click(function () {
+        $(".del0").val('');
+    });
+    $(".yanz1").click(function () {
+        $(".del1").val('');
+    });
+    $(".yanz2").click(function () {
+        $(".del2").val('');
+    });
+
+    $("#consumersname").keyup(function () {
+        var consumersname = $("#consumersname").val();
+        if (consumersname != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#idcard").keyup(function () {
+        var idcard = $("#idcard").val();
+        if (idcard != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+    $("#pwd").keyup(function () {
+        var pwd = $("#pwd").val();
+        sessionStorage.setItem('pwd', pwd);
+        if (pwd != '') {
+            $("#del2").css("display", "block");
+        } else {
+            $("#del2").css("display", "none");
+        }
+    });
+    
+   
+    $("#del0").click(function () {
+        var consumersname = $("#consumersname").val();
+        if (consumersname != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#del1").click(function () {
+        var idcard = $("#idcard").val();
+        if (idcard != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+    $("#del2").click(function () {
+        var pwd = $("#pwd").val();
+        if (pwd != '') {
+            $("#del2").css("display", "block");
+        } else {
+            $("#del2").css("display", "none");
+        }
+    });   
+    
+    $("#submit").click(function () {
+        var phoneyz = $("#phoneyz").val();
+        var consumersname = $.trim($("#consumersname").val());//姓名
+        var idcard = $.trim($("#idcard").val());//身份证
+        var password = $.trim($("#pwd").val());
+        isInteger(idcard);
+        //非空验证        
+        if (phoneyz == '') {
+            layer.open({
+                content: '请返回重新验证电话',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (consumersname == '') {
+            layer.open({
+                content: '姓名不能为空或空格',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (password == '' || password.length < 8) {
+            layer.open({
+                content: '不能为空或空格且长度为8-12位',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if ($("#isagree").is(':checked')) {
+
+        } else {
+            layer.open({
+                content: '必须选择已阅读',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        //提交注册信息      
+        $.ajax({
+            type: "POST",
+            url: "../login/submitRegist",
+            data: {
+                "phone": phoneyz,
+                "password": password,
+                "consumersname": consumersname,
+                "idcard": idcard,
+                "isagree": 0
+            },
+            success: function (msg) {
+                //alert(msg);
+                if ('0' == msg) {
+                    layer.open({
+                        content: '注册成功',
+                        btn: ['OK'],
+                        yes: function () {
+                            location.href = "../login/index";
+                        }
+                    });
+
+                } else if ('-3' == msg) {
+                    layer.open({
+                        content: '手机号已存在',
+                        time: 2,
+                        shadeClose: true
+                    });
+                    return false;
+                } else if ('-4' == msg) {
+                    layer.open({
+                        content: '用户名已存在',
+                        time: 2,
+                        shadeClose: true
+                    });
+                    return false;
+                } else if ('-6' == msg) {
+                    layer.open({
+                        content: '身份证已存在',
+                        time: 2,
+                        shadeClose: true
+                    });
+                    return false;
+                } else {
+                    layer.open({
+                        content: '注册失败',
+                        time: 2,
+                        shadeClose: true
+                    });
+                }
+            }
+        });
+    });
+
+    function isInteger(obj) {
+        reg = /^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$|^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
+        if (!reg.test(obj)) {
+            layer.open({
+                content: '请输入正确的身份证号',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+    }
+
+    $(function () {
+        var pwd = sessionStorage.getItem('pwd');        
+        $("#pwd").val(pwd);
+        $("#login_dengl .login_dengl_title li").click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            var index = $(this).index();
+            var li = $(this).parent().next().children();
+            $(li[index]).show().siblings().hide();
+        });
+    });
+    $(".phone_del").click(function () {
+        $(".phone_del>img").toggle();
+        var leix = $(this).next().find("input").attr("type");
+        if (leix == "password") {
+            $(this).next().find("input").attr("type", "text");
+        } else {
+            $(this).next().find("input").attr("type", "password");
+        }
+    });
+    $(".yanz").click(function () {
+        $(".del").val('');
+    });
+
+</script>
+{/literal}
+{/block}
+
+

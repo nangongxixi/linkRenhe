@@ -1,0 +1,7 @@
+菜单生成地址： http://wx.joygov.com/linkrenhemenuGet.php
+
+注：记得添加IP白名单，不然生成无效。
+
+启用自定义开发： http://wx.joygov.com/LinkRenheWX.php
+
+		2018-02-11

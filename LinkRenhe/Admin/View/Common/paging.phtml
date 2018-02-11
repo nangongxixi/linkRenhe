@@ -1,0 +1,14 @@
+<div class="paging">
+    <div class="total">共 <{$pager->count()}> 个结果</div>
+    <select name="sh[per_page]" onchange="$(this).closest('form').submit()">
+       
+    </select>
+    <div class="number">
+        <{$pager_html}>
+    </div>
+    <div class="input">
+        <{block name="pag_hide"}><{/block}>
+        <input type="text" class="page_text" name="sh[page]" value="<{$sh.page}>"/>
+        <input type="submit" class="button" value="跳转" />
+    </div>
+</div>

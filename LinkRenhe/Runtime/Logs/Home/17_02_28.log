@@ -1,0 +1,2579 @@
+[ 2017-02-28T11:36:20+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\LinkRenhe\LinkRenhe\Runtime\Cache\2bd6b358244717a90b487d7faf62339922afc112.file.tousReview.html.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T11:36:20+08:00 ] 127.0.0.1 /index.php/Home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\WWW\LinkRenhe\LinkRenhe\Runtime\Cache\7646118ef4904ffc2d8d3827fbc04b028d2e35aa.file.index.html.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:36:39+08:00 ] 127.0.0.1 /index.php/Home/login/loginEnter?13558758764/12345678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: easemobsaccount D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\LoginController.class.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:36:41+08:00 ] 127.0.0.1 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:36:47+08:00 ] 127.0.0.1 /index.php/Home/myinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:36:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/wdInfowdAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:36:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/myjob
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T11:36:57+08:00 ] 127.0.0.1 /index.php/Home/myinfo/myjobAction/id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T11:36:59+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:37:06+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:37:18+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 64 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T11:39:54+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 64 行.
+
+[ 2017-02-28T11:40:28+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 64 行.
+
+[ 2017-02-28T11:41:00+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:41:06+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:41:12+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 64 行.
+
+[ 2017-02-28T11:41:48+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 70 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 70 行.
+
+[ 2017-02-28T11:42:18+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T11:42:58+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T11:43:12+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+
+[ 2017-02-28T11:43:30+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+
+[ 2017-02-28T11:43:48+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+
+[ 2017-02-28T11:44:26+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T11:44:53+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+
+[ 2017-02-28T11:45:23+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T11:45:37+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T11:46:28+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:47:14+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:47:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:48:09+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:48:38+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T11:55:26+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 78 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:56:04+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T11:56:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T11:57:03+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:57:22+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:58:35+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-02-28T12:54:23+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T12:55:02+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T12:56:07+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T12:57:23+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T12:57:55+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T12:58:13+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 76 行.
+
+[ 2017-02-28T12:58:40+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 76 行.
+
+[ 2017-02-28T12:59:17+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T12:59:43+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 76 行.
+
+[ 2017-02-28T13:00:31+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T13:00:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T13:01:55+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T13:02:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:03:04+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:03:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:04:03+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:04:24+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T13:04:43+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-28T13:05:09+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:05:40+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:05:51+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:06:36+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:06:49+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:07:14+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-28T13:07:40+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:08:05+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:09:35+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T13:12:25+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T13:13:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:14:16+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:14:55+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 79 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:15:29+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 79 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-28T13:16:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:17:20+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:17:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:19:04+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 80 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T13:19:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 79 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:20:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:21:15+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:21:36+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:24:57+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:26:55+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 17 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:27:28+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:28:10+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:28:33+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 17 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:29:16+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T13:29:47+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:30:22+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 17 行.
+NOTIC: [2] strlen() expects parameter 1 to be string, array given D:\WWW\LinkRenhe\LinkRenhe\Component\postRequest.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:31:47+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-28T13:31:56+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T13:32:07+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:33:00+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:35:35+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:35:57+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:36:03+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:36:11+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:38:57+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:40:07+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-28T13:41:02+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:41:28+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: Data D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:41:55+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:42:20+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T13:42:38+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:43:05+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T13:43:36+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-28T13:44:22+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:44:56+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:45:05+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-28T13:45:37+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:46:53+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:48:27+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:48:58+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:49:54+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:52:14+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T13:52:41+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:52:57+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:53:18+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:53:25+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T13:53:31+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T13:53:35+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:53:56+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:54:19+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:54:33+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:54:48+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:55:07+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:55:17+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:55:26+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:56:10+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:56:56+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:57:14+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T13:57:48+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T15:15:30+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T15:17:45+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Controller\MyinfoController.class.php 第 114 行.
+
+[ 2017-02-28T15:19:46+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 64 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:20:51+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:22:27+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T15:22:34+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T15:22:44+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:27:53+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.223013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.223013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T15:27:59+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T15:28:08+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T15:28:36+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:28:46+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:29:06+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:29:32+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:29:54+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T15:31:30+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T15:32:20+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T15:32:51+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T17:57:05+08:00 ] 127.0.0.1 /index.php/Home/myinfo/myjobAction/id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T17:57:17+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800854
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T17:57:24+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800854
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T17:58:09+08:00 ] 127.0.0.1 /index.php/Home/myinfo/myjobAction/id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T17:58:11+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T17:58:18+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T17:58:34+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:01:08+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:03:10+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T18:04:27+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T18:04:51+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T18:06:30+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+
+[ 2017-02-28T18:12:46+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.244014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T18:12:53+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T18:12:59+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:14:43+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:17:16+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:17:42+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.235014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-02-28T18:17:49+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T18:17:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T18:17:58+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T18:18:04+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:18:38+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-28T18:18:45+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T18:18:52+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:19:33+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:19:59+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:20:59+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:22:27+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReviewAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined variable: datanew D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\LinkRenhe\LinkRenhe\Home\Model\MyinfoModel.class.php 第 62 行.
+
+[ 2017-02-28T18:33:11+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousReview?id=17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T18:33:19+08:00 ] 127.0.0.1 /index.php/Home/myinfo/tousDetails/id/17022800797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\LinkRenhe\FrameWork\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

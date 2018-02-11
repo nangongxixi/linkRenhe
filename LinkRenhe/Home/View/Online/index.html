@@ -1,0 +1,41 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img">
+                {if !empty($smarty.const.user.userid)}
+                <a href="../index/index"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>                    
+                {else}
+                <a href="../index/index"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>
+                {/if}
+            </div>
+            <div class="details_title middle_center bgcolor">投诉须知</div>           
+        </div>       
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box news_lanm_content_title" style="color:#666"> </div>
+        <div class="clear"></div>
+        <a href="../online/onlineAgainst">
+            <div class="phone_next_box ">
+                <div class="tousReview_submit">下一步</div>                
+            </div>
+        </a>
+    </div>
+</div>
+
+<script type="text/javascript">   
+    $.ajax({
+        type: "GET",
+        url: "../Online/OnlineInfoAction",
+        success: function (msg) {
+            var msg = msg.replace(/\\r\\n/gm,"<br>");
+            $(".myjob_box").html(msg);
+        }
+    });
+</script>
+
+{/block}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+        <meta name="keywords" content="APP下载【仁和信访】" />
+        <meta name="description" content="APP下载【仁和信访】"/>
+        <title>"微信APP下载【仁和信访】"</title>
+        <link type="text/css" rel="stylesheet" href="css/app_style.css" />
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript">
+            browser = {
+                versions: function () {
+                    var u = navigator.userAgent, app = navigator.appVersion;
+                    return {//移动终端浏览器版本信息
+                        trident: u.indexOf('Trident') > -1, //IE内核
+                        presto: u.indexOf('Presto') > -1, //opera内核
+                        webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                        mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                        iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                        iPad: u.indexOf('iPad') > -1, //是否iPad
+                        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                        webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                    };
+                }(),
+                language: (navigator.browserLanguage || navigator.language).toLowerCase()
+            };
+            function isWeiXin() {
+                var ua = window.navigator.userAgent.toLowerCase();
+                if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            function android_apkdownload() {
+                if (isWeiXin()) {
+                    $("#a_android_load").attr("href") == '#';
+                    alert("请点击右上角的【…】，选择【在浏览器打开】进行下载");
+                } else {
+                    $("#a_android_load").attr("href", "http://sj.qq.com/myapp/detail.htm?apkName=com.sczmgk.linkrenhe");
+                }
+            }
+            function iphone_apkdownload() {
+                if (isWeiXin()) {
+                    $("#a_iphone_load").attr("href") == '#';
+                    alert("请点击右上角的【…】，选择【在浏览器打开】进行下载");
+                } else {
+                    $("#a_iphone_load").attr("href", "https://itunes.apple.com/cn/app/%E4%BB%81%E5%92%8C%E4%BF%A1%E8%AE%BF/id1189085220?mt=8");
+                }
+            }
+        </script>
+    </head>
+    <body >
+        <div class="head">
+            <div class="logo"><img src="image/body.png"></div>            
+            <div class="phone_box">
+                <div class="phone_left"><a id="a_android_load" onclick="android_apkdownload();"><img src="image/Android.png"></a></div>
+                <div class="phone_right"><a id="a_iphone_load" onclick="iphone_apkdownload();"><img src="image/iPhone.png"></a></div>
+            </div> 
+        </div>
+    </body>
+</html>

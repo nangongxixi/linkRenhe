@@ -1,0 +1,18 @@
+[ 2016-11-22T17:33:56+08:00 ] 127.0.0.1 /Component/action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Action.php
+
+[ 2016-11-22T17:34:45+08:00 ] 127.0.0.1 /Component/action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Action.php
+
+[ 2016-11-22T17:35:00+08:00 ] 127.0.0.1 /Component/action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Action.php
+

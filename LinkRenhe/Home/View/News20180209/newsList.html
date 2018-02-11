@@ -1,0 +1,100 @@
+{extends "../Common/loadmore.html"}
+{block name="main"}
+<!--must content ul li,or shoupi-->
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="../../../../../news/index"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor" id="newstitle">
+                {if $smarty.get.id ==1}新闻动态{/if}
+                {if $smarty.get.id ==2}政策公告{/if}
+                {if $smarty.get.id ==3}办事指南{/if}
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>        
+        <div class="sear_box">
+            <input type="text" value="" placeholder="搜索…" class="sear" id="sear" typeid="{$smarty.get.id}"/>
+            <a href="#"><div class="sear_fd"><img src="{$smarty.const.IMG_URL}sear.png" height="16" width="16" id="searImg"></div></a>
+        </div>       
+        <div style="display: none" id="idval">{$smarty.get.id}</div>
+        <div class="clear"></div> 
+        <div id="wrapper">
+            <ul>
+                {foreach $newsList.datalist as $k=>$v}
+                <li>                    
+                    <a href="../../../../../news/shownews/dl/{$smarty.get.id}/id/{$v.id}">
+                        <img src="{if $v.picurls[0].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$v.picurls[0].largepic}{/if}" width="120" height="86">
+                        <div class="game-info">
+                            <h1>{if strlen($v.title)>1116}{mb_substr($v.title,0,1116,'utf-8')}…{else}{$v.title}{/if}</h1>
+                            <div class="game-info_p">{if strlen($v.origin)>1110}{mb_substr($v.origin,0,10,'utf-8')}…{else}{$v.origin}{/if} {substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</div>
+                        </div>
+                    </a>
+                    <!-- <button>下载</button>-->
+                </li>
+                {/foreach}                
+            </ul>
+        </div>       
+    </div>
+</div>
+{literal}
+<script>    
+    $("#sear").focus(function(){
+        var typeid = $(this).attr("typeid");
+        sessionStorage.setItem("typeid", typeid); 
+        location.href="../../../../../news/newsSearResult";        
+    });
+
+    refresher.init({
+        id: "wrapper", //<------------------------------------------------------------------------------------┐
+        pullDownAction: Refresh,
+        pullUpAction: Load
+    });
+    function Refresh() {
+        setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+            //var el, li, i;
+            //el = document.querySelector("#wrapper ul");
+            //这里写你的刷新代码				
+            //document.getElementById("wrapper").querySelector(".pullDownIcon").style.display = "none";
+            //document.getElementById("wrapper").querySelector(".pullDownLabel").innerHTML = "<img src='/public/Home/css/loadmore/ok.png'/>刷新成功";
+            setTimeout(function () {
+                wrapper.refresh();
+                //document.getElementById("wrapper").querySelector(".pullDownLabel").innerHTML = "";
+            }, 1000);//模拟qq下拉刷新显示成功效果
+            /****remember to refresh after  action completed！ ---yourId.refresh(); ----| ****/
+        }, 1000);
+    }    
+    
+    var page = 2;    
+    function Load() {        
+        setTimeout(function () {// <-- Simulate network congestion, remove setTimeout from production!
+            var el, li, i, id;            
+            el = document.querySelector("#wrapper ul");
+            id = document.querySelector("#idval").innerHTML;            
+            $.ajax({                
+                type: "GET",
+                url: "../../../../testAction/page/"+page+"/id/"+id,
+                success: function (msg) {
+                    var data = JSON.parse(msg); 
+                    //alert(data.datalist);                    
+                    if (!data.datalist) {                        
+                        //alert($(".pullUpLabel").html(""));
+                        //$(".pullUpLabel").html("");
+                        $(".pullUpLabel").html("没有更多了…");                      
+                        //page = $("$smarty.get.page");
+                    }
+                    for (i = 0; i < data.datalist.length; i++) {
+                        li = document.createElement('li');
+                        li.innerHTML = "<a href='../../../../../news/shownews/dl/"+ id +"/id/" + data.datalist[i].id + "'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'><div class='game-info'><h1>" + data.datalist[i].title + "</h1><div class='game-info_p'>" + data.datalist[i].origin + ' ' + data.datalist[i].publishtime + "</div></div></a>";
+                        el.appendChild(li, el.childNodes[0]);
+                    }
+                    wrapper.refresh();
+                    page += 1;
+                }
+            });
+        }, 2000);
+    }
+</script>
+{/literal}
+{/block}

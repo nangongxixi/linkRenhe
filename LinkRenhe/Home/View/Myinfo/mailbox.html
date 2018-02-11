@@ -1,0 +1,95 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">             
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%" ></a></div>
+            <div class="details_title middle_center bgcolor">邮箱</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <div class="myinfo_lanm">
+                <div class="phone_del"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>            
+                <div class="phone_modify_box left address_modify">
+                    <input type="text" value="{$smarty.session.user.mailbox}" placeholder="请输入地址信息" id="mailbox" class="phone_input del phong_address_del"/>                
+                </div>             
+            </div>
+        </div>
+        <div class="clear"></div>        
+        <div class="phone_next_box ">
+            <div class="tousReview_submit" id="submit">确定</div>                
+        </div>       
+        <div class="huihe"></div>    
+        <div class="huihe"></div>       
+    </div>
+</div>
+{literal}
+<script>
+    $("#submit").click(function () {
+        var mailbox = $.trim($("#mailbox").val());
+        if (mailbox == '') {
+            layer.open({
+                content: '邮箱信息不能为空或者空格',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (mailbox.match(/^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/)) {			
+        } else {
+                layer.open({
+                        content: '邮箱格式不正确',
+                        time: 2,
+                        shadeClose: true
+                });
+                return false;
+        }
+
+        //验证验证码
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/modymailbox/mailbox/" + mailbox,
+            success: function (msg) {
+                //alert(msg);
+                //return false;                
+                layer.open({
+                    content: '修改成功',
+                    time: 2,
+                    shadeClose: true,
+                    end:function(){
+                        location.href = "../myinfo/perinfo";
+                    }
+                });                  
+                
+                
+                
+                /*
+                
+                if (1 == msg) {
+                    layer.open({
+                        content: '修改成功',
+                        time: 2,
+                        shadeClose: true
+                    });
+                    location.href = "../myinfo/perinfo";
+                } else {
+                    layer.open({
+                        content: '修改失败',
+                        time: 2,
+                        shadeClose: true
+                    });
+                }
+                */
+            }
+        });
+    });
+
+    $(".phone_del").click(function () {
+        $(".del").val('');
+    });
+    
+</script>
+{/literal}
+{/block}

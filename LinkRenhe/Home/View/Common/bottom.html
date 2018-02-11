@@ -1,0 +1,39 @@
+<div class="bottom_box">
+    <ul>
+        <li>           
+            <a href="../index/index" class="bottom_btn_box">
+                <img src="{$smarty.const.IMG_URL}nav/{if $smarty.const.CONTROLLER_NAME=='Index'}home_curr1.png{else}home1.png{/if}" class="bottom_btn_img"/>             
+                <span class="bottom_btn_text">首页</span>                
+            </a>
+        </li>
+        <li>            
+
+            <a  class="bottom_btn_box" {if !empty($smarty.session.user.userid)}href="../complaints/index"{else}onclick="land()"{/if}>
+                <img src="{$smarty.const.IMG_URL}nav/{if $smarty.const.CONTROLLER_NAME=='Complaints'}home_curr2.png{else}home2.png{/if}" class="bottom_btn_img"/>           
+                <span class="bottom_btn_text">投诉处理</span>                
+            </a>            
+        </li>
+        <li>
+            <a href="../myinfo/index" class="bottom_btn_box">
+                <img src="{$smarty.const.IMG_URL}nav/{if $smarty.const.CONTROLLER_NAME=='Myinfo'}home_curr3.png{else}home3.png{/if}" class="bottom_btn_img"/> 
+                <span class="bottom_btn_text">我的</span>                
+            </a>           
+        </li>
+    </ul>
+</div>
+
+<SCRIPT type="text/javascript">
+    function land() {
+        var userid = "{$smarty.session.user.userid}";
+        if (userid == '') {
+            layer.open({
+                btn: ['登录', '取消'],
+                content: '要想查看更多，必须先登录',
+                shadeClose: true, //默认：true，是否点击遮罩时关闭层                
+                yes: function () {
+                    location.href = "../login/index";
+                }
+            });
+        }
+    }
+</SCRIPT>

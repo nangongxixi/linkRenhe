@@ -1,0 +1,399 @@
+{extends "../Common/default.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content">
+        <a href="#" data-ajax="false"><img src="{$smarty.const.IMG_URL}tscl.png" width="100%"></a>
+        <div id="navtab">
+            <ul class="title" >
+                <li class="active"  id="nav0">全部</li>
+                <li class="bgcolor" id="nav1">待处理</li>
+                <li class="bgcolor" id="nav2">处理中</li>
+                <li class="bgcolor" id="nav3">待评价</li>
+            </ul>          
+            <ul>                
+                <li><div id="lei0"></div></li>
+                <li style="display:none"><div id="lei1"></div></li>
+                <li style="display:none"><div id="lei2"></div></li>
+                <li style="display:none"><div id="lei3"></div></li>                
+            </ul>
+            <div class="clear"></div>
+            <div class="tscl_only_line"></div>        
+            <div class="clear"></div>
+        </div>
+    </div>        
+</div>
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../Complaints/ComplaintsAction/id/0",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                //var liNum = $(".lilie>li").index();
+                if (data.result == 0) {
+                    $("#lei0").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                }
+                data.datalist = data.datalist.reverse(); 
+                $.each(data.datalist, function (i) {
+                    if (data.datalist[i].picurls == null) {
+                        var picurls = [];//定义一个一维数组
+                        picurls.push(["largepic"]);//一维数组中放入一个一维数组，arr成为二维数组
+                        data.datalist[i].picurls = picurls;
+                    }
+                    if (data.datalist[i].status == 1 || data.datalist[i].status == 2 || data.datalist[i].status == 3 || data.datalist[i].status == 8) {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img id='yanze" + i + "' src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/cancelcomplaint/id/" + data.datalist[i].id + "' class='navtab_button right'>取消投诉</a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+
+                    } else if (data.datalist[i].status == 4) {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img id='yanze" + i + "' src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/evaluation/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='pjx'>评价</div></a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    } else if (data.datalist[i].status == 5) {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img id='yanze" + i + "' src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right'><div class='pjx'>已评价</div></div></div></div>");
+                    } else {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img id='yanze" + i + "' src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right delcomp' onclick='test(this.id)' id='" + data.datalist[i].id + "'>删除投诉</div></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".tscl_content_img img").attr("src", '{$smarty.const.DEFAULTIMG_URL}');
+                    }
+                    if ($(".statusa" + i).html() == 1) {
+                        $(".statusa" + i).html("待处理");
+                    }
+                    if ($(".statusa" + i).html() == 2) {
+                        $(".statusa" + i).html("待审核");
+                    }
+                    if ($(".statusa" + i).html() == 3) {
+                        $(".statusa" + i).html("处理中");
+                    }
+                    if ($(".statusa" + i).html() == 4) {
+                        $(".statusa" + i).html("待评价");
+                    }
+                    if ($(".statusa" + i).html() == 5) {
+                        $(".statusa" + i).html("已评价");
+                    }
+                    if ($(".statusa" + i).html() == 6) {
+                        $(".statusa" + i).html("取消投诉");
+                    }
+                    if ($(".statusa" + i).html() == 7) {
+                        $(".statusa" + i).html("网格化管理员待处理");
+                    }
+                    if ($(".statusa" + i).html() == 8) {
+                        $(".statusaa" + i).html("网格化管理员待处理");
+                    }
+                    //alert(data.datalist.length);
+                    if (data.datalist.length - 1 == i) {
+                        $(".fenge_one:last").removeClass();
+                    }
+                    if ($("#yanze" + i).attr("src") == "undefined") {
+                        $("#yanze" + i).attr("src", "{$smarty.const.IMG_URL}nopic.jpg");
+                    }
+                });
+            }
+        });
+    });
+
+    $("#nav0").click(function () {
+        $("#lei0").html("");
+        $.ajax({
+            type: "POST",
+            url: "../Complaints/ComplaintsAction/id/0",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                if (data.result == 0) {
+                    $("#lei0").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                }
+                data.datalist = data.datalist.reverse(); 
+                $.each(data.datalist, function (i) {
+                    if (data.datalist[i].picurls == null) {
+                        var picurls = [];//定义一个一维数组
+                        picurls.push(["largepic"]);//一维数组中放入一个一维数组，arr成为二维数组
+                        data.datalist[i].picurls = picurls;
+                    }
+                    if (data.datalist[i].status == 1 || data.datalist[i].status == 2 || data.datalist[i].status == 3 || data.datalist[i].status == 8) {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/cancelcomplaint/id/" + data.datalist[i].id + "' class='navtab_button right'>取消投诉</a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+
+                    } else if (data.datalist[i].status == 4) {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/evaluation/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='pjx'>评价</div></a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    } else if (data.datalist[i].status == 5) {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right'><div class='pjx'>已评价</div></div></div></div>");
+                    } else {
+                        $("#lei0").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right delcomp' onclick='test(this.id)' id='" + data.datalist[i].id + "'>删除投诉</div></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".tscl_content_img img").attr("src", '{$smarty.const.DEFAULTIMG_URL}');
+                    }
+                    if ($(".statusa" + i).html() == 1) {
+                        $(".statusa" + i).html("待处理");
+                    }
+                    if ($(".statusa" + i).html() == 2) {
+                        $(".statusa" + i).html("待审核");
+                    }
+                    if ($(".statusa" + i).html() == 3) {
+                        $(".statusa" + i).html("处理中");
+                    }
+                    if ($(".statusa" + i).html() == 4) {
+                        $(".statusa" + i).html("待评价");
+                    }
+                    if ($(".statusa" + i).html() == 5) {
+                        $(".statusa" + i).html("已评价");
+                    }
+                    if ($(".statusa" + i).html() == 6) {
+                        $(".statusa" + i).html("取消投诉");
+                    }
+                    if ($(".statusa" + i).html() == 7) {
+                        $(".statusa" + i).html("网格化管理员待处理");
+                    }
+                    if ($(".statusa" + i).html() == 8) {
+                        $(".statusaa" + i).html("网格化管理员待处理");
+                    }
+                    //alert(data.datalist.length);
+                    if (data.datalist.length - 1 == i) {
+                        $(".fenge_one:last").removeClass();
+                    }
+                    if ($("#yanze" + i).attr("src") == "undefined") {
+                        $("#yanze" + i).attr("src", "{$smarty.const.IMG_URL}nopic.jpg");
+                    }
+                });
+            }
+        });
+    });
+
+
+    $("#nav1").click(function () {
+        $("#lei1").html("");
+        $.ajax({
+            type: "POST",
+            url: "../Complaints/ComplaintsAction/id/1",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                //var liNum = $(".lilie>li").index();
+                if (data.result == 0) {
+                    $("#lei1").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                }
+                data.datalist = data.datalist.reverse(); 
+                $.each(data.datalist, function (i) {
+                    if (data.datalist[i].picurls == null) {
+                        var picurls = [];//定义一个一维数组
+                        picurls.push(["largepic"]);//一维数组中放入一个一维数组，arr成为二维数组
+                        data.datalist[i].picurls = picurls;
+                    }
+                    if (data.datalist[i].status == 1 || data.datalist[i].status == 2 || data.datalist[i].status == 3 || data.datalist[i].status == 8) {
+                        $("#lei1").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/cancelcomplaint/id/" + data.datalist[i].id + "' class='navtab_button right'>取消投诉</a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+
+                    } else if (data.datalist[i].status == 4) {
+                        $("#lei1").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/evaluation/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='pjx'>评价</div></a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    } else if (data.datalist[i].status == 5) {
+                        $("#lei1").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right'><div class='pjx'>已评价</div></div></div></div>");
+                    } else {
+                        $("#lei1").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right delcomp' onclick='test(this.id)' id='" + data.datalist[i].id + "'>删除投诉</div></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".tscl_content_img img").attr("src", '{$smarty.const.DEFAULTIMG_URL}');
+                    }
+                    if ($(".statusaa" + i).html() == 1) {
+                        $(".statusaa" + i).html("待处理");
+                    }
+                    if ($(".statusaa" + i).html() == 2) {
+                        $(".statusaa" + i).html("待审核");
+                    }
+                    if ($(".statusaa" + i).html() == 3) {
+                        $(".statusaa" + i).html("处理中");
+                    }
+                    if ($(".statusaa" + i).html() == 4) {
+                        $(".statusaa" + i).html("待评价");
+                    }
+                    if ($(".statusaa" + i).html() == 5) {
+                        $(".statusaa" + i).html("已评价");
+                    }
+                    if ($(".statusaa" + i).html() == 6) {
+                        $(".statusaa" + i).html("取消投诉");
+                    }
+                    if ($(".statusaa" + i).html() == 7) {
+                        $(".statusaa" + i).html("网格化管理员待处理");
+                    }
+                    if ($(".statusaa" + i).html() == 8) {
+                        $(".statusaaa" + i).html("网格化管理员待处理");
+                    }
+                    //alert(data.datalist.length);
+                    if (data.datalist.length - 1 == i) {
+                        $(".fenge_one:last").removeClass();
+                    }
+                    if ($("#yanze" + i).attr("src") == "undefined") {
+                        $("#yanze" + i).attr("src", "{$smarty.const.IMG_URL}nopic.jpg");
+                    }
+                });
+            }
+        });
+    });
+
+    $("#nav2").click(function () {
+        $("#lei2").html("");
+        $.ajax({
+            type: "POST",
+            url: "../Complaints/ComplaintsAction/id/2",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                //var liNum = $(".lilie>li").index();
+                if (data.result == 0) {
+                    $("#lei2").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                }
+                data.datalist = data.datalist.reverse(); 
+                $.each(data.datalist, function (i) {
+                    if (data.datalist[i].picurls == null) {
+                        var picurls = [];//定义一个一维数组
+                        picurls.push(["largepic"]);//一维数组中放入一个一维数组，arr成为二维数组
+                        data.datalist[i].picurls = picurls;
+                    }
+                    if (data.datalist[i].status == 1 || data.datalist[i].status == 2 || data.datalist[i].status == 3 || data.datalist[i].status == 8) {
+                        $("#lei2").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/cancelcomplaint/id/" + data.datalist[i].id + "' class='navtab_button right'>取消投诉</a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+
+                    } else if (data.datalist[i].status == 4) {
+                        $("#lei2").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/evaluation/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='pjx'>评价</div></a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    } else if (data.datalist[i].status == 5) {
+                        $("#lei2").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right'><div class='pjx'>已评价</div></div></div></div>");
+                    } else {
+                        $("#lei2").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right delcomp' onclick='test(this.id)' id='" + data.datalist[i].id + "'>删除投诉</div></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".tscl_content_img img").attr("src", '{$smarty.const.DEFAULTIMG_URL}');
+                    }
+                    if ($(".statusaaa" + i).html() == 1) {
+                        $(".statusaaa" + i).html("待处理");
+                    }
+                    if ($(".statusaaa" + i).html() == 2) {
+                        $(".statusaaa" + i).html("待审核");
+                    }
+                    if ($(".statusaaa" + i).html() == 3) {
+                        $(".statusaaa" + i).html("处理中");
+                    }
+                    if ($(".statusaaa" + i).html() == 4) {
+                        $(".statusaaa" + i).html("待评价");
+                    }
+                    if ($(".statusaaa" + i).html() == 5) {
+                        $(".statusaaa" + i).html("已评价");
+                    }
+                    if ($(".statusaaa" + i).html() == 6) {
+                        $(".statusaaa" + i).html("取消投诉");
+                    }
+                    if ($(".statusaaa" + i).html() == 7) {
+                        $(".statusaaa" + i).html("网格化管理员待处理");
+                    }
+                    if ($(".statusaaa" + i).html() == 8) {
+                        $(".statusaaaa" + i).html("网格化管理员待处理");
+                    }
+                    //alert(data.datalist.length);
+                    if (data.datalist.length - 1 == i) {
+                        $(".fenge_one:last").removeClass();
+                    }
+                    if ($("#yanze" + i).attr("src") == "undefined") {
+                        $("#yanze" + i).attr("src", "{$smarty.const.IMG_URL}nopic.jpg");
+                    }
+                });
+            }
+        });
+    });
+    $("#nav3").click(function () {
+        $("#lei3").html("");
+        $.ajax({
+            type: "POST",
+            url: "../Complaints/ComplaintsAction/id/3",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                //var liNum = $(".lilie>li").index();
+                if (data.result == 0) {
+                    $("#lei3").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                }
+                data.datalist = data.datalist.reverse(); 
+                $.each(data.datalist, function (i) {
+                    if (data.datalist[i].picurls == null) {
+                        var picurls = [];//定义一个一维数组
+                        picurls.push(["largepic"]);//一维数组中放入一个一维数组，arr成为二维数组
+                        data.datalist[i].picurls = picurls;
+                    }
+                    if (data.datalist[i].status == 1 || data.datalist[i].status == 2 || data.datalist[i].status == 3 || data.datalist[i].status == 8) {
+                        $("#lei3").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/cancelcomplaint/id/" + data.datalist[i].id + "' class='navtab_button right'>取消投诉</a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+
+                    } else if (data.datalist[i].status == 4) {
+                        $("#lei3").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><a href='../complaints/evaluation/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='pjx'>评价</div></a></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    } else if (data.datalist[i].status == 5) {
+                        $("#lei3").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/details/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right'><div class='pjx'>已评价</div></div></div></div>");
+                    } else {
+                        $("#lei3").prepend("<div class='myjob_box'><div class='tscl_content_box'><div class='tscl_content_img'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='tscl_content_shu'><div class='tscl_content_title statusaaaa" + i + "'>" + data.datalist[i].status + "</div><div class='tscl_content_date'>" + data.datalist[i].title + "<br>" + data.datalist[i].createtime + "</div></div></div><div class='clear'></div><div class='middle_center navtab_button_box'><a href='../complaints/detailsDes/id/" + data.datalist[i].id + "' class='navtab_button right'><div class='xq'>详情</div></a><div class='navtab_button right delcomp' onclick='test(this.id)' id='" + data.datalist[i].id + "'>删除投诉</div></div></div><div class='clear'></div><div class='fenge_one'></div><div class='clear'></div>");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".tscl_content_img img").attr("src", '{$smarty.const.DEFAULTIMG_URL}');
+                    }
+                    if ($(".statusaaaa" + i).html() == 1) {
+                        $(".statusaaaa" + i).html("待处理");
+                    }
+                    if ($(".statusaaaa" + i).html() == 2) {
+                        $(".statusaaaa" + i).html("待审核");
+                    }
+                    if ($(".statusaaaa" + i).html() == 3) {
+                        $(".statusaaaa" + i).html("处理中");
+                    }
+                    if ($(".statusaaaa" + i).html() == 4) {
+                        $(".statusaaaa" + i).html("待评价");
+                    }
+                    if ($(".statusaaaa" + i).html() == 5) {
+                        $(".statusaaaa" + i).html("已评价");
+                    }
+                    if ($(".statusaaaa" + i).html() == 6) {
+                        $(".statusaaaa" + i).html("取消投诉");
+                    }
+                    if ($(".statusaaaa" + i).html() == 7) {
+                        $(".statusaaaa" + i).html("网格化管理员待处理");
+                    }
+                    if ($(".statusaaaa" + i).html() == 8) {
+                        $(".statusaaaaa" + i).html("网格化管理员待处理");
+                    }
+                    //alert(data.datalist.length);
+                    if (data.datalist.length - 1 == i) {
+                        $(".fenge_one:last").removeClass();
+                    }
+                    if ($("#yanze" + i).attr("src") == "undefined") {
+                        $("#yanze" + i).attr("src", "{$smarty.const.IMG_URL}nopic.jpg");
+                    }
+
+
+
+                });
+            }
+        });
+    });
+
+    $("#navtab .title li").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+        var index = $(this).index();
+        var li = $(this).parent().next().children();
+        $(li[index]).show().siblings().hide();
+    });
+    function test(id) {
+        $.ajax({
+            type: "GET",
+            url: "../Complaints/delcomAction/id/" + id,
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                if (data.result == 1) {
+                    layer.open({
+                        shadeClose: false, //默认：true，是否点击遮罩时关闭层
+                        content: '<div style="text-align:center">删除成功</div>',
+                        time: 2,
+                        success: function () {
+                            location.href = "../Complaints/index";
+                        }
+                    });
+                } else {
+                    layer.open({
+                        shadeClose: false, //默认：true，是否点击遮罩时关闭层
+                        content: '<div style="text-align:center">删除失败</div>',
+                        time: 2,
+                        success: function () {
+                            location.href = "../Complaints/index";
+                        }
+                    });
+                }
+            }
+        });
+    }
+
+
+</script>
+{/block}

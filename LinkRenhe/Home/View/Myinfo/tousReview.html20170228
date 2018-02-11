@@ -1,0 +1,263 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">     
+        <div class="top_lanm details_line">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">投诉审核</div>
+        </div>
+        <div class="clear"></div>       
+        <div class="fenge_one"></div>
+        <div class="clear"></div> 
+        <div class="myjob_box">
+            <div class="tousReview_content_box" >                       
+                <div class="details_content_text " >
+                    <ul>
+                        <li class="details_content_text_title ">投诉标题：</li>
+                        <li ><div class="details_content_text_con" id="biaoti"></div></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">事发时间：</li>
+                        <li class="details_content_text_con " id="shifasj"></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">事发地址：</li>
+                        <li class="details_content_text_con " id="shifadz"></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">投诉内容：</li>
+                        <li class="details_content_text_con ">
+                            <div class="qian" id="tousulr"></div>
+                            <div class='shouqi  program_xqn' style="display: none">向上收起∧</div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">相关图片：</li>
+                        <li class="details_content_text_con ">
+                            <div class="details_content_text_pic ">                           
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title" >投诉编号：</li>
+                        <li class="details_content_text_con " id="tousubh"></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">投诉时间：</li>
+                        <li class="details_content_text_con " id="toususj"></li>
+                    </ul>                    
+                </div>           
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <div class="details_title details_line tousReview_x">
+                <span class="red_block left "><img src="{$smarty.const.IMG_URL}099.png"></span>
+                <div class="left">现场调查</div>
+            </div> 
+        </div>
+
+
+        <div class="myjob_box myinfo_padd" style="display:none" id="tousuxq">
+            <div class="tousReview_content_box1" >                       
+                <div class="details_content_text " >
+                    <ul>
+                        <li class="details_content_text_title ">处理时间：</li>
+                        <li ><div class="details_content_text_con" id="chulisj"></div></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">是否属实：</li>
+                        <li class="details_content_text_con " id="shifouss"></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="details_content_text_title ">相关备注：</li>
+                        <li class="details_content_text_con " id="xiangguanbz"></li>
+                    </ul>
+                    <div class="clear"></div>              
+                    <ul>
+                        <li class="details_content_text_title ">相关图片：</li>
+                        <li class="details_content_text_con ">
+                            <div id="toustup">
+                            </div>
+                        </li>
+                    </ul>                                  
+                </div>           
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="myjob_box myinfo_padd" style="display:none" id="tousush">
+            <div class="tousreview_survey_box kuan">
+                <div class="danxuan">
+                    <input type="radio" id="radio-1-1" value="1" name="radio-1-set" class="regular-radio" checked /><label for="radio-1-1"></label> 属实
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="radio-1-2" value="0" name="radio-1-set" class="regular-radio" /><label for="radio-1-2"></label> 不属实
+                </div>
+                <div class="clear"></div>
+                <div class="tousrevtext">
+                    <textarea name="content" class="tousreview_text_box " id="textarea" placeholder="请在此填写备注…" ></textarea>                                
+                </div>
+                <div class="clear"></div>
+                <div class="upload_img_box">
+                    <input type="file" id="uploadphoto" name="uploadfile" style="display:none;" />                    
+                    <div class="imglist"></div> 
+                    <div class="upimg_defau"><img src="{$smarty.const.IMG_URL}upimg.png" onclick="uploadphoto.click()" width="80" height="80"></div>                  
+                </div>
+            </div>
+            <div class="clear"></div>           
+            <div class="tousReview_submit middle_center" id="submit"/>提交</div>  
+        </div>
+        
+        
+        
+        
+       
+
+    </div>        
+</div>
+<script type="text/javascript">
+
+    $('#submit').click(function () {
+        var operatorid = "{$smarty.session.user.userid}";
+        var ispasss = $('input:radio:checked').val();
+        var stepcontent = $("#textarea").val();
+        var picruls = '';
+        $(".imglist_img").each(function ()
+        {
+            picruls += ',' + $(this).attr("src");
+        });
+        $.ajax({
+            type: "POST",
+            url: "../myinfo/tousReviewAction",            
+            data: {
+                "operatorid": operatorid,
+                "stepcontent": stepcontent,
+                "ispasss": ispasss,
+                "picruls": picruls
+            },
+            success: function (msg) {
+                //alert(msg);
+                //return false;
+                var data = JSON.parse(msg);
+                if (data.result == 1) {
+                    layer.open({
+                        shadeClose: false, //默认：true，是否点击遮罩时关闭层
+                        content: '<div style="text-align:center">提交成功</div>',
+                        time: 2
+                    });
+                }
+                location.href = "../myinfo/myjob";
+            }
+        });
+    });
+
+    $(function () { 
+        var id="{$smarty.get.id}";
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/tousDetails/id/"+id,
+            success: function (msg) {
+                //alert(msg);                
+                var data = JSON.parse(msg);
+                
+                if(data.status==8){
+                    $("#tousuxq").css("display","block");                   
+                }else{
+                    $("#tousush").css("display","block"); 
+                }
+                
+                $("#biaoti").html(data.title);
+                $("#toususj").html(data.operationtime);
+                $("#shifadz").html(data.address);
+                $("#tousulr").html(data.content);
+                $("#biaoti").html(data.title);
+                $("#tousubh").html(data.id);
+                $("#shifasj").html(data.createtime);
+                
+                $("#chulisj").html(data.stepptime);
+                if(data.ispass==1){
+                    $("#shifouss").html("是");
+                }else{
+                    $("#shifouss").html("否");
+                }                
+                $("#xiangguanbz").html(data.stepcontent);                
+                for (var i = 0; i <= 2; i++) {
+                    $(".details_content_text_pic").prepend("<a href='" + data.picurls[i].largepic + "'><img src='" + data.picurls[i].largepic + "' width='60' height='60'></a>");
+                    $("#toustup").prepend("<a href='" + data.steppicurls[i].largepic + "'><img src='" + data.steppicurls[i].largepic + "' width='60' height='60'></a>");
+                }
+               
+            }
+        });
+
+        //点击显示更多
+        var maxwidth = 42;//设置最多显示的字数
+        var text = $(".qian").text();
+        if ($(".qian").text().length > maxwidth) {
+            $(".qian").text($(".qian").text().substring(0, maxwidth));
+            $(".qian").html($(".qian").html() + "..." + "<div class='program_xqn '>显示全部∨</div>");
+        }
+        $(".qian").click(function () {
+            $(this).text(text);
+            $(".shouqi").show();
+        });
+        $(".shouqi").click(function () {
+            var maxwidth = 42;//设置最多显示的字数
+            var text = $(this).text();
+            if ($(".qian").text().length > maxwidth) {
+                $(".qian").text($(".qian").text().substring(0, maxwidth));
+                $(".qian").html($(".qian").html() + "..." + "<div class='program_xqn '>显示全部∨</div>");
+            }
+            $(".shouqi").hide();
+        });
+        //图片上传
+        $('#uploadphoto').localResizeIMG({
+            width: 400,
+            quality: 1,
+            success: function (result) {
+                var submitData = {
+                    base64_string: result.clearBase64,
+                };
+                $.ajax({
+                    type: "POST",
+                    url: "{$smarty.const.LIB_URL}upload.php",
+                    data: submitData,
+                    dataType: "json",
+                    success: function (data) {
+                        if (0 == data.status) {
+                            //alert(data.content);
+                            return false;
+                        } else {
+                            //alert(data.url);
+                            var attstr = '<img class="imglist_img" src="' + '{$smarty.const.LIB_URL}' + data.url + '">';
+                            $(".imglist").append(attstr);
+                            return false;
+                        }
+                    },
+                    complete: function (XMLHttpRequest, textStatus) {
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) { //上传失败 
+                        alert(XMLHttpRequest.status);
+                        alert(XMLHttpRequest.readyState);
+                        alert(textStatus);
+                    }
+                });
+            }
+        });
+
+    });
+
+
+</script>
+{/block}

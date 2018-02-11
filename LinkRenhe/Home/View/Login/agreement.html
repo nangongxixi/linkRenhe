@@ -1,0 +1,32 @@
+{extends "../Common/defaultJamp.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center">注册协议</div>           
+        </div>       
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box news_lanm_content_title" style="color:#666"> </div>
+        <a href="javascript:history.go(-1);">
+            <div class="phone_next_box ">
+                <div class="tousReview_submit middle_center"/>阅读并接受</div>                              
+            </div>
+        </a>
+    </div>
+</div>
+<script type="text/javascript">   
+    $.ajax({
+        type: "GET",
+        url: "../Login/registInfoAction",
+        success: function (msg) {
+            var msg = msg.replace(/\\r\\n/gm,"<br>");
+            $(".myjob_box").html(msg);
+        }
+    });
+</script>
+{/block}
+
+

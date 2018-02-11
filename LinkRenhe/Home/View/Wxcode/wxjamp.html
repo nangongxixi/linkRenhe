@@ -1,0 +1,13 @@
+{extends "../Common/defaultBai.html"}
+{block name="main"}
+<div class="myjob_box">
+    <div class="wxjump_logo"><img src="{$smarty.const.IMG_URL}wxcode/logo.png"></div>
+    <div class="wxjump_pic"><img src="{$smarty.const.IMG_URL}wxcode/pic.png"></div>
+    <div class="wxjump_word"><img src="{$smarty.const.IMG_URL}wxcode/word.png"></div>
+    <div class="wxjump_button">
+        <div class="wxjump_return"><a href="../index/index"><img src="{$smarty.const.IMG_URL}wxcode/return.png"></a></div>
+        <div class="wxjump_sure" onclick="WeixinJSBridge.call('closeWindow');"><img src="{$smarty.const.IMG_URL}wxcode/sure.png" onclick="WeixinJSBridge.call('closeWindow');"></div>
+        <div class="clear"></div>
+    </div>
+</div>        
+{/block}

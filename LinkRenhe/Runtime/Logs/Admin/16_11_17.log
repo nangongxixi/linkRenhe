@@ -1,0 +1,72 @@
+[ 2016-11-17T11:14:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and deleted = 0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_admin` WHERE ( id= and deleted = 0 ) LIMIT 1  
+
+[ 2016-11-17T11:21:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and deleted = 0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_admin` WHERE ( id= and deleted = 0 ) LIMIT 1  
+
+[ 2016-11-17T11:22:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and deleted = 0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_admin` WHERE ( id= and deleted = 0 ) LIMIT 1  
+
+[ 2016-11-17T11:42:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Unable to load template file '/Component/code.common.php' in '../Common/menu.phtml'
+
+[ 2016-11-17T11:42:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Unable to load template file '/Component/code.common.php' in '../Common/menu.phtml'
+
+[ 2016-11-17T11:42:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Unable to load template file '/Component/code.common.php' in '../Common/menu.phtml'
+
+[ 2016-11-17T11:46:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{require '/Component/code.common.php'}" unknown tag "require"
+
+[ 2016-11-17T11:46:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Unable to load template file '/Component/code.common.php' in '../Common/menu.phtml'
+
+[ 2016-11-17T11:47:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Unable to load template file './Component/code.common.php' in '../Common/menu.phtml'
+
+[ 2016-11-17T16:51:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T16:55:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T16:57:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T16:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T16:59:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:01:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:03:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:06:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:07:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:07:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:08:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T17:09:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html?&page=1
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\menu.phtml"  on line 2 "{foreach as $MenuData $k =&gt; $v}"  - Unexpected " as ", expected one of: "}" , " "
+
+[ 2016-11-17T18:10:02+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 33 "&lt;div class=&quot;list_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+

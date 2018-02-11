@@ -1,0 +1,155 @@
+{extends "../Common/defaultJamp.html"}
+{block name="main"}
+<!--新闻切换start-->
+<link type="text/css" rel="stylesheet" href="{$smarty.const.IMG_URL}newsimg/css/style.css" />
+
+<script type="text/javascript" src="{$smarty.const.IMG_URL}newsimg/js/touchslider.js"></script>
+<script type="text/javascript" src="{$smarty.const.IMG_URL}newsimg/js/touchslider.js"></script>
+
+<!--新闻切换end-->
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img">
+                {if null !== $smarty.const.user.userid}
+                <a href="../index/index"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>                                
+                {else}
+                <a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>    
+                {/if}
+            </div>
+            <div class="details_title middle_center bgcolor" id="newstitle">最新资讯</div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div> 
+        <div class="sear_box">
+            <input type="text" value="" placeholder="请输入关键字…" class="sear" id="sear"/>
+            <!--<a href="#"><div class="sear_fd"><img src="{$smarty.const.IMG_URL}sear.png" height="16" width="16"></div></a>-->
+        </div>
+        <div class="clear"></div>
+
+
+        <div class="hdp-box">
+            <div class="title_gun">{$banner[0].title}</div>
+            <div id="slider" class="swipe">
+                <ul class="piclist">                    
+                    {for $a=0;$a<=count($banner)-1;$a++}
+                    <li><p>{$banner[$a].title}</p><a href="{$banner[$a].url}"><img src="{$banner[$a].picurls[0].largepic}"></a></li>
+                    {/for}
+                </ul>
+            </div>
+            <div class="count">
+                <b class="bi">1</b>/<b class="bcount"></b>
+            </div>
+        </div>
+
+
+        <div class="clear"></div>
+        <div id="lei1">
+            {foreach from=$newsNameList key=k name=name item=v}
+            <div class="myjob_box">
+                <div class="news_lanm_box">
+                    <div class="left"><img src="{$smarty.const.IMG_URL}newsico{$smarty.foreach.name.iteration}.png" height="20"> </div>
+                    <div class="news_lanm_title left">{$v.title}</div>
+                    <a href="../news/newslist/id/{$v.type}/page/1">
+                        <div class="news_lanm_more right">
+                            <div class="news_lanm_gengd left">更多</div>
+                            <div class="news_lanm_img left"><img src="{$smarty.const.IMG_URL}more.png"></div>
+                        </div>
+                    </a>            
+                </div>                
+                {foreach $v.datalist as $kk=>$vv}
+                {if $vv.type==1}           
+                <div class="middle_center">
+                    <div class="news_lanm_content_img">
+                        <a href="../news/shownews/dl/{$v.type}/id/{$vv.id}">
+                            <div class="tscl_title news_title">{if mb_strlen($vv.title)>1116}{mb_substr($vv.title,0,1116,'utf-8')}…{else}{$vv.title}{/if}</div>
+                            <ul>                        
+                                {for $a=0;$a<=2;$a++}                                                      
+                                <li class="left {if $a==2}news_pic_right{else}news_pic_left{/if} bgcolor"><img src="{if $vv.picurls[$a].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$vv.picurls[$a].largepic}{/if}" width='120' height="86"></li> 
+                                {/for}
+                            </ul>
+                            <div class="clear"></div>
+                            <div class="news_date_box">
+                                <div class="news_date">{if mb_strlen($vv.origin)>2110}{mb_substr($vv.origin,0,2110,'utf-8')}…{else}{$vv.origin}{/if} {substr($vv.publishtime,5,2)}.{substr($vv.publishtime,8,2)} {substr($vv.publishtime,11,2)}:{substr($vv.publishtime,14,2)}</div>
+                            </div>
+                        </a>
+                    </div>            
+                </div>
+                {if $kk+1 < count($v.datalist)}
+                <div class="clear"></div>
+                <div class="news_bottom_nei"></div>        
+                <div class="clear"></div>
+                {/if}
+                {else}
+
+                <a href="../news/shownews/dl/{$v.type}/id/{$vv.id}" style="margin:20px 0px; display: block">
+                    <div class="wdinfo_pic left"><img src="{if $vv.picurls[0].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$vv.picurls[0].largepic}{/if}" width="120" height="86"></div>
+                    <div class="news_nei_text">
+                        <div class="wdinfo_titile mycollection_title">{if strlen($vv.title)>1111}{mb_substr($vv.title,0,1111,'utf-8')}…{else}{$vv.title}{/if}</div>
+                        <div class="news_date">
+                            {if mb_strlen($vv.origin)>10}{mb_substr($vv.origin,0,10,'utf-8')}… &nbsp;{else}{$vv.origin}{/if}
+                            <span style="float: right">{substr($vv.publishtime,5,2)}.{substr($vv.publishtime,8,2)} {substr($vv.publishtime,11,2)}:{substr($vv.publishtime,14,2)}</span>
+                        </div>
+                    </div>
+                </a>
+                {if $kk+1 < count($v.datalist)}
+                <div class="clear"></div>
+                <div class="news_bottom_nei"></div>        
+                <div class="clear"></div>
+                {/if}
+
+                {/if}        
+                {/foreach}
+            </div>
+            {if $smarty.foreach.name.iteration != 3}        
+            <div class="clear"></div>
+            <div class="fenge_one"></div>
+            <div class="clear"></div>
+            {else}        
+            <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>
+            {/if}
+            {/foreach}
+        </div>
+
+    </div>
+</div>
+
+{literal}
+
+<script type="text/javascript">
+    $(function () {
+        var num = $('#slider').find('li').size();
+        $('.bcount').text(num);
+        $('.b_btn').click(function () {
+            $(this).toggleClass('b_btn_active');
+            $('.intro').toggle();
+        });
+    });
+
+    var tt = new TouchSlider({id: 'slider', 'auto': '0', fx: 'ease-out', direction: 'left', speed: 600, timeout: 5000, 'before': function (index) {
+            var es = document.getElementById('slider').getElementsByTagName('li');
+            var it = $(es[index]).index() + 1;
+            $('.bi').text(it);
+            var tx = $(es[index]).find('p').text();
+            $('.title_gun').text(tx);
+        }});
+
+
+
+    $("#sear").focus(function () {
+        location.href = "../news/newsSearResult";
+    });
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../news/newsNameList"
+        });
+    });
+
+
+</script>
+{/literal}
+{/block}

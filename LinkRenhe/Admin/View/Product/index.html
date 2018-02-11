@@ -1,0 +1,133 @@
+{extends "../Common/default.phtml"}
+{block name="main"}
+<form method="get" name="search_form">
+    <div class="search">
+        <div class="title">快速检索</div>
+        <table style="width: auto;">
+            <tr>
+                <th>标题：</th>
+                <td><input type="text" class="text" name="title" value="{$smarty.session.search.title[1]}" /></td>
+                <th>创建时间：</th>
+                <td><input type="text" class="text laydate-icon" id="start" name="start_time" value="{$smarty.get.start_time}" /></td>
+                <td><input type="text" class="text laydate-icon" id="end" name="end_time" value="{$smarty.get.end_time}" /></td>
+            </tr>
+            <tr> 
+                <th>分类：</th>
+                <td>
+                    <select name="category" style="width:155px;">
+                        <option value="">——请选择——</option>
+                        {foreach $MenuData.codeConfig.product_category as $v}
+                        <option value="{$v.value}" {if $smarty.get.category == $v.value}selected="selected"{/if}>{$v.name}</option>
+                        {/foreach}
+                    </select>
+                </td>
+                <th>发布时间：</th>
+                <td><input type="text" class="text laydate-icon" id="public" name="public_date" value="{$smarty.get.public_date}" /></td>
+                <td class="option">
+                    <input type="image" src="/public/Admin/img/btn_search.png" />
+                    <img src="/public/Admin/img/btn_reset.png" onclick="searchReset()" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="list_bar">
+        <div class="list_title">{$MenuData.codeConfig.menu.{strtolower($smarty.const.CONTROLLER_NAME)}.sub.{strtolower($smarty.const.ACTION_NAME)}.name}</div>
+        {$pagelist}
+        <div class="clr"></div>
+    </div>
+</form>
+<div class="list">
+    <table>
+        <col width="4%" />
+        <col width="20%" />
+        <col width="10%" />
+        <col width="16%" />
+        <col width="20%"/>
+        <col width="15%"/>
+        <col width="15%"/>     
+        <tr>
+            <th>ID</th>
+            <th>标题</th>
+            <th>分类</th>            
+            <th style="width:60px">缩略图</th>
+            <th>发布时间</th>
+            <th>创建时间</th>
+            <th style="width:15%">操作</th>
+        </tr>
+    </table>  
+    <ul id="tr_list">            
+        {foreach $proList as $row}
+        <li>
+            <table> 
+                <col width="4%" />
+                <col width="20%" />
+                <col width="10%" />
+                <col width="16%" />
+                <col width="20%"/>
+                <col width="15%"/>
+                <col width="15%"/>       
+                <tr>
+                    <td>{$row.id}</td>
+                    <td title="{$row.title}">{if strlen($row.title)>10}{mb_substr($row.title, 0, 10, 'utf-8')}…{else}{$row.title}{/if}</td>
+                    <td>{$MenuData.codeConfig.product_category[$row.category].name}</td>
+                    <td><a class="show_img" href="/Public/upload/{$row.thum_img}" ><img src="/Public/upload/{$row.thum_img}" alt="" width="50" height="50" /></a></td>           
+                    <td>{$row.public_date}</td>
+                    <td>{$row.created}</td>
+                    <td>
+                        <a href="./input?id={$row.id}"><img src="/public/Admin/img/btn_edit.png" /></a>
+                        <a href="./del?id={$row.id}" class="rayu_ajax_confirm" data-msg="删除"><img src="/public/Admin/img/btn_delete.png" /></a>
+                    </td>
+                </tr>
+            </table>
+        </li>
+        {/foreach}
+    </ul>    
+    <div class="page_box">
+        <div class="page_list">        
+            <div id="pagelist_prompt"></div>
+            <div id="pagelist"></div>
+        </div>  
+    </div>
+</div>
+
+{literal} 
+<script>
+    $('.show_img').colorbox({maxHeight: '90%', maxWidth: '90%'});
+    !function () {
+        var start = {
+            elem: '#start',
+            format: 'YYYY-MM-DD hh:mm:ss',
+            max: '2099-06-16 23:59:59',
+            istime: true,
+            istoday: false,
+            choose: function (datas) {
+                end.min = datas;
+                end.start = datas;
+            }
+        };
+        var end = {
+            elem: '#end',
+            format: 'YYYY-MM-DD hh:mm:ss',
+            max: '2099-06-16 23:59:59',
+            istime: true,
+            istoday: false,
+            choose: function (datas) {
+                start.max = datas;
+            }
+        };
+        var public = {
+            elem: '#public',
+            format: 'YYYY-MM-DD',
+            max: '2099-06-16 23:59:59',
+            istoday: false,
+            choose: function (datas) {
+                start.max = datas;
+            }
+        };
+        laydate(start);
+        laydate(end);
+        laydate(public);
+    }();
+</script>
+{/literal}
+{/block}

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>{$smarty.const.PROJECT_NAME}</title>
+        <link rel="stylesheet" type="text/css" href="{$smarty.const.ADMIN_CSS_URL}login.css">
+    </head>
+    <body>
+        <form action="{$smarty.const.__SELF__}" method="post">
+            <div id="login">
+                <table>
+                    <tr>
+                        <th colspan="2" class="title">{$smarty.const.PROJECT_NAME}</th>
+                    </tr>
+                    <tr>
+                        <th>帐号：</th>
+                        <td>
+                            <input type="text" class="text" name="account" value="{$smarty.session.user.account}"/>
+                            <span class="error">{$errors.account}</span>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>密码：</th>
+                        <td>
+                            <input type="password" class="text" name="password" value="{$smarty.session.user.password}"/>
+                            <span class="error">{$errors.password}</span>                           
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" value="登录" name="complete" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </body>
+</html>

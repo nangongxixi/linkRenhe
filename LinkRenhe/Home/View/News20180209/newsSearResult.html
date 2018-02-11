@@ -1,0 +1,214 @@
+{extends "../Common/feigebg.html"}
+{block name="main"}
+
+{literal}
+<style>
+    .content{       
+        margin: 0 auto       
+    }
+    .content .item{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align:center;
+        -webkit-box-align:center;
+        box-align:center;
+        -webkit-align-items:center;
+        align-items:center;
+        padding:3.125%;
+        border-bottom: 1px solid #ddd;
+        color: #333;
+        text-decoration: none;
+    }
+    .content .item img{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border:1px solid #ddd;
+    }
+    .content .item h3{
+        display: block;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 100%;
+        max-height: 40px;
+        overflow: hidden;
+        line-height: 20px;
+        margin: 0 10px;
+        font-size: 1.2rem;
+    }
+    .content .item .date{
+        display: block;
+        height: 20px;
+        line-height: 20px;
+        color: #999;
+    }
+    .opacity{
+        -webkit-animation: opacity 0.3s linear;
+        animation: opacity 0.3s linear;
+    }
+    @-webkit-keyframes opacity {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+    @keyframes opacity {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+</style>
+{/literal}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content">  
+        <div class="top_lanm">
+            <div class="return_img">                
+                <a href="javascript:window.location.href = document.referrer;"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>
+            </div>
+            <div class="details_title middle_center bgcolor" id="newstitle">新闻搜索</div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div> 
+        <div class="sear_box">
+            <input type="text" value="" placeholder="搜索…" class="sear" id="sear"/>
+            <a href="#"><div class="sear_fd"><img src="{$smarty.const.IMG_URL}sear.png" height="16" width="16" id="searImg"></div></a>
+        </div>
+        <div class="clear"></div>
+        <div class="myjob_box">            
+            <div class="content">
+                <div id="wrapper"></div> 
+                <div class="lists"></div>
+            </div>            
+        </div>
+        <div class="clear"></div>
+        <ul>
+            <div id="lei1">
+                <div class="nosear middle_center"><img src="{$smarty.const.IMG_URL}nosear.png"></div>
+            </div>        
+        </ul>
+    </div>
+</div>
+
+{literal}
+
+<script type="text/javascript">
+    $(function () {
+        $(".sear_fd").toggleClass("sear_fd_mov");
+        $(".sear").toggleClass("sear_mov");
+        $("#lei1").css("display", "none");
+        $("#sear").focus();
+        $(".myjob_box").css("background-color", "#f1f1f1");
+        //拉数据
+        //页数 
+        $("#searImg").on("click", function () {
+            $(".myjob_box").css("background-color", "#fff");
+            $("#wrapper").html("");
+            $(".dropload-down").remove();
+            var keyword = $("#sear").val();
+            var typeid = sessionStorage.getItem("typeid");
+            //alert(typeid);
+            var page = 0;
+            $('.content').dropload({
+                scrollArea: window,
+                loadDownFn: function (me) {
+                    page++;
+                    // 拼接HTML
+                    var result = '';
+                    $.ajax({
+                        type: "POST",
+                        url: "../news/newsSearList",
+                        data: {
+                            "keyword": keyword,
+                            "typeid": typeid,
+                            "page": page
+                        },
+                        success: function (msg) {
+                            var msg = msg.replace(/\\n/gm, "<br>"); //把'\n'正则替换成'<br>'
+                            var data = JSON.parse(msg);
+                            /*
+                             if (data.datalist == '') {
+                             $("#wrapper").html("");
+                             $("#wrapper").prepend("<div style='color:#666;text-align:center; line-height:300%'>暂无搜索结果</div>");
+                             }
+                             */
+                            var arrLen = data.datalist.length;
+                            if (arrLen > 0) {
+                                for (var i = 0; i < arrLen; i++) {
+                                    result += '<a href="../news/shownews?id=' + data.datalist[i].id + '&dl=' + data.datalist[i].modeltype + '" style="margin:20px 0px; display: block"><div class="wdinfo_pic left"><img src="' + data.datalist[i].picurls[0].largepic + '" width="120" height="86"></div><div class="news_nei_text"><div class="wdinfo_titile mycollection_title">' + data.datalist[i].title + '</div><div class="news_date">' + data.datalist[i].publishtime + '</div></div></a><div class="clear"></div><div class="news_bottom_nei"></div></a><div class="clear"></div>';
+                                }
+                                ;
+                            } else {
+                                // 锁定
+                                me.lock();
+                                // 无数据
+                                me.noData();
+                            }
+                            // 为了测试，延迟1秒加载
+                            setTimeout(function () {
+                                // 插入数据到页面，放到最后面
+                                $("#wrapper").append(result);
+                                // 每次数据插入，必须重置
+                                me.resetload();
+                            }, 1000);
+                        },
+                        error: function (xhr, type) {
+                            alert('Ajax error!');
+                            // 即使加载出错，也得重置
+                            me.resetload();
+                        }
+                    });
+                }
+            });
+        });
+    });
+    $('#sear').keypress(function (event) {
+        var keyword = $("#sear").val();
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            $.ajax({
+                type: "GET",
+                url: "../news/newsSearList/keyword/" + keyword,
+                success: function (msg) {
+                    //alert(msg);
+                    $("#newstitle").html("搜索结果");
+                    //$(".sear_box").hide();
+                    $("#wrapper").css("display", "block");
+                    //$("#wrapper>ul>li").addClass("myjob_box");
+                    var data = JSON.parse(msg);
+                    if (data.datalist == '') {
+                        $("#wrapper ul").html("");
+                        $("#wrapper ul").prepend("<li><div style='color:#666;text-align:center; line-height:300%'>暂无搜索结果</div></li>");
+                    }
+                    for (var i = 0; i < data.datalist.length; i++) {
+                        $("#wrapper ul").prepend('<li><a href="../news/shownews?id=' + data.datalist[i].id + '"><img src="' + data.datalist[i].picurls[0].largepic + '" width="120" height="86"><div class="game-info"><h1>' + data.datalist[i].title + '</h1><div class="game-info_p">' + data.datalist[i].origin + ' ' + data.datalist[i].publishtime + '</div></div></a></li>');
+                        if ($(".titlen00" + i).text().length > 10) {
+                            $(".titlen00" + i).text($(".titlen00" + i).text().substring(0, 10));
+                            $(".titlen00" + i).html($(".titlen00" + i).html() + "...");
+                        }
+                        if ($(".laiyuanb" + i).text().length > 5) {
+                            $(".laiyuanb" + i).text($(".laiyuanb" + i).text().substring(0, 5));
+                            $(".laiyuanb" + i).html($(".laiyuanb" + i).html() + "...");
+                        }
+                        if (data.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        }
+    });
+
+
+</script>
+{/literal}
+{/block}

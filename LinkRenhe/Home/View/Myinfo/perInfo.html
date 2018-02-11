@@ -1,0 +1,83 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">
+        <div class="top_lanm">
+            <div class="return_img"><a href="../myinfo/index"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">个人信息</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+        <a href="../myinfo/modifyhead">
+            <div class="psdthumb kuan">
+                <div class="psdthumb_title left">头像</div>
+                <li><div class="qq right"><img src="{if $smarty.session.user.headurl=='null'}{$smarty.const.IMG_URL}defauhead.png{else}http://221.10.2.222:5680/api/v1/Files?filename={$smarty.session.user.headurl}{/if}" width="86" height="70"></div></li>
+                <li style="width:22px;overflow:hidden;"><div class="qq right"><img src="{$smarty.const.IMG_URL}jt.png"></div></li>
+            </div>
+        </a>
+        <div class="clear"></div>
+            <div class="only_line"></div> 
+            <div class="clear"></div>
+        <a href="#">
+            <div class="myinfo_lanm kuan">                
+                <div class="myinfo_lanm_title left">姓名</div> 
+                <div class="myinfo_jiant right">&nbsp;</div>
+                <div class="myinfo_lanm_title right myinfo_lanm_name">{$smarty.session.user.consumersname}</div>     
+            </div> 
+        </a>
+        <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>
+        <a href="../myinfo/phone">
+            <div class="myinfo_lanm_tel">
+                <div class="bottom_border kuan">                
+                    <div class="myinfo_lanm_title left">手机号码</div>               
+                    <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                    <div class="myinfo_tel_color right">{$smarty.session.user.phone}</div>
+                </div>
+            </div> 
+        </a>
+        <div class="clear"></div>
+            <div class="only_line"></div> 
+            <div class="clear"></div>
+        <a href="#">
+            <div class="myinfo_lanm kuan">                
+                <div class="myinfo_lanm_title left">身份证号</div>
+                <div class="myinfo_jiant right">&nbsp;</div>
+                <div class="myinfo_lanm_title right myinfo_lanm_name">{$smarty.session.user.idcard}</div>     
+            </div> 
+        </a>
+        <div class="clear"></div>
+            <div class="only_line"></div>       
+            <div class="clear"></div>
+        <a href="../myinfo/address">
+            <div class="myinfo_lanm_tel">
+                <div class="bottom_border kuan">                
+                    <div class="myinfo_lanm_title left">地址</div>               
+                    <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                    <div class="myinfo_tel_color right">{$smarty.session.user.address}</div>
+                </div>
+            </div>
+        </a>
+        <div class="clear"></div>
+        <div class="only_line"></div> 
+        <div class="clear"></div>
+        <a href="../myinfo/mailbox">
+            <div class="myinfo_lanm_tel">
+                <div class="bottom_border kuan">                
+                    <div class="myinfo_lanm_title left">邮箱</div>               
+                    <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                    <div class="myinfo_tel_color right">{$smarty.session.user.mailbox}</div>
+                </div>
+            </div>
+        </a>
+       </div>
+       <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+    </div>
+</div>
+
+{/block}

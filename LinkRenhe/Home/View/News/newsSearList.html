@@ -1,0 +1,58 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">搜索结果</div>
+        </div>
+        <div class="clear"></div>              
+        {foreach $newsList.datalist as $k=>$v}            
+        {if $smarty.get.page==1 && $k==0}      
+        <div class="myjob_box">            
+            <a href="../news/shownews?id={$v.id}">
+                <div class="tscl_title news_title">{$v.title}</div>
+                <ul>                        
+                    {for $a=0;$a<=2;$a++}                                                   
+                    <li class="left {if $a==2}news_pic_right{else}news_pic_left{/if}"><img src="{$v.picurls[$a].largepic}" width='120' height="86"></li>                   
+                    {/for}
+                </ul>
+            </a>
+            <div class="clear"></div>
+            <div class="news_date_box">
+                <div class="news_date">{$v.origin} {substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</div>
+            </div>        
+            {else}       
+            <div class="clear"></div>
+            <div class="news_bottom_nei"></div>        
+            <div class="clear"></div>        
+            <a href="../news/shownews?id={$v.id}">
+                <div class="wdinfo_pic left"><img src="{if $v.picurls[0].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$v.picurls[0].largepic}{/if}" width="120" height="86"></div>
+                <div class="news_nei_text">
+                    <div class="wdinfo_titile mycollection_title">{if strlen($v.title)>11}{mb_substr($v.title,0,11,'utf-8')}…{else}{$v.title}{/if}</div>
+                    <div class="news_date">{if strlen($v.origin)>10}{mb_substr($v.origin,0,10,'utf-8')}…{else}{$v.origin}{/if} {substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</div>
+                </div>
+            </a>            
+            {/if}
+            {/foreach}
+        </div>     
+    </div>
+</div>
+<script>
+    $('#sear').keypress(function (event) {
+        var keyword = $("#sear").val();
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            $.ajax({
+                type: "POST",
+                url: "../news/newsSearList",
+                data: keyword,
+                success: function (msg) {
+                    alert(msg);
+                }
+            });
+        }
+    });
+   
+</script>
+{/block}

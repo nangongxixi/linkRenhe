@@ -1,0 +1,16 @@
+{foreach $MenuData.codeConfig.menu as $k => $v}
+<div class="sidebar">
+    <div class="sidebar_title <{if $c==$controllerName}>active<{/if}>">
+        <p>{$v.name}</p>
+    </div>
+    <ul class="sub_menu">
+        {foreach $v.sub as $kk => $vv}
+        <li {if $k == strtolower($smarty.const.CONTROLLER_NAME) && $kk==strtolower($smarty.const.ACTION_NAME)}class="refresh_tips"{/if}>
+            <a href="../{$k}/{$kk}" class="menu_tips">
+                ※ {$vv.name}
+            </a>
+        </li>
+        {/foreach}
+    </ul>
+</div>
+{/foreach}

@@ -1,0 +1,58 @@
+<{extends "../Common/default.phtml"}>
+{block name="main"}
+<form method="get" name="search_form">
+    <div class="list_bar">
+        <div class="list_title">{$MenuData.codeConfig.menu.{strtolower($smarty.const.CONTROLLER_NAME)}.sub.{strtolower($smarty.const.ACTION_NAME)}.name}</div>       
+        <div class="clr"></div>
+    </div>
+</form>
+<div class="list">
+    <table>
+        <col width="4%" />
+        <col width="30%" />
+        <col width="30%" />
+        <col width="26%" />
+        <col width="10%"/>             
+        <tr>
+            <th>ID</th>
+            <th>账号</th>
+            <th>姓名</th>
+            <th>创建时间</th>
+            <th>操作</th>
+        </tr>
+    </table> 
+    <ul id="tr_list">            
+        {foreach $userInfo as $row}
+        <li> 
+            <table>
+                <col width="4%" />
+                <col width="30%" />
+                <col width="30%" />
+                <col width="26%" />
+                <col width="10%"/>
+                <tr>
+                    <td>{$row.id}</td>
+                    <td>{$row.account}</td>
+                    <td>{$row.name}</td> 
+                    <td>{$row.created}</td>
+                    <td>
+                        <a href="{$smarty.const.__CONTROLLER__}/input?id={$row.id}"><img src="{$smarty.const.ADMIN_IMG_URL}/btn_edit.png" /></a>
+                        {if $session.is_default!=0}
+                        <a href="{$smarty.const.__CONTROLLER__}/del?id={$row.id}" class="rayu_ajax_confirm" data-msg="删除"><img src="{$smarty.const.ADMIN_IMG_URL}/btn_delete.png" /></a>
+                        {/if}
+                    </td>
+                </tr>
+            </table>
+        </li>
+        {/foreach}
+    </ul>        
+    {if $smarty.session.user.is_default==1}
+    <div class="page_box">
+        <div class="page_list">        
+            <div id="pagelist_prompt"></div>
+            <div id="pagelist"></div>
+        </div>  
+    </div>
+    {/if}
+</div>
+{/block}

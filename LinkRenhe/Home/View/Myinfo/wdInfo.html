@@ -1,0 +1,54 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">              
+        <div class="top_lanm details_line">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">我的消息</div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+        <div class="myjob_box">                        
+            <div id="lei1"></div>
+            <div id="lei2"></div> 
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+    </div>
+</div>
+<script>
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../myinfo/wdInfoAction",
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                //var dd = $(".wdinfo_text").text();
+                for (var i = 0; i <= data.datalist.length; i++) {
+                    if (data.datalist[i].isread == 0) {
+                        $("#lei1").prepend("<a href='../myinfo/systemInfo?id=" + data.datalist[i].msgid + "'><div class='kuan wdinfo'><div class='wdinfo_redyuan'></div><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls + "' width='55' height='55'></div><div class='wdinfo_titile' id='biaot'>" + data.datalist[i].title + "</div><div class='titlen" + i + " wdinfo_text' id='content'>" + data.datalist[i].description + "<span id='zis' style='display: none'>…</span></div></div></a><div class='clear'></div><div class='news_bottom_nei'></div><div class='clear'></div>");
+                        if ($(".titlen" + i).text().length > 20) {
+                            $(".titlen" + i).text($(".titlen" + i).text().substring(0, 20));
+                            $(".titlen" + i).html($(".titlen" + i).html() + "...");
+                        }
+                        if(data.datalist[i].picurls==''){
+                            $(".wdinfo_pic img").attr("src",'{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    } else {
+                        $("#lei2").prepend("<a href='../myinfo/systemInfo?id=" + data.datalist[i].msgid + "'><div class='kuan wdinfo'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls + "' width='55' height='55'></div><div class='wdinfo_titile'>" + data.datalist[i].title + "</div><div class='titlen" + i + " wdinfo_text'>" + data.datalist[i].description + "<span id='zis' style='display:none'>…</span></div></div></a><div class='clear'></div><div class='news_bottom_nei'></div><div class='clear'></div>");
+                        if ($(".titlen" + i).text().length > 20) {
+                            $(".titlen" + i).text($(".titlen" + i).text().substring(0, 20));
+                            $(".titlen" + i).html($(".titlen" + i).html() + "...");
+                        }
+                        if(data.datalist[i].picurls==''){
+                            $(".wdinfo_pic img").attr("src",'{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
+{/block}

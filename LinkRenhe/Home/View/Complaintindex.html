@@ -1,0 +1,144 @@
+{extends "../Common/default.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content">
+        <a href="#" data-ajax="false"><img src="{$smarty.const.IMG_URL}banner2x.png" width="100%"></a>
+        <div id="navtab">
+            <ul class="title" >
+                <li class="active">全部</li>
+                <li class="bgcolor">待处理</li>
+                <li class="bgcolor">处理中</li>
+                <li class="bgcolor">待评价</li>
+            </ul>          
+            <ul>                
+                <li>
+                    <div class="clear"></div>
+                    <div class="fenge_one"></div>
+                    <div class="clear"></div>
+                    <div class="myjob_box">                                  
+                        <div class="tscl_content_box">
+                            <div class="tscl_content_img"><img src="{$smarty.const.IMG_URL}tscl2x.png" width="90%" height="80"></div>
+                            <div class="tscl_content_shu">
+                                <div class="tscl_content_title">已经处理完毕</div>
+                                <div class="tscl_content_date">关于XX区城管滥用职权的投诉<br>2016年11月6日 12：31</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="middle_center navtab_button_box">
+                            <a href="../complaints/evaluation" class="navtab_button right"><div class="pj">评价</div></a>                        
+                            <a href="details" class="navtab_button right">详情</a>                        
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="fenge_one"></div>
+                    <div class="clear"></div>
+                    <div class="myjob_box">                      
+                        <div class="tscl_content_box">
+                            <div class="tscl_content_img"><img src="{$smarty.const.IMG_URL}tscl2x.png" width="90%" height="80"></div>
+                            <div class="tscl_content_shu">
+                                <div class="tscl_content_title">正在调查处理</div>
+                                <div class="tscl_content_date">关于XX区城管滥用职权的投诉<br>2016年11月6日 12：31</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="middle_center navtab_button_box">                        
+                            <a href="details" class="navtab_button right "><div class="xq">详情</div></a>
+                            <a href="../complaints/cancelcomplaint" class="navtab_button right">取消投诉</a>
+                        </div>                      
+                    </div>
+                    <div class="clear"></div>
+                    <div class="fenge_one"></div>
+                    <div class="clear"></div>
+                    <div class="myjob_box">                       
+                        <div class="tscl_content_box">
+                            <div class="tscl_content_img"><img src="{$smarty.const.IMG_URL}tscl2x.png" width="90%" height="80"></div>
+                            <div class="tscl_content_shu">
+                                <div class="tscl_content_title">已经处理完毕</div>
+                                <div class="tscl_content_date">关于XX区城管滥用职权的投诉<br>2016年11月6日 12：31</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="middle_center navtab_button_box ">
+                            <a href="../complaints/evaluation" class="navtab_button right"><div class="pjx">评价</div></a>                        
+                            <a href="../complaints/details" class="navtab_button right">详情</a>                        
+                        </div>                       
+                    </div>
+                    <div class="clear"></div>
+                    <div class="only_line"></div>        
+                    <div class="clear"></div>
+                </li>
+                <li style="display:none">
+                    <div class="clear"></div>
+                    <div class="fenge_one"></div>
+                    <div class="clear"></div>
+                    <div class="myjob_box">                                  
+                        <div class="tscl_content_box">
+                            <div class="tscl_content_img"><img src="{$smarty.const.IMG_URL}tscl2x.png" width="90%" height="80"></div>
+                            <div class="tscl_content_shu">
+                                <div class="tscl_content_title">已经处理完毕</div>
+                                <div class="tscl_content_date">关于XX区城管滥用职权的投诉<br>2016年11月6日 12：31</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="middle_center navtab_button_box">
+                            <a href="../complaints/evaluation" class="navtab_button right"><div class="pj">评价</div></a>                        
+                            <a href="details" class="navtab_button right">详情</a>                        
+                        </div>
+                    </div>
+                    <div class="clear"></div>   
+                </li>
+                <li style="display:none">
+                    <div class="clear"></div>
+                    <div class="fenge_one"></div>
+                    <div class="clear"></div>
+                    <div class="myjob_box">                      
+                        <div class="tscl_content_box">
+                            <div class="tscl_content_img"><img src="{$smarty.const.IMG_URL}tscl2x.png" width="90%" height="80"></div>
+                            <div class="tscl_content_shu">
+                                <div class="tscl_content_title">正在调查处理</div>
+                                <div class="tscl_content_date">关于XX区城管滥用职权的投诉<br>2016年11月6日 12：31</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="middle_center navtab_button_box">                        
+                            <a href="details" class="navtab_button right "><div class="xq">详情</div></a>
+                            <a href="../complaints/cancelcomplaint" class="navtab_button right">取消投诉</a>
+                        </div>                      
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li style="display:none">
+                    <div class="clear"></div>
+                    <div class="fenge_one"></div>
+                    <div class="clear"></div>
+                    <div class="myjob_box">                       
+                        <div class="tscl_content_box">
+                            <div class="tscl_content_img"><img src="{$smarty.const.IMG_URL}tscl2x.png" width="90%" height="80"></div>
+                            <div class="tscl_content_shu">
+                                <div class="tscl_content_title">已经处理完毕</div>
+                                <div class="tscl_content_date">关于XX区城管滥用职权的投诉<br>2016年11月6日 12：31</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="middle_center navtab_button_box ">
+                            <a href="../complaints/evaluation" class="navtab_button right"><div class="pjx">评价</div></a>                        
+                            <a href="../complaints/details" class="navtab_button right">详情</a>                        
+                        </div>                       
+                    </div>
+                    <div class="clear"></div>
+                </li>
+            </ul>
+        </div>
+    </div>        
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#navtab .title li").click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            var index = $(this).index();
+            var li = $(this).parent().next().children();
+            $(li[index]).show().siblings().hide();
+        });
+    });
+</script>
+{/block}

@@ -1,0 +1,230 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="http://renhewx.sczmgk.com:9788/index.php/Home/myinfo/mycollection" ><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor" id="newstitle">我的收藏</div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>        
+        <div class="sear_box">
+            <input type="text" value="" placeholder="搜索…" class="sear" id="sear"/>
+            <a href="#"><div class="sear_fd"><img src="{$smarty.const.IMG_URL}sear.png" height="16" width="16" id="searImg"></div></a>
+        </div>        
+        <div class="clear"></div>
+        <div class="myjob_box">           
+        </div>       
+    </div>
+</div>
+<script type="text/javascript">
+
+    $('#sear').keypress(function (event) {
+        $(".myjob_box").css("background-color","#fff");
+        var keyword = $("#sear").val();
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            $.ajax({
+                type: "GET",
+                url: "../myinfo/mycollNewsSearList/keyword/" + keyword,
+                success: function (msg) {
+                    $("#newstitle").html("搜索结果");
+                    $(".myjob_box").html("");                   
+                    var data = JSON.parse(msg);
+                    for (var i = 0; i <= data.datalist.length; i++) {
+                        $(".myjob_box").prepend("<a href='../news/shownews/dl/0/id/" + data.datalist[i].id + "'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile mycollection_title titlensea" + i + "'>" + data.datalist[i].title + "</div><div class='news_date'><span class='laiyuan" + i + "'>" + data.datalist[i].origin + '</span> ' + data.datalist[i].publishtime + "</div></div></a><div class='clear'></div><div class='news_bottom_nei'></div><div class='clear'></div>");
+                        if ($(".titlensea" + i).text().length > 10) {
+                            $(".titlensea" + i).text($(".titlensea" + i).text().substring(0, 10));
+                            $(".titlensea" + i).html($(".titlensea" + i).html() + "...");
+                        }
+                        if ($(".laiyuan" + i).text().length > 5) {
+                            $(".laiyuan" + i).text($(".laiyuan" + i).text().substring(0, 5));
+                            $(".laiyuan" + i).html($(".laiyuan" + i).html() + "...");
+                        }
+                        if (data.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        }
+    });
+    
+    
+    $(document).on("click",".sear_fd_mov",function(){
+        $(".myjob_box").css("background-color","#fff");
+        var keyword = $("#sear").val();       
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/mycollNewsSearList/keyword/" + keyword,
+            success: function (msg) {
+                $("#newstitle").html("搜索结果");
+                $(".myjob_box").html("");               
+                var data = JSON.parse(msg);
+                if(data.datalist==''){
+                    $(".myjob_box").html('<div style="color:#999; text-align:center">没有相关数据……</div>');
+                }
+                for (var i = 0; i <= data.datalist.length; i++) {
+                    $(".myjob_box").prepend("<a href='../news/shownews/dl/0/id/" + data.datalist[i].id + "'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile mycollection_title titlensea" + i + "'>" + data.datalist[i].title + "</div><div class='news_date'><span class='laiyuan" + i + "'>" + data.datalist[i].origin + '</span> ' + data.datalist[i].publishtime + "</div></div></a><div class='clear'></div><div class='news_bottom_nei'></div><div class='clear'></div>");
+                    if ($(".titlensea" + i).text().length > 10) {
+                        $(".titlensea" + i).text($(".titlensea" + i).text().substring(0, 10));
+                        $(".titlensea" + i).html($(".titlensea" + i).html() + "...");
+                    }
+                    if ($(".laiyuan" + i).text().length > 5) {
+                        $(".laiyuan" + i).text($(".laiyuan" + i).text().substring(0, 5));
+                        $(".laiyuan" + i).html($(".laiyuan" + i).html() + "...");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                    }
+                }
+            }
+        });
+        
+    });
+    
+
+    $(function () {
+        $(".sear_fd").toggleClass("sear_fd_mov");
+        $(".sear").toggleClass("sear_mov");       
+        $("#sear").focus();        
+        $(".myjob_box").css("background-color","#f1f1f1");
+        
+        $("#navtab .title li").click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            var index = $(this).index();
+            var li = $(this).parent().next().children();
+            $(li[index]).show().siblings().hide();
+            //var lid = $(".active").attr("id");            
+        });
+
+       
+
+        $("#all0").click(function () {
+            $("#lei0").html("");
+            $.ajax({
+                type: "GET",
+                url: "../myinfo/myCollectionAction/id/0",
+                success: function (msg) {
+                    var data = JSON.parse(msg);
+                    //var liNum = $(".lilie>li").index();
+                    if (data.datalist == '') {
+                        $("#lei0").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                    }
+                    for (var i = 0; i < data.datalist.length; i++) {
+                        $("#lei0").prepend("\
+                            <a href='../news/shownews/dl/0/id/" + data.datalist[i].id + "'><div class='wdinfo'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile titlen00" + i + " mycollection_title'>" + data.datalist[i].title + "</div><div class='news_date'><span class='laiyuanb" + i + "'>" + data.datalist[i].origin + '</span> ' + data.datalist[i].publishtime + "</div></div></div></a><div class='clear'></div><div class='news_bottom_nei '></div><div class='clear'></div> ");
+                        if ($(".titlen00" + i).text().length > 10) {
+                            $(".titlen00" + i).text($(".titlen00" + i).text().substring(0, 10));
+                            $(".titlen00" + i).html($(".titlen00" + i).html() + "...");
+                        }
+                        if ($(".laiyuanb" + i).text().length > 5) {
+                            $(".laiyuanb" + i).text($(".laiyuanb" + i).text().substring(0, 5));
+                            $(".laiyuanb" + i).html($(".laiyuanb" + i).html() + "...");
+                        }
+                        if (data.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        });
+
+        $("#all1").click(function () {
+            $("#lei1").html("");
+            $.ajax({
+                type: "GET",
+                url: "../myinfo/myCollectionAction/id/1",
+                success: function (msg) {
+                    var data = JSON.parse(msg);
+                    //var liNum = $(".lilie>li").index();
+                    if (data.datalist == '') {
+                        $("#lei1").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                    }
+                    for (var i = 0; i < data.datalist.length; i++) {
+                        $("#lei1").prepend("\
+                            <a href='../news/shownews/dl/1/id/" + data.datalist[i].id + "'><div class='wdinfo'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile titlen1" + i + " mycollection_title'>" + data.datalist[i].title + "</div><div class='news_date'><span class='laiyuanc" + i + "'>" + data.datalist[i].origin + '</span> ' + data.datalist[i].publishtime + "</div></div></div></a><div class='clear'></div><div class='news_bottom_nei '></div><div class='clear'></div> ");
+                        if ($(".titlen1" + i).text().length > 10) {
+                            $(".titlen1" + i).text($(".titlen1" + i).text().substring(0, 10));
+                            $(".titlen1" + i).html($(".titlen1" + i).html() + "...");
+                        }
+                        if ($(".laiyuanc" + i).text().length > 5) {
+                            $(".laiyuanc" + i).text($(".laiyuanc" + i).text().substring(0, 5));
+                            $(".laiyuanc" + i).html($(".laiyuanc" + i).html() + "...");
+                        }
+                        if (data.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        });
+
+        $("#all2").click(function () {
+            $("#lei2").html("");
+            $.ajax({
+                type: "GET",
+                url: "../myinfo/myCollectionAction/id/2",
+                success: function (msg) {
+                    var data = JSON.parse(msg);
+                    //var liNum = $(".lilie>li").index();
+                    if (data.datalist == '') {
+                        $("#lei2").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                    }
+                    for (var i = 0; i < data.datalist.length; i++) {
+                        $("#lei2").prepend("\
+                            <a href='../news/shownews/dl/2/id/" + data.datalist[i].id + "'><div class='wdinfo'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile titlen2" + i + " mycollection_title'>" + data.datalist[i].title + "</div><div class='news_date'><span class='laiyuand" + i + "'>" + data.datalist[i].origin + '</span> ' + data.datalist[i].publishtime + "</div></div></div></a><div class='clear'></div><div class='news_bottom_nei '></div><div class='clear'></div> ");
+                        if ($(".titlen2" + i).text().length > 10) {
+                            $(".titlen2" + i).text($(".titlen2" + i).text().substring(0, 10));
+                            $(".titlen2" + i).html($(".titlen2" + i).html() + "...");
+                        }
+                        if ($(".laiyuand" + i).text().length > 5) {
+                            $(".laiyuand" + i).text($(".laiyuand" + i).text().substring(0, 5));
+                            $(".laiyuand" + i).html($(".laiyuand" + i).html() + "...");
+                        }
+                        if (data.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        });
+
+        $("#all14").click(function () {
+            $("#lei14").html("");
+            $.ajax({
+                type: "GET",
+                url: "../myinfo/myCollectionAction/id/3",
+                success: function (msg) {
+                    var data14 = JSON.parse(msg);
+                    //var liNum = $(".lilie>li").index();
+                    if (data14.datalist == '') {
+                        $("#lei14").html("<p style='padding:10px 0px 25px 20px; color:#666'>暂无信息！</p>");
+                    }
+
+
+                    for (var i = 0; i < data14.datalist.length; i++) {
+
+                        $("#lei14").prepend("\
+                            <a href='../news/shownews/dl/14/id/" + data14.datalist[i].id + "'><div class='wdinfo'><div class='wdinfo_pic left'><img src='" + data14.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile titlen14" + i + " mycollection_title'>" + data14.datalist[i].title + "</div><div class='news_date'><span class='laiyuane" + i + "'>" + data14.datalist[i].origin + '</span> ' + data14.datalist[i].publishtime + "</div></div></div></a><div class='clear'></div><div class='news_bottom_nei '></div><div class='clear'></div> ");
+                        if ($(".titlen14" + i).text().length > 10) {
+                            $(".titlen14" + i).text($(".titlen14" + i).text().substring(0, 10));
+                            $(".titlen14" + i).html($(".titlen14" + i).html() + "...");
+                        }
+                        if ($(".laiyuane" + i).text().length > 5) {
+                            $(".laiyuane" + i).text($(".laiyuane" + i).text().substring(0, 5));
+                            $(".laiyuane" + i).html($(".laiyuane" + i).html() + "...");
+                        }
+                        if (data14.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        });
+
+    });
+</script>
+
+{/block}

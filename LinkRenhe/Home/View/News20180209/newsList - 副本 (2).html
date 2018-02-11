@@ -1,0 +1,78 @@
+{extends "../Common/defaultJamp.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img">
+                {if empty($smarty.session.user.userid)}
+                <a href="../../../../../index/index"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>
+                {else}
+                <a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>
+                {/if}
+            </div>
+            <div class="details_title middle_center bgcolor" id="newstitle">
+                {if $smarty.get.id ==1}新闻{/if}
+                {if $smarty.get.id ==2}公告{/if}
+                {if $smarty.get.id ==31}办事指南{/if}
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div> 
+        <div class="sear_box">
+            <input type="text" value=""  placeholder="请输入关键字…" class="sear" id="sear"/>
+            <!--<a href="#"><div class="sear_fd"><img src="{$smarty.const.IMG_URL}sear.png" height="16" width="16"></div></a>-->
+        </div> 
+        <div class="clear"></div> 
+
+        <div class="myjob_box" id="wrapper">
+            {foreach $newsList.datalist as $k=>$v}
+            {if $v.type==1} 
+            <a href="../../../../../news/shownews/dl/{$smarty.get.id}/id/{$v.id}">
+                <div class="tscl_title news_title">{if strlen($v.title)>16}{mb_substr($v.title,0,16,'utf-8')}…{else}{$v.title}{/if}</div>
+                <ul>                        
+                    {for $a=0;$a<=2;$a++}                                                   
+                    <li class="left {if $a==2}news_pic_right{else}news_pic_left{/if}"><img src="{if $v.picurls[$a].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$v.picurls[$a].largepic}{/if}" width='120' height="86"></li>                   
+                    {/for}
+                </ul>
+            </a>
+            <div class="clear"></div>
+            <div class="news_date_box">
+                <div class="news_date">{if strlen($v.origin)>20}{mb_substr($v.origin,0,20,'utf-8')}…{else}{$v.origin}{/if} {substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</div>
+            </div> 
+            {if $k+1 < count($newsList.datalist)}
+            <div class="clear"></div>
+            <div class="news_bottom_nei"></div>        
+            <div class="clear"></div>
+            {/if}
+            {else}
+            <a href="../../../../../news/shownews/dl/{$smarty.get.id}/id/{$v.id}">
+                <div class="wdinfo_pic left"><img src="{if $v.picurls[0].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$v.picurls[0].largepic}{/if}" width="120" height="86"></div>
+                <div class="news_nei_text">
+                    <div class="wdinfo_titile mycollection_title">{if strlen($v.title)>11}{mb_substr($v.title,0,11,'utf-8')}…{else}{$v.title}{/if}</div>
+                    <div class="news_date">{if strlen($v.origin)>10}{mb_substr($v.origin,0,10,'utf-8')}…{else}{$v.origin}{/if} {substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</div>
+                </div>
+            </a>
+            {if $k+1 < count($newsList.datalist)}
+            <div class="clear"></div>
+            <div class="news_bottom_nei"></div>        
+            <div class="clear"></div>
+            {/if}
+            {/if}
+            {/foreach}
+        </div>     
+    </div>
+</div>
+<script>
+    $("#sear").focus(function(){
+        location.href="../../../../../news/newsSearResult";
+    });   
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../news/newsList"
+        });
+    });
+
+</script>
+{/block}

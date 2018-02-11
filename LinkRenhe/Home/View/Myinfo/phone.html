@@ -1,0 +1,99 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">            
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">修改手机号码</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <div class="myinfo_lanm">
+                <!--
+                <div class="phone_del right">
+                    <img src="{$smarty.const.IMG_URL}by.png">
+                    <img src="{$smarty.const.IMG_URL}zy.png" style="display:none">
+                </div>
+                -->
+                <div class="phone_title left">登录密码</div>           
+                <div class="phone_box left">                
+                    <input type="password" value="" placeholder="请输入8-12位密码" id="dlpwd" class="phone_input del0" style="padding-left:5%"/>                    
+                </div> 
+                <div class="yanz0" style="display: none" id="del0"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+            </div>            
+        </div>
+        <div class="clear"></div>        
+        <div class="phone_next_box ">
+            <div class="tousReview_submit" id="submit">下一步</div>                
+        </div> 
+    </div>
+</div>
+
+<script>
+    
+    //删除输入
+    $(".yanz0").click(function () {
+        $(".del0").val('');
+    });
+    $("#dlpwd").keyup(function () {
+        var dlpwd = $("#dlpwd").val();
+        if (dlpwd != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#del0").click(function () {
+        var dlpwd = $("#dlpwd").val();
+        if (dlpwd != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+
+    
+    
+    $("#submit").click(function () {
+        var dlpwd = $("#dlpwd").val();
+        //非空验证 
+        if (dlpwd == '') {
+            layer.open({
+                content: '请输入密码',
+                time: 1,
+                shadeClose: true
+            });
+            return false;
+        }
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/dlpwdAction/pwd/" + dlpwd,
+            success: function (msg) {
+                //alert(msg);
+                if (0 == msg) {
+                    location.href = "../myinfo/modifyPhone";
+                } else {
+                    layer.open({
+                        content: '密码错误',
+                        time: 1,
+                        shadeClose: true
+                    });
+                }
+            }
+        });
+    });
+    $(".phone_deldddddddddddddddddddddd").click(function () {
+        $(".phone_del>img").toggle();
+        var leix = $("#dlpwd").attr("type");
+        if (leix == "password") {
+            $("#dlpwd").attr("type", "text");
+        } else {
+            $("#dlpwd").attr("type", "password");
+        }
+    });
+</script>
+
+
+{/block}

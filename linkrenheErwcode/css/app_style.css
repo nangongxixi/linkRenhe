@@ -1,0 +1,22 @@
+@charset "utf-8";/* CSS Document */
+body,div,dl,dt,dd,ul,li,form,input,button,h1,h2,h3,h4,h5,h6,p{margin:5% auto 0;padding:0;}
+html{overflow-x:hidden;-webkit-text-size-adjust:none;}
+ul,li,dl,dt,dd{display:block;list-style:none;}
+fieldset,img{border:0;}
+body{background-color:#ffffff}
+img{border:0;max-width:100%;display:block;}
+.clear{background:none;border:0;clear:both;display:block;float:none;font-size:0;overflow:hidden;visibility:hidden;width:0;height:0;}
+a{text-decoration:none;outline:none;}
+a:link {text-decoration: none;color: #434242;}
+a:visited {text-decoration: none;color: #434242;}
+a:hover {text-decoration: none;color: #fe7604}
+a:active {text-decoration: none;}
+#page1{background:#fff;overflow:auto;}
+#contt{width:100%;max-width:640px;min-height:400px;overflow:hidden;position: relative;margin:0px auto;padding:0px;background:#fff;-webkit-background-size: contain;background-size: contain;}
+.head{max-width:640px;margin:0px auto;overflow:auto;}
+.logo img{margin:5% auto; width:80%}
+.text_css{color:#777; line-height:180%; text-indent:2em; width:93%; border-top:1px solid #e1e1e1; margin:5% auto 0; padding-top:6%}
+.text_p {text-indent:2em;}
+.phone_box{width:78.5%; margin:8% auto}
+.phone_left{width:47%;float:left; margin:0px auto}
+.phone_right{width:47%;float:right; margin:0px auto}

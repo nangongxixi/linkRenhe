@@ -1,0 +1,11 @@
+.btn{position: relative;overflow: hidden;display:inline-block;*display:inline;cursor:pointer;}
+.btn input {position: absolute;top: 0; right: 0;margin: 0;border: solid transparent;opacity: 0;filter:alpha(opacity=0); cursor: pointer; width:100px; height:100px}
+.progress { position:relative; margin-left:100px; margin-top:-24px; width:200px;padding: 1px; border-radius:3px; display:none}
+.bar {background-color: green; display:block; width:0%; height:20px; border-radius: 3px; }
+.percent { position:absolute; height:20px; display:inline-block; top:3px; left:2%; color:#fff }
+.files{}
+
+.delimg{margin-left:20px; color:#090; cursor:pointer; width: 20px; height: 20px; position: absolute; border: none !important; background: url("../img/del_upload.png") center center no-repeat; top:289px; margin-left: 79px; z-index: 999;}
+#showimg img{ position: absolute; top:289px; margin-left:2px; max-height: 98px;  max-width: 98px}
+#showimg {background-color: red; height:100px; width:100px; line-height: 100px}
+.jia{ width:102px; float:left; margin-right:10px; height:102px; overflow: hidden}

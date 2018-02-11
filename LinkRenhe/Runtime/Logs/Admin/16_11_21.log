@@ -1,0 +1,53 @@
+[ 2016-11-21T09:18:43+08:00 ] 127.0.0.1 /index.php/Admin/news/index
+ERR: 无法加载控制器:News
+
+[ 2016-11-21T09:32:13+08:00 ] 127.0.0.1 /index.php/Admin/news/index
+ERR: 无法加载控制器:News
+
+[ 2016-11-21T09:36:40+08:00 ] 127.0.0.1 /index.php/Admin/admin/index
+ERR: 无法加载控制器:Admin
+
+[ 2016-11-21T09:36:46+08:00 ] 127.0.0.1 /index.php/Admin/admin/input
+ERR: 无法加载控制器:Admin
+
+[ 2016-11-21T09:36:55+08:00 ] 127.0.0.1 /index.php/Admin/admin/index
+ERR: 无法加载控制器:Admin
+
+[ 2016-11-21T09:37:22+08:00 ] 127.0.0.1 /index.php/Admin/index/input
+ERR: 非法操作:input
+
+[ 2016-11-21T16:18:13+08:00 ] 127.0.0.1 /index.php/Admin/product/public/upload/upload_img
+ERR: 非法操作:public
+
+[ 2016-11-21T16:18:52+08:00 ] 127.0.0.1 /index.php/Admin/product/public/upload/upload_img
+ERR: 非法操作:public
+
+[ 2016-11-21T16:30:50+08:00 ] 127.0.0.1 /index.php/Admin/product/%7B$smarty.const.LIB_URL%7Dckeditor/ckeditor.js
+ERR: 非法操作:{$smarty.const.LIB_URL}ckeditor
+
+[ 2016-11-21T16:30:52+08:00 ] 127.0.0.1 /index.php/Admin/product/%7B$smarty.const.LIB_URL%7Dckeditor/ckeditor.js
+ERR: 非法操作:{$smarty.const.LIB_URL}ckeditor
+
+[ 2016-11-21T16:30:59+08:00 ] 127.0.0.1 /index.php/Admin/product/%7B$smarty.const.LIB_URL%7Dckeditor/ckeditor.js
+ERR: 非法操作:{$smarty.const.LIB_URL}ckeditor
+
+[ 2016-11-21T16:31:00+08:00 ] 127.0.0.1 /index.php/Admin/product/%7B$smarty.const.LIB_URL%7Dckeditor/ckeditor.js
+ERR: 非法操作:{$smarty.const.LIB_URL}ckeditor
+
+[ 2016-11-21T16:37:55+08:00 ] 127.0.0.1 /index.php/Admin/product/upload_img
+ERR: 非法操作:upload_img
+
+[ 2016-11-21T17:18:37+08:00 ] 127.0.0.1 /index.php/Admin/product/del?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0156s ]
+SQL: UPDATE `tb_product` SET `deleted`='1' WHERE `id` = 4 [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T18:07:19+08:00 ] 127.0.0.1 /index.php/Admin/product/input
+ERR: Syntax Error in template "./ProName/Admin/View\Product\input.html"  on line 31 "{error_tip errors=$errors name=&quot;title&quot; tag=&quot;span&quot;}" unknown tag "error_tip"
+

@@ -1,0 +1,339 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">              
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">在线投诉</div>
+             <div class="clear"></div>
+            <div class="online_history"><a href="../complaints/index"><img src="{$smarty.const.IMG_URL}history.png" height="27"></a></div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box">
+            <div class="news_lanm_content_box">     
+                <div class="myinfo_lanm kuan">                
+                    <div class="phone_title left">投诉标题：</div>           
+                    <div class="phone_modify_box left online_box"><input type="text" value="" placeholder="投诉事件的标题" class="phone_input del0" id="titile"/>
+                    </div>
+                 
+                    <div class="yanz0" style="display: none" id="del0"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="only_line"></div>
+                <div class="clear"></div>
+                <div class="myinfo_lanm kuan">
+                    <div class="phone_title left">事发时间：</div>           
+                    <div class="phone_modify_box left online_box"><input type="text" value="" placeholder="请选择事发时间" class="phone_input del1" id="scroller" />                          
+                    </div> 
+                    <div class="myinfo_jiant right myinfo_jiant1"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                
+                    <div class="yanz1" style="display: none" id="del1"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="only_line"></div>        
+                <div class="clear"></div>  
+                <div class="myinfo_lanm kuan">                
+                    <div class="phone_title left">事发区域：</div>           
+                    <div class="phone_modify_box left online_box"><input type="text" value="仁和区" onfocus=this.blur() placeholder="请输入事发区域" class="phone_input del2" id="area"/>
+                    </div>
+                     <div class="yanz2" style="display: none" id="del2"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                 
+                </div>
+                <div class="clear"></div>
+                <div class="only_line"></div>        
+                <div class="clear"></div> 
+                <div class="myinfo_lanm kuan">                
+                    <div class="phone_title left">详细地址：</div>           
+                    <div class="phone_modify_box left online_box"><input type="text" value="" placeholder="不必重复填写省市区信息" class="phone_input del3" id="address"/>                           
+                    </div>               
+                    <div class="yanz3" style="display: none" id="del3"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="only_line"></div>        
+                <div class="clear"></div> 
+                <div class="myinfo_lanm kuan online_border">                
+                    <div class="phone_title left">投诉内容：</div>           
+                    <div class="online_box left online_box_pad ">
+                        <textarea name="content" class="online_text_box phone_input del4" id="textarea" placeholder="请填写事件的具体内容…"></textarea>                                
+                    </div>
+                    <div class="yanz4" style="display: none" id="del4"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                    <div class="clear"></div>
+                    <div class="mycollection_line" style="margin-bottom: 15px"></div>
+                    <div class="clear"></div>
+                    <div class="upload_img_box">
+                        <input type="file" id="uploadphoto" name="uploadfile" style="display:none;" />                    
+                        <div class="imglist"></div> 
+                        <div class="upimg_defau"><img src="{$smarty.const.IMG_URL}upimg.png" onclick="uploadphoto.click()" width="80" height="80"></div>                     
+                    </div>
+                    
+                </div> 
+            </div>
+        </div>  
+        <div class="clear"></div>           
+        <div class="phone_next_box"><div class="tousReview_submit middle_center" style="display: block" id="submit"/>提交</div></div>
+    </div>
+</div>
+<script type="text/javascript">
+    
+    //删除输入
+    $(".yanz0").click(function () {
+        $(".del0").val('');
+    });
+    $(".yanz1").click(function () {
+        $(".del1").val('');
+    });
+    $(".yanz2").click(function () {
+        $(".del2").val('');
+    });
+    $(".yanz3").click(function () {
+        $(".del3").val('');
+    });
+    $(".yanz4").click(function () {
+        $(".del4").val('');
+    });
+
+    $("#titile").keyup(function () {
+        var titile = $("#titile").val();
+        if (titile != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#scroller").keyup(function () {
+        var scroller = $("#scroller").val();
+        if (scroller != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+    $("#area").keyup(function () {
+        var area = $("#area").val();
+        if (area != '') {
+            $("#del2").css("display", "block");
+        } else {
+            $("#del2").css("display", "none");
+        }
+    });
+    $("#address").keyup(function () {
+        var address = $("#address").val();
+        if (address != '') {
+            $("#del3").css("display", "block");
+        } else {
+            $("#del3").css("display", "none");
+        }
+    });
+    $("#textarea").keyup(function () {
+        var textarea = $("#textarea").val();
+        if (textarea != '') {
+            $("#del4").css("display", "block");
+        } else {
+            $("#del4").css("display", "none");
+        }
+    });
+
+    $("#del0").click(function () {
+        var titile = $("#titile").val();
+        if (titile != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#del1").click(function () {
+        var scroller = $("#scroller").val();
+        if (scroller != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+    $("#del2").click(function () {
+        var area = $("#area").val();
+        if (area != '') {
+            $("#del2").css("display", "block");
+        } else {
+            $("#del2").css("display", "none");
+        }
+    });
+    $("#del3").click(function () {
+        var address = $("#address").val();
+        if (address != '') {
+            $("#del3").css("display", "block");
+        } else {
+            $("#del3").css("display", "none");
+        }
+    });
+    $("#del4").click(function () {
+        var textarea = $("#textarea").val();
+        if (textarea != '') {
+            $("#del4").css("display", "block");
+        } else {
+            $("#del4").css("display", "none");
+        }
+    });
+    
+    
+    $("#submit").click(function () {
+        var userid = "{$smarty.session.user.userid}";
+        var titile = $("#titile").val();
+        var area = $("#area").val();
+        var position = '';
+        var address = $("#address").val();
+        var textarea = $("#textarea").val();
+        var imglist = $(".imglist>img").length;
+        var piclist = '';
+        var operationtime = $("#scroller").val();//事发时间
+        var type = 2;
+
+        //非空验证        
+        if (titile == '') {
+            layer.open({
+                content: '标题不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (scroller == '') {
+            layer.open({
+                content: '请选择时间',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (area == '') {
+            layer.open({
+                content: '区域不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (address == '') {
+            layer.open({
+                content: '地址不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (textarea == '') {
+            layer.open({
+                content: '内容不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (imglist < 1) {
+            layer.open({
+                content: '请至少上传一张图片',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+
+        $(".imglist_img").each(function ()
+        {
+            piclist += ',' + $(this).attr("src");
+        });
+        $.ajax({
+            type: "POST",
+            url: "../Online/OnlineAction",
+            data: {
+                "userid": userid,
+                "title": titile,
+                "area": area,
+                "position": "",
+                "address": address,
+                "content": textarea,
+                "picurls": piclist,
+                "operationtime": operationtime,
+                "type": type
+            },
+            //data: '*title*' + titile + '*scroller*' + scroller + '*area*' + area + '*address*' + address + '*textarea*' + textarea + '*piclist*' + piclist,
+            success: function (msg) {
+                alert(msg);
+                var data = JSON.parse(msg);
+                if (data.result == 1) {                    
+                    layer.open({
+                        btn: ['确定'],
+                        content: '您的投诉已提交，我们会电话通知您的受理情况！',
+                        shadeClose: true, //默认：true，是否点击遮罩时关闭层                
+                        yes: function () {
+                            location.href = "../Complaints/index";
+                        }
+                    });
+                } else {
+                    layer.open({
+                        shadeClose: false, //默认：true，是否点击遮罩时关闭层
+                        content: '<div style="text-align:center">请检查您的填写</div>',
+                        time: 2
+                    });
+                }
+
+            }
+        });
+    });
+    $(function () {
+        //图片上传
+        $('#uploadphoto').localResizeIMG({
+            width: 400,
+            quality: 1,
+            success: function (result) {
+                var submitData = {
+                    base64_string: result.clearBase64,
+                };
+                $.ajax({
+                    type: "POST",
+                    url: "{$smarty.const.LIB_URL}upload.php",
+                    data: submitData,
+                    dataType: "json",
+                    success: function (data) {
+                        if (0 == data.status) {
+                            return false;
+                        } else {
+                            var attstr = '<img width="80" height="80" class="imglist_img" src="' + '{$smarty.const.LIB_URL}' + data.url + '">';
+                            $(".imglist").append(attstr);
+                            return false;
+                        }
+                    },
+                    complete: function (XMLHttpRequest, textStatus) {
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) { //上传失败 
+                        alert(' 请检查您的图片大小和格式');
+                    }
+                });
+            }
+        });
+        //时间选择器
+        $("#scroller").mobiscroll().date();
+        var currYear = (new Date()).getFullYear();
+        //初始化日期控件
+        var opt = {
+            preset: 'date', //日期，可选：date\datetime\time\tree_list\image_text\select
+            theme: 'default', //皮肤样式，可选：default\android\android-ics light\android-ics\ios\jqm\sense-ui\wp light\wp
+            display: 'modal', //显示方式 ，可选：modal\inline\bubble\top\bottom
+            mode: 'scroller', //日期选择模式，可选：scroller\clickpick\mixed
+            lang: 'zh',
+            dateFormat: 'yyyy-mm-dd', // 日期格式
+            setText: '确定', //确认按钮名称
+            cancelText: '取消', //取消按钮名籍我
+            dateOrder: 'yyyymmdd', //面板中日期排列格式
+            dayText: '日', monthText: '月', yearText: '年', //面板中年月日文字
+            showNow: false,
+            nowText: "今",
+            //startYear: currYear, //开始年份  
+            endYear: currYear + 100 //结束年份  
+                    //endYear:2099 //结束年份
+        };
+        $("#scroller").mobiscroll(opt);
+    });
+</script>
+{/block}

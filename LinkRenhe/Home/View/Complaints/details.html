@@ -1,0 +1,121 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm details_line bgcolor">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">投诉详情</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box"> 
+            <a href="#"> 
+                <div class="details_content_text">                           
+                    投诉标题：<span id="biaoti"></span><br>投诉编号：<span id="tousubh"></span><br>投诉时间：<span id="toususj"></span>
+                </div>
+            </a>
+            <div class="clear"></div>           
+            <div class="clear"></div>
+            <div class="middle_center navtab_button_box">                
+                <a href="../../../complaints/detailsDes/id/{$smarty.get.id}"><div class="details_button right" >更多信息</div></a>
+                <a href="" id="ahref"><div class="details_button right" style="display: none" id="hree">处理结果</div></a>                
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div> 
+        <div class="myjob_box">
+            <div class="details_jindu details_line">
+                <span class="red_block left"><img src="{$smarty.const.IMG_URL}09.png"></span>
+                进度追踪
+            </div>
+            <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>
+            <div class="program_box middle_center" style="display:none">            
+                <ul>               
+                    <li> 
+                        <div class="tscl_content_box">                            
+                            <div class="program_text huixian2">                         
+                                <div class="xian_juli">
+                                    <div id="chulizt"></div>
+                                    <div id="xqxians" style="display:none">
+                                        <a href="../../../complaints/chuliyijian/id/" id="xqhref">
+                                            <div class="program_xq">
+                                                <div class="left">详情</div><div class="left"><img src="{$smarty.const.IMG_URL}more1.png"></div>
+                                            </div>
+                                        </a>
+                                    </div>                                   
+                                    <span id="chuliyj"></span><br><span id="chulisj"></span>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div id="lei1"></div>                                                
+                    </li>
+                </ul>            
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>        
+</div>
+<script type="text/javascript">
+    $(function () {
+        var id = "{$smarty.get.id}";
+        $.ajax({
+            type: "GET",
+            url: "../../../Complaints/ComplaintsDetailsAction/id/" + id,
+            success: function (msg) {
+                //alert(msg);                
+                var data = JSON.parse(msg);
+                $("#biaoti").html(data.title);
+                $("#tousubh").html(data.id);
+                $("#toususj").html(data.createtime);
+                if (data.status == 4 || data.status == 5 || data.status == 8) {
+                    $("#hree").css("display", "block");
+                }
+            }
+        });
+        //处理进度
+        $.ajax({
+            type: "GET",
+            url: "../../../Complaints/ComplaintsTimelineAction/id/" + id,
+            success: function (msg) {
+                var data = JSON.parse(msg);
+                $("#ahref").attr("href", "../../../complaints/opinions/id/" + data.datalist[0].stepid + "/pid/" + "{$smarty.get.id}");//给“处理结果”按钮赋值
+                //显示“更多”按钮并且给其赋值
+                if (data.datalist[0].status != 0) {
+                    $("#xqxians").css("display", "block");
+                    $("#xqhref").attr("href", "../../../complaints/chuliyijian/id/" + data.datalist[0].stepid);
+                }
+                $("#chulizt").html(data.datalist[0].stepname);
+                $("#chuliyj").html(data.datalist[0].remark);
+                if ($("#chuliyj").text().length > 10) {
+                    $("#chuliyj").text($("#chuliyj").text().substring(0, 10));
+                    $("#chuliyj").html($("#chuliyj").html() + "...");
+                }
+                $("#chulisj").html(data.datalist[0].time);
+				//展示进度信息
+				if(data.result!=0){
+					$(".program_box").css("display","block");
+				}
+				for (var i = 1; i <= data.datalist.length; i++) {				
+					$("#lei1").prepend("<div class='tscl_content_box'><div class='program_text text_color huixian'><div class='xian_juli'>" + data.datalist[i].stepname + "<br /><div class='laiyuan" + i + "'>" + data.datalist[i].remark + "</div>" + data.datalist[i].time + "</div></div></div>");
+					if ($(".laiyuan" + i).text().length > 10) {
+						$(".laiyuan" + i).text($(".laiyuan" + i).text().substring(0, 10));
+						$(".laiyuan" + i).html($(".laiyuan" + i).html() + "...");
+					}
+				}
+				
+            }
+        });
+        $("#navtab .title li").hover(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            var index = $(this).index();
+            var li = $(this).parent().next().children();
+            $(li[index]).show().siblings().hide();
+        });
+    });
+</script>
+{/block}

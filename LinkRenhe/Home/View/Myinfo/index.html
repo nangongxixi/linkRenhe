@@ -1,0 +1,139 @@
+{extends "../Common/default.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content">             
+        <div class="clear"></div> 
+        <div class="headpic_box">
+            <a {if !empty($smarty.session.user.userid)}href="../myinfo/perinfo"{else}onclick="land()"{/if}>            
+                <div class="headpic_xbo">
+                    <div><img src="{if $smarty.session.user.headurl=='null'}{$smarty.const.IMG_URL}defauhead.png{else}http://221.10.2.222:5680/api/v1/Files?filename={$smarty.session.user.headurl}{/if}" class="headpic_img"></div>                    
+                </div>
+                <div class="headpic_name middle_center">{$smarty.session.user.consumersname}</div>
+            </a>
+        </div>           
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <a {if !empty($smarty.session.user.userid)}href="../myinfo/wdinfo"{else}onclick="land()"{/if}>                
+                <div class="myinfo_lanm kuan">
+                    <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/wdxx.png"></div>
+                    <div class="myinfo_lanm_title left">我的消息</div> 
+                    <div style="position: relative"><span style="color:red; position: absolute;color: red;right: 6%;display:none; position: absolute; border-radius: 50%; width: 20px; height: 20px; background-color: red; top: 16px" id="wdxs"><span id="wd" style="line-height: 20px;
+    color: #fff; padding:1px 0 0 6px"></div>
+                    <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                </div> 
+            </a>            
+            <div class="clear"></div>
+            <div class="only_line"></div>       
+            <div class="clear"></div>
+            <a {if !empty($smarty.session.user.userid)}href="../complaints/index"{else}onclick="land()"{/if}>               
+                <div class="myinfo_lanm kuan">
+                    <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/wdts.png"></div>
+                    <div class="myinfo_lanm_title left">我的投诉</div>               
+                    <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                </div> 
+            </a>
+            <div class="clear"></div>
+            <div class="only_line"></div>       
+            <div class="clear"></div>
+            <div class="dengluzdd">
+                <a {if !empty($smarty.session.user.userid)}href="../myinfo/mycollection"{else}onclick="land()"{/if}>
+                    <div class="myinfo_lanm kuan">
+                        <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/wdsc.png"></div>
+                        <div class="myinfo_lanm_title left">我的收藏</div>               
+                        <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                    </div> 
+                </a>
+                <div class="clear"></div>
+                <div class="only_line"></div>          
+                <div class="clear"></div>               
+                {if !empty($smarty.session.user.userid) && $smarty.session.user.consumerstype==1}
+                <a href="../myinfo/myjob">                   
+                    <div class="myinfo_lanm kuan">
+                        <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/wdgz.png"></div>
+                        <div class="myinfo_lanm_title left">我的工作</div>
+                        <div style="position: relative"><span style="color:red; position:absolute; display:none; color: red;right: 6%; position: absolute; border-radius: 50%; width: 20px; height: 20px; background-color: red; top: 16;"  id="wdxs1"><span id="workwd" style="line-height: 20px;
+    color: #fff;
+    padding: 1 0 0 6 "></span></span></div>
+                        <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                    </div> 
+                </a>              
+                <div class="clear"></div>
+                <div class="only_line"></div>         
+                <div class="clear"></div>
+                {/if}                
+                <a href="../myinfo/about">
+                    <div class="myinfo_lanm kuan myinfo_gywm">
+                        <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/gywm.png"></div>
+                        <div class="myinfo_lanm_title left">关于我们</div>               
+                        <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                    </div> 
+                </a>
+            </div>
+        </div>
+
+        {if !empty($smarty.session.user.userid)}
+        <div class="clear"></div>        
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <a {if !empty($smarty.session.user.userid)}href="../myinfo/modifypwd"{else}onclick="land()"{/if}>
+                <div class="myinfo_lanm kuan">
+                    <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/xgmm.png"></div>
+                    <div class="myinfo_lanm_title left">修改密码</div>               
+                    <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+                </div> 
+            </a>
+            <div class="clear"></div>
+            <div class="only_line"></div>       
+            <div class="clear"></div>                 
+            <div class="myinfo_lanm kuan myinfo_tcdl" {if !empty($smarty.session.user.userid)}id="tuichudengl"{else}onclick="land()"{/if}>
+                 <div class="myinfo_headpic left"><img src="{$smarty.const.IMG_URL}nav/tcdl.png"></div>
+                <div class="myinfo_lanm_title left">退出登录</div>               
+                <div class="myinfo_jiant right"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+            </div>                 
+        </div>
+        {/if}
+
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<SCRIPT type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../myinfo/wdInfowdAction",
+            success: function (msg) {                
+                var data = JSON.parse(msg);                
+                if (data.msgcount != 0) {                    
+                    $("#wdxs").css("display","block");
+                    $("#wd").html(data.msgcount);                    
+                }
+                if (data.taskcount != 0) {
+                    $("#wdxs1").css("display","block");
+                    $("#workwd").html(data.taskcount);        
+                }
+            }
+        });
+    });
+
+    $('#tuichudengl').click(function () {
+        layer.open({
+            content: '<div style="text-align:left">退出后将影响部分功能使用，是否确认退出</div>',
+            btn: ['确认', '取消'],
+            shadeClose: true, //默认：true，是否点击遮罩时关闭层            
+            yes: function () {
+                layer.open({
+                    content: '退出成功',
+                    time: 20
+                });
+                location.href = "../login/logout";
+            }
+        });
+    });
+</SCRIPT>
+
+{/block}

@@ -1,0 +1,388 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+{literal}
+
+{/literal}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">              
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">在线投诉</div>
+            <div class="clear"></div>
+            <div class="online_history"><a href="../complaints/index"><img src="{$smarty.const.IMG_URL}history.png" height="27"></a></div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box">
+            <form action="" name="form" method="post" enctype="multipart/form-data">            
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff">
+                    <tbody>                    
+                        <tr>
+                            <td>
+                                <div class="myinfo_lanm kuan">                
+                                    <div class="phone_title left">投诉标题：</div>           
+                                    <div class="phone_modify_box left online_box"><input type="text" name="title" value="" placeholder="投诉事件的标题" class="phone_input del0" id="titile"/>
+                                    </div>                 
+                                    <div class="yanz0" style="display: none" id="del0"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="only_line"></div>
+                                <div class="clear"></div>
+                            </td>                        
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="myinfo_lanm kuan">
+                                    <div class="phone_title left">事发时间：</div>           
+                                    <div class="phone_modify_box left online_box"><input type="text" name="operationtime" value="" placeholder="请选择事发时间" class="phone_input del1" id="scroller" />                          
+                                    </div> 
+                                    <div class="myinfo_jiant right myinfo_jiant1"><img src="{$smarty.const.IMG_URL}jt.png"></div>
+
+                                    <div class="yanz1" style="display: none" id="del1"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="only_line"></div> 
+                            </td>                        
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="myinfo_lanm kuan">                
+                                    <div class="phone_title left">事发区域：</div>           
+                                    <div class="phone_modify_box left online_box"><input type="text" value="仁和区" name="area" onfocus=this.blur() placeholder="请输入事发区域" class="phone_input del2" id="area"/>
+                                    </div>
+                                    <div class="yanz2" style="display: none" id="del2"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="only_line"></div>        
+                                <div class="clear"></div> 
+                            </td>                        
+                        </tr>
+                        <tr>
+                            <td> 
+                                <div class="myinfo_lanm kuan">                
+                                    <div class="phone_title left">详细地址：</div>           
+                                    <div class="phone_modify_box left online_box"><input type="text" value="" name="address" placeholder="不必重复填写省市区信息" class="phone_input del3" id="address"/>                           
+                                    </div>               
+                                    <div class="yanz3" style="display: none" id="del3"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="only_line"></div>        
+                                <div class="clear"></div> 
+
+                            </td> </tr>
+                        <tr>
+                            <td>
+                                <div class="myinfo_lanm kuan online_border">                
+                                    <div class="phone_title left">投诉内容：</div>           
+                                    <div class="online_box left online_box_pad ">
+                                        <textarea name="content" class="online_text_box phone_input del4" id="textarea" placeholder="请填写事件的具体内容…"></textarea>                                
+                                    </div>
+                                    <div class="yanz4" style="display: none" id="del4"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+                                    <div class="clear"></div>
+                                    <div class="mycollection_line" style="margin-bottom: 15px"></div>
+                                    <div class="clear"></div>
+
+                                </div>
+                            </td>
+                        </tr>                      
+                        <tr>
+                            <td align="center" style="padding-top:10px;">
+                                <div class="myinfo_lanm kuan online_border">
+                                    <div class="clear"></div>
+                                    <div class="upload_img_box">
+                                        <input type="hidden" value="" name="imgurl" onfocus=this.blur() id="imgurl"/>
+                                        <input type="file" id="uploadphoto" name="uploadfile" style="display:none;" />                    
+                                        <div class="imglist"></div> 
+                                        <div class="upimg_defau"><img src="{$smarty.const.IMG_URL}upimg.png" onclick="uploadphoto.click()" width="80" height="80"></div>                     
+                                    </div>
+                                </div>
+                                <input type="submit" value="提交" class="tousReview_submit middle_center btn" style="display: block" id="submit">                            
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div> 
+    </div>
+</div>
+<script type="text/javascript">
+
+    //删除输入
+    $(".yanz0").click(function () {
+        $(".del0").val('');
+    });
+    $(".yanz1").click(function () {
+        $(".del1").val('');
+    });
+    $(".yanz2").click(function () {
+        $(".del2").val('');
+    });
+    $(".yanz3").click(function () {
+        $(".del3").val('');
+    });
+    $(".yanz4").click(function () {
+        $(".del4").val('');
+    });
+
+    $("#titile").keyup(function () {
+        var titile = $.trim($("#titile").val());
+        if (titile != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#scroller").keyup(function () {
+        var scroller = $.trim($("#scroller").val());
+        if (scroller != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+    $("#area").keyup(function () {
+        var area = $.trim($("#area").val());
+        if (area != '') {
+            $("#del2").css("display", "block");
+        } else {
+            $("#del2").css("display", "none");
+        }
+    });
+    $("#address").keyup(function () {
+        var address = $.trim($("#address").val());
+        if (address != '') {
+            $("#del3").css("display", "block");
+        } else {
+            $("#del3").css("display", "none");
+        }
+    });
+    $("#textarea").keyup(function () {
+        var textarea = $.trim($("#textarea").val());
+        if (textarea != '') {
+            $("#del4").css("display", "block");
+        } else {
+            $("#del4").css("display", "none");
+        }
+    });
+    $("#del0").click(function () {
+        var titile = $.trim($("#titile").val());
+        if (titile != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#del1").click(function () {
+        var scroller = $.trim($("#scroller").val());
+        if (scroller != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+    $("#del2").click(function () {
+        var area = $.trim($("#area").val());
+        if (area != '') {
+            $("#del2").css("display", "block");
+        } else {
+            $("#del2").css("display", "none");
+        }
+    });
+    $("#del3").click(function () {
+        var address = $.trim($("#address").val());
+        if (address != '') {
+            $("#del3").css("display", "block");
+        } else {
+            $("#del3").css("display", "none");
+        }
+    });
+    $("#del4").click(function () {
+        var textarea = $.trim($("#textarea").val());
+        if (textarea != '') {
+            $("#del4").css("display", "block");
+        } else {
+            $("#del4").css("display", "none");
+        }
+    });
+    //蒋获取的图片列表赋值给一个隐藏域
+    $("#submit").click(function () {
+	var userid = "{$smarty.session.user.userid}";
+        var titile = $.trim($("#titile").val());
+        var area = $.trim($("#area").val());
+        var position = '';
+        var address = $.trim($("#address").val());
+        var textarea = $("#textarea").val();
+        var imglist = $(".imglist>img").length;
+        var piclist = '';
+        var operationtime = $("#scroller").val();//事发时间
+        var type = 2;         
+        //非空验证        
+        if (titile == "") {
+            layer.open({
+                content: '标题不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }       
+        
+        if (operationtime == "") {
+            layer.open({
+                content: '请选择时间',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (area == "") {
+            layer.open({
+                content: '区域不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (address == "") {
+            layer.open({
+                content: '地址不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (textarea == "") {
+            layer.open({
+                content: '内容不能为空',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }        
+        //把上传的图片列表拼接成一个字符串赋值给一个隐藏域
+        var imglist = "";
+        for (var i = 0; i < $(".imglist_img ").length; i++) {
+            imglist += $(".imglist_img ").eq(i).attr("imgurl") + '/';
+        }
+        $("#imgurl").val(imglist);
+        
+        piclist = $("#imgurl").val();  
+        
+        
+        
+	$.ajax({
+            type: "POST",
+            url: "../Online/OnlineAction444",
+            data: {
+                "userid": userid,
+                "title": titile,
+                "area": area,
+                "position": "",
+                "address": address,
+                "content": textarea,
+                "picurls": piclist,
+                "operationtime": operationtime,
+                "type": type
+            },
+            //data: '*title*' + titile + '*scroller*' + scroller + '*area*' + area + '*address*' + address + '*textarea*' + textarea + '*piclist*' + piclist,
+            success: function (msg) {                
+                var data = JSON.parse(msg);
+                //alert(data);
+                if (data.result == 1) {
+                    alert("提交成功");
+                    window.location.href='http://renhewx.sczmgk.com:9788/index.php/Home/Complaints/index';                                
+                    return false;
+                } else {
+                    layer.open({
+                        shadeClose: false, //默认：true，是否点击遮罩时关闭层
+                        content: '<div style="text-align:center">请检查您的填写</div>',
+                        time: 2
+                    });
+                }
+
+            }
+        });
+    });
+
+    //限制图片上传张数
+    $(".upimg_defau").on("click", function () {
+        if ($(".imglist_img").length >= 4) {
+            $(this).find("img").removeAttr("onclick");                        
+        }
+        if ($(".imglist_img").length >= 5) {
+            layer.open({
+                content: '最多只能上传5张图片',
+                time: 1,
+                shadeClose: true
+            });
+        }
+        return false;
+    });
+
+    //图片上传
+    $('#uploadphoto').localResizeIMG({
+        width: 400,
+        quality: 1,
+        success: function (result) {
+            var submitData = {
+                base64_string: result.clearBase64,
+            };
+            $.ajax({
+                type: "POST",
+                url: "{$smarty.const.LIB_URL}upload.php",
+                data: submitData,
+                dataType: "json",
+                success: function (data) {
+                    if (0 == data.status) {
+                        return false;
+                    } else {
+                        var attstr = '<div class="delimgdiv"><img width="80" height="80" class="imglist_img" imgurl="' + data.url + '" src="' + 'http://221.10.2.222:5680/api/v1/Files?filename=' + data.url + '"><div onclick="" class="delimg" rel="' + data.url + '"><img src="{$smarty.const.IMG_URL}del_upimg.png" width="100%"></div></div>';
+                        $(".imglist").append(attstr);
+                        return false;
+                    }
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) { //上传失败 
+                    alert(' 请检查您的图片大小和格式');
+                }
+            });
+        }
+    });
+
+    $(function () {
+        $(document).on("click", ".delimg", function () {
+            $(this).parent().remove();
+        });
+    });
+
+	
+    //时间选择器
+    $("#scroller").mobiscroll().date();
+    var currYear = (new Date()).getFullYear();	
+    //初始化日期控件
+    var opt = {
+        preset: 'date', //日期，可选：date\datetime\time\tree_list\image_text\select
+        theme: 'default', //皮肤样式，可选：default\android\android-ics light\android-ics\ios\jqm\sense-ui\wp light\wp
+        display: 'modal', //显示方式 ，可选：modal\inline\bubble\top\bottom
+        mode: 'scroller', //日期选择模式，可选：scroller\clickpick\mixed
+        lang: 'zh',
+        dateFormat: 'yyyy-mm-dd', // 日期格式
+        setText: '确定', //确认按钮名称
+        cancelText: '取消', //取消按钮名籍我
+        dateOrder: 'yyyymmdd', //面板中日期排列格式
+        dayText: '日', monthText: '月', yearText: '年', //面板中年月日文字
+        showNow: false,
+        nowText: "今",
+        //startYear: currYear, //开始年份  
+        endYear: currYear, //结束年份  		
+        //endYear:2099 //结束年份
+    };
+    $("#scroller").mobiscroll(opt);
+
+	
+	
+	
+    //
+</script>
+{/block}

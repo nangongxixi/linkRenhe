@@ -1,0 +1,248 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">              
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">修改手机号码</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box">
+            <div class="myinfo_lanm"> 
+                <div class="phone_title left">手机号&nbsp;</div> 
+                <div class="phone_modify_checkbox right">
+                    <div style="display:inline"  id="getverify">
+                        <div class="phone_modify_check" id="cxhq">获取验证码</div>                                                
+                    </div>
+                    <div style="diplay:none" id="yanze">
+                        <div class="phone_modify_checkAction"><span id="daojishi">60</span> s</div>
+                    </div>
+                </div> 
+                <div class="phone_modify_box left">
+                    <input type="text" value="" name="phoneyz"  placeholder="请输入手机号" maxlength="11" id="phoneyz"  class="phone_input del"/>
+                </div>       
+                <div class="yanz" style="display: none" id="del"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>      
+            <div class="myinfo_lanm">                
+                <div class="phone_title left">验证码&nbsp;</div>           
+                <div class="phone_modify_box left">
+                    <input type="text" value="" name="vircode" placeholder="请输入验证码" id="vircode" class="phone_input del0"/>             
+                </div>              
+                <div class="yanz0" style="display: none" id="del0"><img src="{$smarty.const.IMG_URL}del.png" class="delinput"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+        <div class="clear"></div>        
+        <div class="phone_next_box ">
+            <div class="phone_next_box login_submit_bgcolor ">
+                <div id="submit2" class="tousReview_submit middle_center"  style="display:none"/>确定</div>   
+                <div id="submithui" class="tousReview_submit middle_center tousReview_submithui"/>确定</div>  
+            </div>               
+        </div>       
+        <div class="huihe"></div>       
+    </div>
+</div>
+<script>
+    //发送验证码
+    $("#getverify").click(function () {
+        var phoneyz = $("#phoneyz").val();
+        //var reg = /\d{11}/;
+        if (phoneyz == '' || phoneyz.length < 11) {
+            layer.open({
+                content: '请输入正确的手机号',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        $.ajax({
+            type: "GET",
+            url: "../login/sendVricode/phoneyz/" + phoneyz+'/controller/modifyPhone',
+            success: function (msg) {
+                if (msg != '' || msg == '-1') {
+                    if ('1' == msg) {
+                        layer.open({
+                            content: '发送成功',
+                            time: 1,
+                            shadeClose: true
+                        });
+                        //验证码倒计时
+                        var phoneyz = $("#phoneyz").val();
+                        if (phoneyz != '') {
+                            $("#getverify").css("display", "none");
+                            setTimeout(jishiqi, 1000);
+                            function jishiqi() {
+                                var dd = $("#daojishi").html();
+                                dd = dd - 1;
+                                $("#daojishi").html(dd);
+                                if (dd == 0) {
+                                    $("#yanze").css("display", "none");
+                                    $("#getverify").css("display", "inline");
+                                    $("#cxhq").html("重新获取");
+                                    $("#daojishi").html("60");
+                                    $("#submit2").css("display", "none");
+                                    $("#submithui").css("display", "block");
+                                }
+                                if (dd > 0) {
+                                    $("#yanze").css("display", "inline");
+                                    $("#submit2").css("display", "block");
+                                    $("#submithui").css("display", "none");
+                                    setTimeout(jishiqi, 1000);
+                                }
+                            }
+                        }
+                    }
+                    if ('-2' == msg) {
+                        layer.open({
+                            content: '手机号未注册',
+                            time: 1,
+                            shadeClose: true
+                        });
+                    }
+                    if ('-3' == msg) {
+                        layer.open({
+                            content: '手机号已注册',
+                            time: 1,
+                            shadeClose: true
+                        });
+                    }
+                    if ('-5' == msg) {
+                        layer.open({
+                            content: '手机号为原来手机号',
+                            time: 1,
+                            shadeClose: true
+                        });
+                    }
+                } else {
+                    layer.open({
+                        content: '获取验证码失败',
+                        time: 1,
+                        shadeClose: true
+                    });
+                }
+            }
+        });
+    });
+    $("#submithui").click(function () {
+        layer.open({
+            content: '请先获取验证码',
+            time: 2,
+            shadeClose: true
+        });
+        return false;
+    });
+    $("#submit2").click(function () {
+        var phoneyz = $("#phoneyz").val();
+        var vircode = $("#vircode").val();
+        if (phoneyz == '') {
+            layer.open({
+                content: '请输入手机号',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (vircode == '') {
+            layer.open({
+                content: '请输入验证码',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        //验证验证码
+        $.ajax({
+            type: "GET",
+            url: "../login/Vricode/phoneyz/" + phoneyz + '/vircode/' + vircode,
+            success: function (msg) {
+                //alert(msg);
+                if ('1' == msg) {
+                    //修改电话号码
+                    $.ajax({
+                        type: "GET",
+                        url: "../myinfo/modyphoneAction/phoneyz/" + phoneyz,
+                        success: function (msg) {
+                            //alert(msg);
+                            if ('1' == msg) {
+                                layer.open({
+                                    content: '修改成功',
+                                    time: 2,
+                                    shadeClose: true,
+                                    success:function(){
+                                       location.href = "../myinfo/index"; 
+                                    }
+                                });
+                                
+                            } else {
+                                layer.open({
+                                    content: '修改失败',
+                                    time: 2,
+                                    shadeClose: true
+                                });
+                            }
+                        }
+                    });
+                } else {
+                    layer.open({
+                        content: '验证码错误',
+                        time: 2,
+                        shadeClose: true
+                    });
+                    return false;
+                }
+            }
+        });
+    });
+    $(".phone_del").click(function () {
+        $(".del").val('');
+    });
+    
+    //删除输入
+    $(".yanz").click(function () {
+        $(".del").val('');        
+    });    
+    $(".yanz0").click(function () {
+        $(".del0").val('');        
+    });
+    $("#phoneyz").keyup(function () {
+        var phoneyz = $("#phoneyz").val();
+        if (phoneyz != '') {
+            $("#del").css("display", "block");
+        } else {
+            $("#del").css("display", "none");
+        }
+    });    
+    $("#vircode").keyup(function () {       
+        var vircode = $("#vircode").val();
+        if (vircode != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#del").click(function () {
+        var phoneyz = $("#phoneyz").val();        
+        if (phoneyz != '') {
+            $("#del").css("display", "block");
+        } else {
+            $("#del").css("display", "none");
+        }       
+    });    
+    $("#del0").click(function () {       
+        var vircode = $("#vircode").val();        
+        if (vircode != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+
+</script>
+{/block}

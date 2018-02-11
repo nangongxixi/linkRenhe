@@ -1,0 +1,14 @@
+
+/* 幻灯片 */
+.hdp-box{position:relative;height:220px;}
+.swipe{width:100%;float:left;overflow: hidden;visibility: visible;position: relative;height:220px;}
+.box01_list{position:relative;-webkit-transition: left 600ms ease-out; width:100%;left:0;}
+.piclist li{text-align:center; height:220px}
+.piclist li img{margin:0 auto;width:100%;height:220px}
+.piclist p{display:none;}
+.title_gun{width:95%;float:left;text-align:left;color:#fff;font-size:14px;height:40px;line-height: 40px; position:absolute; z-index:99; padding-left:5%;bottom:0; background-color:#000;background:rgba(0,0,0,0.4);}
+.count{color:#fff; width:95%;line-height:40px; text-align:right; position:absolute; bottom:0;z-index:999; font-family: "微软雅黑"; font-weight: normal}
+.b_btn{display:block;height:40px;cursor:pointer;line-height:40px;padding:0 10px;border:1px solid #ccc;float:left;background:#f5f5f5;border-radius:5px;}
+.intro{display:none;color:#fff;width:100%;float:left;padding-top:8px;}
+
+

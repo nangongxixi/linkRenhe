@@ -1,0 +1,166 @@
+{extends "../Common/loadmore.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content">  
+        <div class="top_lanm">
+            <div class="return_img">                
+                <a href="javascript:window.location.href = document.referrer;"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a>
+            </div>
+            <div class="details_title middle_center bgcolor" id="newstitle">新闻搜索</div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div> 
+        <div class="sear_box">
+            <input type="text" value="" placeholder="搜索…" class="sear" id="sear"/>
+            <a href="#"><div class="sear_fd"><img src="{$smarty.const.IMG_URL}sear.png" height="16" width="16" id="searImg"></div></a>
+        </div>
+        <div class="clear"></div> 
+        <div id="wrapper"><ul></ul></div>     
+        <div class="clear"></div>
+        <ul>
+            <div id="lei1">
+                <div class="nosear middle_center"><img src="{$smarty.const.IMG_URL}nosear.png"></div>
+            </div>        
+        </ul>
+    </div>
+</div>
+
+{literal}
+
+<script type="text/javascript">
+
+    $('#sear').one("focus", function () {
+        $(".sear_fd").toggleClass("sear_fd_mov");
+        $(".sear").toggleClass("sear_mov");
+        $("#lei1").css("display", "none");
+    });
+
+    $("#searImg").on("click", function () {
+        var keyword = $("#sear").val();
+        $.ajax({
+            type: "GET",
+            url: "../news/newsSearList/keyword/" + keyword,
+            success: function (msg) {
+                //alert(msg);
+                $("#newstitle").html("搜索结果");
+                //$(".sear_box").hide();
+                $("#wrapper").css("display", "block");
+                //$("#wrapper>ul>li").addClass("myjob_box");
+                var data = JSON.parse(msg);
+                if (data.datalist == '') {
+                    $("#wrapper ul").html("");
+                    $("#wrapper ul").prepend("<li><div style='color:#666;text-align:center; line-height:300%'>暂无搜索结果</div></li>");
+                }
+                for (var i = 0; i < data.datalist.length; i++) {
+                    $("#wrapper ul").prepend('<li><a href="../news/shownews/id/' + data.datalist[i].id + '"><img src="' + data.datalist[i].picurls[0].largepic + '" width="120" height="86"><div class="game-info"><h1>' + data.datalist[i].title + '</h1><div class="game-info_p">' + data.datalist[i].origin + ' ' + data.datalist[i].publishtime + '</div></div></a></li>');
+                    if ($(".titlen00" + i).text().length > 10) {
+                        $(".titlen00" + i).text($(".titlen00" + i).text().substring(0, 10));
+                        $(".titlen00" + i).html($(".titlen00" + i).html() + "...");
+                    }
+                    if ($(".laiyuanb" + i).text().length > 5) {
+                        $(".laiyuanb" + i).text($(".laiyuanb" + i).text().substring(0, 5));
+                        $(".laiyuanb" + i).html($(".laiyuanb" + i).html() + "...");
+                    }
+                    if (data.datalist[i].picurls[0].largepic == '') {
+                        $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                    }
+                }
+            }
+        });
+    });
+    //滑屏加载更多搜索结果
+    refresher.init({
+        id: "wrapper", //<------------------------------------------------------------------------------------┐
+        pullDownAction: Refresh,
+        pullUpAction: Load
+    });
+    function Refresh() {
+        setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+            //var el, li, i;
+            //el = document.querySelector("#wrapper ul");
+            //这里写你的刷新代码				
+            //document.getElementById("wrapper").querySelector(".pullDownIcon").style.display = "none";
+            //document.getElementById("wrapper").querySelector(".pullDownLabel").innerHTML = "<img src='/public/Home/css/loadmore/ok.png'/>刷新成功";
+            setTimeout(function () {
+                wrapper.refresh();
+                //document.getElementById("wrapper").querySelector(".pullDownLabel").innerHTML = "";
+            }, 1000);//模拟qq下拉刷新显示成功效果
+            /****remember to refresh after  action completed！ ---yourId.refresh(); ----| ****/
+        }, 1000);
+    }
+
+    var page = 2;
+    function Load() {
+        setTimeout(function () {// <-- Simulate network congestion, remove setTimeout from production!
+            var el, li, i, id;
+            el = document.querySelector("#wrapper ul");
+            //id = document.querySelector("#idval").innerHTML;            
+            $.ajax({
+                type: "GET",
+                url: "newsScrollResult/page/" + page,
+                success: function (msg) {
+                    var data = JSON.parse(msg);
+                    //alert(data.datalist);                    
+                    if (!data.datalist) {
+                        //alert($(".pullUpLabel").html(""));
+                        //$(".pullUpLabel").html("");
+                        $(".pullUpLabel").html("没有更多了…");
+                        //page = $("$smarty.get.page");
+                    }
+                    for (i = 0; i < data.datalist.length; i++) {
+                        li = document.createElement('li');
+                        //li.innerHTML = "<a href='../news/shownews?id=" + data.datalist[i].id + "'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'><div class='game-info'><h1>" + data.datalist[i].title + "</h1><div class='game-info_p'>" + data.datalist[i].origin + ' ' + data.datalist[i].publishtime + "</div></div></a>";
+                        //li.innerHTML ="<a href='../news/shownews?id=" + data.datalist[i].id + "'><div class='wdinfo'><div class='wdinfo_pic left'><img src='" + data.datalist[i].picurls[0].largepic + "' width='120' height='86'></div><div class='news_nei_text'><div class='wdinfo_titile titlen00" + i + " mycollection_title'>" + data.datalist[i].title + "</div><div class='news_date'><span class='laiyuanb" + i + "'>" + data.datalist[i].origin + '</span> ' + data.datalist[i].publishtime + "</div></div></div></a><div class='clear'></div><div class='news_bottom_nei '></div><div class='clear'></div>";
+                        li.innerHTML = '<a href="../news/shownews/id/' + data.datalist[i].id + '"><img src="' + data.datalist[i].picurls[0].largepic + '" width="120" height="86"><div class="game-info"><h1>' + data.datalist[i].title + '</h1><div class="game-info_p">' + data.datalist[i].origin + ' ' + data.datalist[i].publishtime + '</div></div></a>';
+
+                        el.appendChild(li, el.childNodes[0]);
+                    }
+                    wrapper.refresh();
+                    page += 1;
+                }
+            });
+        }, 2000);
+    }
+
+    $('#sear').keypress(function (event) {
+        var keyword = $("#sear").val();
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            $.ajax({
+                type: "GET",
+                url: "../news/newsSearList/keyword/" + keyword,
+                success: function (msg) {
+                    //alert(msg);
+                    $("#newstitle").html("搜索结果");
+                    //$(".sear_box").hide();
+                    $("#wrapper").css("display", "block");
+                    //$("#wrapper>ul>li").addClass("myjob_box");
+                    var data = JSON.parse(msg);
+                    if (data.datalist == '') {
+                        $("#wrapper ul").html("");
+                        $("#wrapper ul").prepend("<li><div style='color:#666;text-align:center; line-height:300%'>暂无搜索结果</div></li>");
+                    }
+                    for (var i = 0; i < data.datalist.length; i++) {
+                        $("#wrapper ul").prepend('<li><a href="../news/shownews/id/' + data.datalist[i].id + '"><img src="' + data.datalist[i].picurls[0].largepic + '" width="120" height="86"><div class="game-info"><h1>' + data.datalist[i].title + '</h1><div class="game-info_p">' + data.datalist[i].origin + ' ' + data.datalist[i].publishtime + '</div></div></a></li>');
+                        if ($(".titlen00" + i).text().length > 10) {
+                            $(".titlen00" + i).text($(".titlen00" + i).text().substring(0, 10));
+                            $(".titlen00" + i).html($(".titlen00" + i).html() + "...");
+                        }
+                        if ($(".laiyuanb" + i).text().length > 5) {
+                            $(".laiyuanb" + i).text($(".laiyuanb" + i).text().substring(0, 5));
+                            $(".laiyuanb" + i).html($(".laiyuanb" + i).html() + "...");
+                        }
+                        if (data.datalist[i].picurls[0].largepic == '') {
+                            $(".wdinfo_pic img").attr("src", '{$smarty.const.IMG_URL}nopic.jpg');
+                        }
+                    }
+                }
+            });
+        }
+    });
+
+
+</script>
+{/literal}
+{/block}

@@ -1,0 +1,601 @@
+[ 2016-11-29T10:01:31+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2016-11-29T13:27:19+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:27:23+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:27:26+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:27:28+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:27:43+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:27:58+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:28:02+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+
+[ 2016-11-29T13:30:13+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:30:14+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:30:15+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:30:19+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:30:20+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:30:20+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:30:20+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:30:21+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:30:21+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:30:40+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:30:41+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:30:41+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:31:12+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:31:13+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:31:13+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:31:39+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file D:\WWW\frame\ProName\Admin\Controller\ProductController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:31:40+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:31:40+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:32:21+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:32:22+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:32:22+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:32:49+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T13:32:50+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:32:50+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T13:33:58+08:00 ] 127.0.0.1 /Admin/product/input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 121 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 126 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: c D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: controllerName D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: category D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 163 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 173 行.
+NOTIC: [8] Undefined index: Errors D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 175 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 182 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 214 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 224 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 239 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 247 行.
+NOTIC: [8] Undefined index: data D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\d73153f736c5f6f75c502bf9dc5803696f0646a3.file.input.html.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-29T13:33:58+08:00 ] 127.0.0.1 /Admin/product/need/laydate.css
+ERR: 非法操作:need
+
+[ 2016-11-29T13:33:59+08:00 ] 127.0.0.1 /Admin/product/skins/default/laydate.css
+ERR: 非法操作:skins
+
+[ 2016-11-29T14:10:06+08:00 ] 127.0.0.1 /Admin/product/input
+ERR: 1146:Table 'frame.tb_tb_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_tb_product`
+
+[ 2016-11-29T14:31:12+08:00 ] 127.0.0.1 /Admin/product/Product/index
+ERR: 非法操作:Product
+
+[ 2016-11-29T14:46:37+08:00 ] 127.0.0.1 /Admin/product/index?title=&start_time=&end_time=&category=2&public_date=&x=24&y=9
+ERR: Syntax Error in template "./ProName/Admin/View\Product\index.html"  on line 63 "&lt;/table&gt;" unclosed {else} tag
+
+[ 2016-11-29T14:51:41+08:00 ] 127.0.0.1 /Admin/product/index?&page=undefined
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-7, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0  order by id desc limit -7, 7
+
+[ 2016-11-29T14:51:49+08:00 ] 127.0.0.1 /Admin/product/index?&page=undefined
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-7, 7' at line 1
+ [ SQL语句 ] :  select * from tb_product where deleted=0  order by id desc limit -7, 7
+

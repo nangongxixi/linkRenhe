@@ -1,0 +1,30 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center">我的评价</div>           
+        </div>       
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box">
+            <div class="evaluinfo" style="color:#666"></div>
+        </div>       
+    </div>
+</div>
+<script type="text/javascript">
+    var id = "{$smarty.get.id}";
+    $.ajax({
+        type: "GET",
+        url: "../../../Complaints/evaluaInfoAction/id/" + id,
+        success: function (msg) {
+            var data = JSON.parse(msg);
+            $(".evaluinfo").html(data.content);
+        }
+    });
+</script>
+{/block}
+
+

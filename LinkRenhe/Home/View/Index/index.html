@@ -1,0 +1,162 @@
+{extends "../Common/default.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" style="background:url('{$smarty.const.IMG_URL}bg_null.jpg')">        
+        <div class="big-pic">
+            <div class="big-pic-in">
+                <div class="pic-list" >
+                    {for $a=0;$a<=1;$a++}
+                    <a href="{$banner[$a].url}" data-ajax="false"><div><img src="{$banner[$a].picurl}" width="100%"></div></a>
+                    {/for}                    
+                </div>
+                <div class="slide-dot">
+                    <span class="slide-dot-cur"></span>
+                    <span ></span>                                              
+                </div>
+            </div>
+        </div>
+        {literal}
+        <style>
+            .big-pic .pic-list {width:200%;}
+            .big-pic .pic-list img {width:50%; height:220px}
+        </style>
+        {/literal}      
+        <div class="clear"></div>
+        <!--栏目-->        
+        <div class="navgation">
+            <ul>
+                <li>                   
+                    <a href="../news/index" rel="external" class="ui-link">
+                        <div class="left"><img src="{$smarty.const.IMG_URL}news2x.png"></div><div class="navname">最新资讯</div> 
+                    </a>
+                </li>
+            </ul>
+            <ul>                
+                <li>
+                    {if $smarty.session.user.userid}
+                    <a href="../online/index" rel="external" class="ui-link">
+                        <div class="left"><img src="{$smarty.const.IMG_URL}zxts_2x.png"></div><div class="navname">在线投诉</div> 
+                    </a>
+                    {else}                    
+                    <div class="left denglu"><img src="{$smarty.const.IMG_URL}zxts_2x.png"></div><div class="navname">在线投诉</div>                    
+                    {/if}
+                </li>
+            </ul>
+            <ul>
+                <li> 
+                    <a href="../wxcode/wxjamp" rel="external" class="ui-link">                       
+                        <div class="left"><img src="{$smarty.const.IMG_URL}znwd_2x.png"></div>
+                        <div class="navname">智能问答</div>                       
+                    </a>                   
+                </li>
+            </ul>
+        </div>
+
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+
+        {if $smarty.session.user.userid && $datainfocom}
+        <div class="myjob_box">
+            <div class="tscl_img"><img src="{$smarty.const.IMG_URL}tscl_2x.png" width="32 height="32"></div>
+            <div class="tscl_text">
+                <div class="tscl_title">投诉处理</div>
+                <div class="tscl_date">{$datainfocom.createtime}</div>
+            </div>
+            <div class="clear"></div>           
+            <a href="../complaints/index">
+                <div class="tscl_content_box">
+                    <div class="tscl_content_img news_pic_left"><img src="{if $datainfocom.picurls[0].largepic==''}{$smarty.const.DEFAULTIMG_URL}{else}{$datainfocom.picurls[0].largepic}{/if}" width="120" height="86"></div>
+                    <div class="tscl_content_shu">
+                        <div class="tscl_content_title">
+                            {if $datainfocom.status==1}待处理{/if}
+                            {if $datainfocom.status==2}待审核{/if}
+                            {if $datainfocom.status==3}处理中{/if}
+                            {if $datainfocom.status==4}待评价{/if}
+                            {if $datainfocom.status==5}已评价{/if}
+                            {if $datainfocom.status==6}取消投诉{/if}
+                            {if $datainfocom.status==7}网格化管理员待处理{/if}
+                            {if $datainfocom.status==8}网格化管理员已处理{/if}
+                            
+                        </div>
+                        <div class="tscl_content_date">{if strlen($datainfocom.title)>12}{mb_substr($datainfocom.title,0,12,'utf-8')}…{else}{$datainfocom.title}{/if}<br>{$datainfocom.operationtime}</div>
+                    </div>
+                </div>
+            </a>            
+            <div class="clear"></div>
+            <a href="../complaints/index"><div class="middle_center"><div class="index_more">查看更多</div></div></a>            
+        </div>        
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        {/if}        
+        <!--最新资讯-->
+        <div class="myjob_box"> 
+            <div class="tscl_box">
+                <div class="tscl_img"><img src="{$smarty.const.IMG_URL}zxzc_2x.png" width="32 height="32"></div>
+                <div class="tscl_text">
+                    <div class="tscl_title">最新资讯</div>
+                    <div class="tscl_date">{$datainfo[0].publishtime}</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            {foreach $datainfo as $k=>$v} 
+            {if $v.type==1}           
+            <a href="../news/shownews/dl/1/id/{$v.id}">        
+                <div class="tscl_title news_title">{if mb_strlen($v.title)>1116}{mb_substr($v.title,0,1116,'utf-8')}…{else}{$v.title}{/if}  </div>
+                <div class="clear"></div>
+                <ul>
+                    {for $a=0;$a<=2;$a++}                                                      
+                    <li class="left {if $a==2}news_pic_right{else}news_pic_left{/if} bgcolor"><img src="{$v.picurls[$a].largepic}" width='120' height="86"></li>                   
+                    {/for}
+                </ul>
+            </a>
+            <div class="clear"></div>                
+            <div class="news_date_box">
+                <div class="news_date">{if mb_strlen($v.origin)>20000}{mb_substr($v.origin,0,20000,'utf-8')}…{else}{$v.origin}{/if} {substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</div>
+            </div>
+            {if $k+1 < count($datainfo)}
+                <div class="clear"></div>
+                <div class="news_bottom_nei"></div>        
+                <div class="clear"></div>
+            {/if}
+            {else}                 
+            <a href="../news/shownews/dl/1/id/{$v.id}" style="margin:20px 0px; display: block">
+                <div class="left news_pic_left"><img src="{$v.picurls[0].largepic}" width="120" height="86"></div>
+                <div class="news_nei_text">
+                    <div class="wdinfo_titile mycollection_title">
+                        {if strlen($v.title)>1111}{mb_substr($v.title,0,11111,'utf-8')}…{else}{$v.title}{/if}                       
+
+                    </div>
+                    <div class="news_date">{if mb_strlen($v.origin)>1110}{mb_substr($v.origin,0,1110,'utf-8')}…{else}{$v.origin}{/if} <span style="float:right">{substr($v.publishtime,5,2)}.{substr($v.publishtime,8,2)} {substr($v.publishtime,11,2)}:{substr($v.publishtime,14,2)}</span></div>
+                </div> 
+            </a>
+            
+            {if $k+1 < count($datainfo)}
+                <div class="clear"></div>
+                <div class="news_bottom_nei"></div>        
+                <div class="clear"></div>
+            {/if}
+            
+            {/if}
+            {/foreach}              
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+    </div>
+</div>
+<script>
+    $(".denglu").click(function () {
+        layer.open({
+            btn: ['登录', '取消'],
+            shadeClose: false, //默认：true，是否点击遮罩时关闭层                
+            yes: function () {
+                location.href = "../login/index";
+            },
+            content: '要想查看更多，必须先登录'
+        });
+    });
+</script>
+
+{/block}

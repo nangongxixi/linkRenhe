@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="keywords" content="仁和信访" />
+        <meta name="description" content="仁和信访"/>
+        <title>"仁和信访"</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">   
+        <link rel="stylesheet" href="{$smarty.const.CSS_URL}loadmore/pullToRefresh.css"/>
+        <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}style.css" />
+        <script src="{$smarty.const.JS_URL}loadmore/iscroll.js"></script>
+        <script src="{$smarty.const.JS_URL}loadmore/pullToRefresh.js"></script>
+        <script type="text/javascript" src="{$smarty.const.JS_URL}jquery-2.1.0.min.js"></script>
+        {literal}
+        <style type="text/css" media="all">
+            body, html {
+                padding: 0;
+                margin: 0;
+                height: 100%;
+                font-family: Arial, Microsoft YaHei;
+                color: #111;
+            }
+            .scroller li {
+                height:86px;
+                border-bottom: 1px solid #eee;
+                background-color: #fff;
+                font-size: 14px;
+                padding:3.5% 0;
+                width:640px
+            }
+            .pullDownLabel img {
+                width: 13px;
+                height: 13px;
+                margin-top: -1px;
+                vertical-align: -2px;
+                margin-right: 5px;
+            }
+            #wrapper ul li img{width:120px; float:left;  margin-left:10px;}
+            .game-info{text-align:left; float:left; margin-left:10px; width:210px; overflow:hidden; height:80px; position: relative}
+            .game-info h1{font-size:16px; margin-bottom:8px; color:#333; font-weight: normal}
+            .game-info_p{font-size:12px; color:#B6B6B6;line-height: 100%;position: absolute;bottom:0}           
+            #wrapper ul li button{position:absolute; right:20px; margin-top:10px; background-color:#F8CD0C; border:0; color:#fff; font-family:Microsoft YaHei; padding:5px 14px; border-radius:3px;}
+        </style>
+        {/literal}
+    </head>
+    <body >        
+        {block name="main"}{/block}
+    </body>
+</html>

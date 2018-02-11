@@ -1,0 +1,130 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">             
+        <div class="top_lanm bgcolor">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center">修改密码</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div> 
+
+        <div class="myjob_box myinfo_padd">
+
+            <div class="myinfo_lanm">                
+                <div class="phone_title left">原密码</div>           
+                <div class="phone_box right">
+                    <input type="password" value="" placeholder="请输入8-12位密码" id="oldpwd" class="phone_input"/>
+                </div>
+            </div> 
+            <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>
+            <div class="myinfo_lanm"> 
+                <div class="phone_title left">新密码</div>           
+                <div class="phone_box right">
+                    <input type="password" value="" placeholder="请输入8-12位密码" id="newpwd" class="phone_input"/>
+                </div>
+            </div> 
+            <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>
+            <div class="myinfo_lanm"> 
+                <div class="phone_title left">确认密码</div>           
+                <div class="phone_box right">
+                    <input type="password" value="" placeholder="请再次输入新密码" id="surepwd" class="phone_input"/>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+        <div class="clear"></div>            
+        <div class="phone_next_box ">
+            <div id="submit" class="tousReview_submit middle_center"/>提交</div>    
+        </div>
+		<!--
+        <div class="huihe">
+            <a href="../Myinfo/forgetpwd"><div class="wangjpwd middle_center">忘记密码?</div></a>
+        </div>
+		-->
+    </div>
+</div>
+
+<script type="text/javascript">
+    $("#submit").click(function () {
+        var oldpwd = $.trim($("#oldpwd").val());
+        var newpwd = $.trim($("#newpwd").val());
+        var surepwd = $.trim($("#surepwd").val());		
+        if (oldpwd == '' || oldpwd.length<8 || oldpwd.length>12) {
+            layer.open({
+                content: '原密码不能为空且长度为8-12位',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }       
+	if (newpwd == '' || newpwd.length<8 || newpwd.length>12) {
+            layer.open({
+                content: '新密码不能为空且长度为8-12位',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (surepwd == '') {
+            layer.open({
+                content: '请输入再次输入新密码',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (newpwd != surepwd) {
+            layer.open({
+                content: '新密码前后输入不一致',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/modifyPwdAction/oldpwd/"+oldpwd + '/newpwd/' + newpwd,           
+            success: function (msg) {
+                //alert(msg);
+                if (0 == msg) {
+                    layer.open({
+                        content: '修改成功',
+                        time: 2,
+                        shadeClose: true,
+                        success:function(){
+                            location.href = "../login/index";
+                        }
+                    });
+                    
+                } else if (-2 == msg) {
+                    layer.open({
+                        content: '原密码错误',
+                        time: 2,
+                        shadeClose: true
+                    });
+                    return false;
+                } else {
+                    layer.open({
+                        content: msg,
+                        time: 2,
+                        shadeClose: true
+                    });
+                    return false;
+                }
+            }
+        });
+    });
+
+
+
+</script>
+
+{/block}

@@ -1,0 +1,70 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">              
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">取消投诉</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <div class="styled-select">
+                <select id="select1">
+                    <option value="">请选择取消投诉的原因</option>
+                    <option value="1">未完全了解情况</option>
+                    <option value="2">事情已妥善处理</option>
+                    <option value="3">其他</option>   
+                </select>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="phone_next_box ">
+            <div class="iphone_next_text">确定</div>                
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $(".iphone_next_text").click(function () {
+            var userid = "{$smarty.session.user.userid}";
+            var id = "{$smarty.get.id}";
+            var reason = $("#select1  option:selected").val();
+            var remarks = "";
+            if (reason != '') {
+                $.ajax({
+                    type: "POST",
+                    url: "../../../Complaints/CancelComplaintsAction",
+                    data: {
+                        "userid": userid,
+                        "id": id,
+                        "reason": reason,
+                        "remarks": remarks
+                    },
+                    success: function (msg) {
+                        var data = JSON.parse(msg);
+                        if (data.result == 1) {
+                            layer.open({
+                                content: '取消成功',
+                                time: 2
+                            });
+                            location.href = "../../../Complaints/index";
+                        }
+                    }
+                });
+            }else{
+                layer.open({
+                    content: '请选择取消原因',
+                    time: 2
+                });
+            }
+        });
+    });
+    $(".phone_del").click(function () {
+        $(".del").val('');
+    });
+</script>
+
+{/block}

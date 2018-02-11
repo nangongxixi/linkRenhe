@@ -1,0 +1,926 @@
+[ 2016-11-10T15:30:21+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 5 行.
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 6 行.
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 13 行.
+NOTIC: [8] Undefined variable: data D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 18 行.
+NOTIC: [8] Undefined variable: data D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:30:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:login.css
+
+[ 2016-11-10T15:30:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 5 行.
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 6 行.
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 13 行.
+NOTIC: [8] Undefined variable: data D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 18 行.
+NOTIC: [8] Undefined variable: data D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T15:30:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:login.css
+
+[ 2016-11-10T15:34:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 5 行.
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 6 行.
+NOTIC: [8] Undefined variable: smarty D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 13 行.
+NOTIC: [8] Undefined variable: data D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 18 行.
+NOTIC: [8] Undefined variable: data D:\WWW\frame\ProName\Runtime\Cache\Admin\b4cfbd1a41d5d62105aa0df3503dd75f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:34:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:login.css
+
+[ 2016-11-10T15:37:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\b0007efae1fbfbdad4abc20848d73a33f447ddc2.file.login.html.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./ProName/Admin/View\Manager\login.html"  on line 25 "&lt;{error_tip errors=$error name=loginFailed tag=&quot;div&quot;}&gt;" unknown tag "error_tip"
+
+[ 2016-11-10T15:38:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\b0007efae1fbfbdad4abc20848d73a33f447ddc2.file.login.html.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./ProName/Runtime/Cache\b0007efae1fbfbdad4abc20848d73a33f447ddc2.file.login.html.php): No such file or directory D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:38:36+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:39:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:41:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:41:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:41:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:41:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:41:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:54:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\default.phtml"  on line 30 "&lt;div id=&quot;crumb&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-10T15:56:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./ProName/Admin/View\Index\index.html"  on line 4 "&lt;div class=&quot;list_title&quot;&gt;&lt;{$codeConfig.menu.&lt;{$controllerName}&gt;.sub.&lt;{$actionName}&gt;.name}&gt;&lt;/div&gt;"  - Unexpected "<", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-11-10T15:56:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "D:\WWW\frame\ProName\Admin\View\Common\paging.phtml"  on line 4 "&lt;{ww_html_select code=$codeConfig.paging.common value=$sh.per_page}&gt;" unknown tag "ww_html_select"
+
+[ 2016-11-10T15:57:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./ProName/Runtime/Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php): No such file or directory D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 61 行.
+NOTIC: [2] filemtime(): stat failed for ./ProName/Runtime/Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./ProName/Runtime/Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php): No such file or directory D:\WWW\frame\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 131 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 131 行.
+
+[ 2016-11-10T15:57:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 50 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 55 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:58:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 61 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 131 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 131 行.
+
+[ 2016-11-10T15:58:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 50 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 55 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T15:59:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T16:02:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:03:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:03:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:09:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T16:27:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: role_admin D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 51 行.
+NOTIC: [8] Use of undefined constant NOW - assumed 'NOW' D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 56 行.
+NOTIC: [8] Undefined index: codeConfig D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\a317bf4c08d06aa5575e185058b92d2afa80a71e.file.menu.phtml.php 第 34 行.
+NOTIC: [8] Undefined index: pager D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\frame\ProName\Runtime\Cache\bd279e754be6dd33085f600e17641953dd8568ff.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:28:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: errors D:\WWW\frame\ProName\Admin\Controller\ManagerController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:28:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:28:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T16:30:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:30:47+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:31:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T16:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:32:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:33:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:33:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:33:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = 'gfd ' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T16:33:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:33:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` WHERE `mg_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:38:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_manager` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yw_manager` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: password D:\WWW\frame\ProName\Model\ManagerModel.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:40:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'frame.tb_manager' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_manager`
+ERR: 1146:Table 'frame.tb_manager' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_manager`
+
+[ 2016-11-10T16:41:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:41:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_admin` WHERE `account` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:41:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_admin` WHERE `account` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T16:47:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2016-11-10T17:09:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: Syntax Error in template "./ProName/Admin/View\Index\index.html"  on line 17 "&lt;th&gt;ID{:C(smarty.session.id)}&lt;/th&gt;"  - Unexpected ":"
+
+[ 2016-11-10T17:09:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: Syntax Error in template "./ProName/Admin/View\Index\index.html"  on line 17 "&lt;th&gt;ID{$smarty.session.id)}&lt;/th&gt;"  - Unexpected ")", expected one of: "}" , " "
+

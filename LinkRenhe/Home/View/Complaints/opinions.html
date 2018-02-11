@@ -1,0 +1,58 @@
+{extends "../Common/defaultNei.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">处理意见</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box">
+            <div class="tscl_content_box" >                       
+                <div class="details_content_text" >                
+                    <!--
+                    <ul>
+                        <li class="opinions_title  middle_center">关于XX区城管滥用职权的处理意见</li>                   
+                    </ul>                    
+                    <div class="clear"></div>
+                    -->
+                    <ul>                   
+                        <li class=" opinions_sj" id="content"></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>           
+            </div>            
+        </div> 
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+        <!--
+        <a href="../../../../../complaints/evaluation/id/{$smarty.get.pid}">
+            <div class="phone_next_box ">
+                <div class="iphone_next_text">去评价</div>                
+            </div>
+        </a>-->
+
+    </div>      
+</div>
+
+<script>
+    var id="{$smarty.get.id}";
+    $.ajax({
+        type: "GET",
+        url: "../../../../../Complaints/ComplaintsopinionAction/id/"+id,
+        success: function (msg) {
+            var data = JSON.parse(msg);
+            if(data.remark == ''){
+                $("#content").html("暂无投诉信息");
+            }else{
+                $("#content").html(data.remark);
+            }
+            
+        }
+    });
+
+</script>
+{/block}

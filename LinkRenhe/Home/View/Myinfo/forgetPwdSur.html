@@ -1,0 +1,148 @@
+{extends "../Common/defaultJamp.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd">             
+        <div class="top_lanm bgcolor">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">修改密码</div>
+        </div>
+        <div class="clear"></div>
+        <div class="fenge_one"></div>
+        <div class="clear"></div>
+        <div class="myjob_box myinfo_padd">
+            <div class="myinfo_lanm">                
+                <div class="phone_title left wangjpwd_distance">新&nbsp;密&nbsp;码&nbsp;</div>
+                <div class="phone_modify_box left"><input type="password" value="" placeholder="请填8-12位密码" id="newpwd" maxlength="12" class="phone_input del0"/>
+                </div>
+                <div class="yanz0" style="display: none" id="del0"><img src="{$smarty.const.IMG_URL}del.png" class="delinput delinput_padd"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="only_line"></div>        
+            <div class="clear"></div>  
+            <div class="myinfo_lanm">                
+                <div class="phone_title left wangjpwd_distance">确认密码</div>           
+                <div class="phone_modify_box left"><input type="password" value="" placeholder="请再次填写密码" id="surepwd" maxlength="12" class="phone_input del1"/>
+                </div> 
+                <div class="yanz1" style="display: none" id="del1"><img src="{$smarty.const.IMG_URL}del.png" class="delinput delinput_padd"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="only_line"></div>        
+        <div class="clear"></div>
+        <div class="clear"></div>        
+        <div class="phone_next_box ">
+            <div class="tousReview_submit middle_center" id="submit">提交</div>                
+        </div>
+    </div>
+</div>
+<script>
+    
+    //删除输入
+    $(".yanz0").click(function () {
+        $(".del0").val('');
+    });
+    $(".yanz1").click(function () {
+        $(".del1").val('');
+    });
+
+
+    $("#newpwd").keyup(function () {
+        var newpwd = $.trim($("#newpwd").val());
+        if (newpwd != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#surepwd").keyup(function () {
+        var surepwd = $.trim($("#surepwd").val());
+        if (surepwd != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+
+
+    $("#del0").click(function () {
+        var newpwd = $.trim($("#newpwd").val());
+        if (newpwd != '') {
+            $("#del0").css("display", "block");
+        } else {
+            $("#del0").css("display", "none");
+        }
+    });
+    $("#del1").click(function () {
+        var surepwd = $.trim($("#surepwd").val());
+        if (surepwd != '') {
+            $("#del1").css("display", "block");
+        } else {
+            $("#del1").css("display", "none");
+        }
+    });
+
+    
+    
+    $("#submit").click(function () {
+        var newpwd = $.trim($("#newpwd").val());
+        var surepwd = $.trim($("#surepwd").val());        
+        //非空验证
+        if (newpwd.length<8 || newpwd.length > 12) {
+            layer.open({
+                content: '请填8-12位密码',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (newpwd == '') {
+            layer.open({
+                content: '请输入新密码',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (surepwd == '') {
+            layer.open({
+                content: '请再次输入新密码',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        if (newpwd != surepwd) {
+            layer.open({
+                content: '新密码前后输入不一致',
+                time: 2,
+                shadeClose: true
+            });
+            return false;
+        }
+        $.ajax({
+            type: "GET",
+            url: "../myinfo/forgetPwdAction/surepwd/"+surepwd,           
+            success: function (msg) {
+               // alert(msg);
+                if ('0' == msg) {
+                    layer.open({
+                        content: '修改成功',
+                        time: 2,
+                        shadeClose: true,
+                        success:function(){
+                          location.href = "../login/index";  
+                        }
+                    });
+                }                
+            }
+        });
+        
+       
+        
+    });
+    $(".phone_del").click(function () {
+        $(".del").val('');
+    });
+</script>
+
+{/block}

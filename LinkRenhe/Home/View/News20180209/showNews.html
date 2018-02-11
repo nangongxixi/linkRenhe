@@ -1,0 +1,117 @@
+{extends "../Common/defaultJamp.html"}
+{block name="main"}
+<div id="page1" data-role="page">
+    <div id="contt" data-role="content" class="contt_padd"> 
+        <div class="top_lanm">
+            <div class="return_img"><a href="javascript:history.go(-1);"><img src="{$smarty.const.IMG_URL}return.png" width="100%"></a></div>
+            <div class="details_title middle_center bgcolor">			
+                {if $smarty.get.dl ==0}内容详情{/if}
+                {if $smarty.get.dl ==1}新闻动态{/if}
+                {if $smarty.get.dl ==2}政策公告{/if}
+                {if $smarty.get.dl ==3}办事指南{/if}                
+            </div>
+            <div class="share right">
+                <div class="collection_ico left"><img src="{if $showNews.iscllect==0}{$smarty.const.IMG_URL}nocollection.png{else}{$smarty.const.IMG_URL}collection.png{/if}" height="20" id='collen'></div>
+                <div class="left"><img src="{$smarty.const.IMG_URL}share.png" height="20" class="share_code"></div>
+            </div>
+        </div>
+        <div class="clear"></div> 
+        <div class="news_lanm_content_line"></div>
+        <div class="clear"></div>        
+        <div class="myjob_box"> 
+            <div class="news_lanm_content_title">{$showNews.title}</div> 
+            <div class="clear"></div>
+            <div class="shownews_date">
+                {$showNews.origin} {substr($showNews.publishtime,5,2)}.{substr($showNews.publishtime,8,2)} {substr($showNews.publishtime,11,2)}:{substr($showNews.publishtime,14,2)}
+            </div>
+            <div class="news_content_text">
+                {foreach $imgsrc as $v}
+                    <img src="http://renheapp.sczmgk.com:5680/api/v1/Files?filename={$v}" width="400">
+                {/foreach}
+                {$showNews.content}<br></div>
+        </div>        
+    </div>
+</div>
+<div class="bshare-custom">
+    <a title="分享到QQ空间" class="bshare-qzone"></a>
+    <a title="分享到新浪微博" class="bshare-sinaminiblog">        
+    </a><a title="分享到人人网" class="bshare-renren"></a>
+    <a title="分享到腾讯微博" class="bshare-qqmb"></a>
+    <a title="分享到网易微博" class="bshare-neteasemb"></a>
+    <a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+    <span class="BSHARE_COUNT bshare-share-count">0</span>
+</div>
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+<script>
+    $("#collen").on("click", function () {
+        var userid = "{$smarty.session.user.userid}";
+        var newid = "{$smarty.get.id}";
+        if (userid == '') {
+            layer.open({
+                content: '登录后才可以操作',
+                time: 2,
+                shadeClose: true
+            });
+        } else {
+            $.ajax({
+                type: "GET",
+                url: "../../../../../news/addCollect/newid/" + newid,
+                success: function (msg) {
+                    //alert(msg);
+                    if (msg == 1) {
+                        layer.open({
+                            content: '添加收藏成功',
+                            time: 2,
+                            shadeClose: true
+                        });
+                        $("#collen").attr("src", "{$smarty.const.IMG_URL}collection.png");
+                    } else {                        
+                        //alert(newid);                        
+                        $.ajax({
+                            type: "GET",
+                            url: "../../../../../news/cancelCollect/newid/" + newid,
+                            success: function (msg) {
+                                if (msg == 1) {
+                                    layer.open({
+                                        content: '取消收藏成功',
+                                        time: 2,
+                                        shadeClose: true
+                                    });
+                                    $("#collen").attr("src", "{$smarty.const.IMG_URL}nocollection.png");
+                                }
+                            }
+                        });
+                    }
+
+                }
+            });
+
+
+
+        }
+
+
+
+
+    });
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "../../../../../news/showNews",
+            success:function(){
+                $(".news_content_text img").attr("height","");
+            }
+        });
+    });
+
+
+    $(".share_code").click(function () {
+        $(".bshare-custom").toggle();
+    });
+</script>
+
+
+{/block}
+
+
