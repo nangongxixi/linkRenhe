@@ -77,14 +77,6 @@ function https_request($url, $data = null) {
 }
 
 function gettoken($url){	
-	$ch = curl_init();  
-	curl_setopt($ch, CURLOPT_URL, $url);  
-	curl_setopt($ch, CURLOPT_HEADER, 0);  
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
-	curl_setopt($ch, CURL_SSLVERSION_SSL, 2);  
-	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);  
-	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);  
-	$data = curl_exec($ch);  
-	$response = json_decode($data);  
-	return $response->access_token; 	
+	666666	
 }
+
